@@ -1,41 +1,113 @@
 {
-  "updated": "2026-10-30T17:16:07+00:00",
+  "updated": "2026-10-30T18:04:22+00:00",
   "source_count": 1611,
   "validation_method": "ffmpeg_3_video_frames",
   "discovered_count": 0,
-  "donor_count": 14625,
-  "output_count": 494,
-  "verified_count": 494,
+  "donor_count": 14334,
+  "sources": {
+    "jekalich-smtk": 1020,
+    "iptv-org-ru-alternatives": 549,
+    "country-ru": 410,
+    "lang-rus": 533,
+    "country-by": 27,
+    "country-kz": 42,
+    "country-ua": 125,
+    "iptv-org-index": 11154,
+    "iptv-org-raw": 12645,
+    "free-tv": 2019,
+    "country-iq": 58,
+    "country-sa": 53,
+    "country-eg": 21,
+    "country-ae": 21,
+    "country-kw": 11,
+    "country-qa": 9,
+    "country-bh": 4,
+    "country-om": 5,
+    "country-jo": 19,
+    "country-lb": 31,
+    "country-sy": 10,
+    "country-ps": 19,
+    "country-ma": 12,
+    "country-dz": 8,
+    "country-tn": 4,
+    "country-ly": 6,
+    "country-sd": 3,
+    "country-ye": 4,
+    "country-tr": 172,
+    "country-ir": 183,
+    "country-us": 1494,
+    "country-gb": 0,
+    "country-fr": 197,
+    "country-de": 284,
+    "country-in": 847,
+    "country-pk": 104,
+    "region-arab": 472,
+    "region-asia": 3225,
+    "region-eur": 4220,
+    "region-amer": 4285,
+    "region-afr": 518,
+    "lang-ara": 349,
+    "lang-eng": 3002,
+    "lang-tur": 174,
+    "lang-fra": 447,
+    "lang-spa": 2424,
+    "lang-hin": 375,
+    "lang-urd": 86,
+    "lang-fas": 202,
+    "category-news": 1045,
+    "category-general": 2731,
+    "category-education": 212,
+    "category-entertainment": 880,
+    "category-sports": 437,
+    "category-documentary": 246,
+    "category-music": 765,
+    "category-animation": 177,
+    "category-movies": 735,
+    "category-series": 511,
+    "category-science": 20,
+    "category-culture": 192,
+    "category-business": 75,
+    "category-weather": 17,
+    "category-travel": 58,
+    "category-cooking": 57,
+    "category-religious": 814
+  },
+  "output_count": 442,
+  "verified_count": 442,
   "stats": {
-    "from_cache": 431,
-    "unverified": 1117,
-    "from_category-movies:100": 1,
-    "from_iptv-org-ru-alternatives:100": 1,
+    "from_cache": 145,
+    "unverified": 1169,
+    "from_jekalich-smtk:100": 208,
+    "from_category-culture:100": 1,
+    "from_iptv-org-ru-alternatives:100": 22,
+    "from_category-movies:100": 2,
+    "from_jekalich-smtk:93": 3,
     "from_category-sports:100": 1,
-    "from_jekalich-smtk:100": 4,
+    "from_region-eur:100": 2,
     "from_original": 19,
+    "from_iptv-org-ru-alternatives:89": 1,
     "from_region-eur:92": 1,
-    "from_region-eur:100": 1,
     "from_category-general:94": 1,
     "from_free-tv:95": 1,
     "from_category-sports:93": 1,
+    "from_jekalich-smtk:92": 2,
     "from_jekalich-smtk:91": 2,
-    "from_category-science:92": 2,
-    "from_category-movies:91": 1,
-    "from_category-news:89": 1,
+    "from_jekalich-smtk:94": 2,
     "from_region-eur:90": 3,
-    "from_region-eur:88": 2,
+    "from_region-eur:88": 3,
     "from_category-cooking:90": 1,
     "from_category-sports:91": 5,
     "from_category-movies:88": 1,
     "from_category-music:88": 1,
+    "from_free-tv:89": 1,
     "from_category-music:89": 1,
     "from_category-general:89": 1,
     "from_region-eur:89": 2,
     "from_category-series:88": 1,
-    "from_category-documentary:89": 3,
+    "from_category-documentary:89": 2,
     "from_category-documentary:93": 1,
     "from_category-news:90": 1,
+    "from_jekalich-smtk:90": 1,
     "from_category-culture:90": 1,
     "from_category-series:90": 1,
     "from_category-music:90": 1
@@ -68,23 +140,33 @@
     "DW English",
     "US | FOX 5 LOCAL NY",
     "US | NBC 6 FL",
+    "Киноужас HD",
+    "Мужское кино HD",
     "Amedia 1 HD",
     "Amedia 2 HD",
+    "Amedia Premium HD",
     "ТВ-3 +6",
     "НТВ Xит",
     "Страшное HD",
     "Любимое Кино HD",
     "Русский Иллюзион",
+    "Fox HD",
     "Наше любимое HD",
+    "Наше Мужское HD",
     "Plan B",
+    ".Sci-Fi HD",
+    ".Black",
     "Синема",
     "TV XXI Век HD",
+    "Fan HD",
     "Scream HD",
     "Феникс+ Кино HD",
-    "Индия HD",
+    "Болт HD",
     "Epic Drama",
+    "Блокбастер HD",
     "Shot HD",
     "Про Любовь HD",
+    "Хит HD",
     "Камеди HD",
     "FlixSnip HD",
     "Кинеко HD",
@@ -234,9 +316,13 @@
     "MM Flip UHD",
     "MS Magic 4K",
     "Карусель +6",
+    "Nickelodeon HD",
     "Канал О",
     "Чижик",
     "Уникум HD",
+    "СТС Kids HD",
+    "Мультимузыка",
+    "Ani",
     "BCU Little HD",
     "BCU Kids+ HD",
     "BCU Мультсериал HD",
@@ -253,6 +339,17 @@
     "Триколор Смешарики",
     "Триколор Советские мультфильмы",
     "US | Fubo Sports Network 4",
+    "Матч! Игра HD",
+    "Матч! Игра SD",
+    "Матч! Арена HD",
+    "Матч! Арена SD",
+    "Матч! Страна HD",
+    "Матч! Страна SD",
+    "Матч! Боец HD",
+    "Матч! Боец SD",
+    "KHL Prime HD",
+    "БОКС ТВ HD",
+    "БОКС ТВ SD",
     "US | Fubo Sports Network 5",
     "US | Fubo Sports Network 6",
     "Setanta Sports 1 HD",
@@ -421,7 +518,9 @@
     "US | MLB Strike Zone",
     "US | Tennis Channel",
     "US | USA network",
+    "Bridge TV Deluxe HD",
     "Bridge TV Шлягер",
+    "Музыка Live",
     "MM Rock HD",
     "MM World Hits HD",
     "MM Квартирник HD",
@@ -437,27 +536,36 @@
     "TRACE CARIBBEAN Caribbean",
     "TRACE MBOA Cameroon",
     "Муз ТВ +6",
+    "Моя Планета HD",
     "Тайны Галактики HD",
     "Космический HD",
     "History HD",
     "Мир Вокруг HD",
     "RTG HD",
+    "Travel+Adventure HD",
     "Пёс и Ко",
     "Мужской",
     "Телепутешествия",
     "КтоКуда",
     "Триколор  По полям - по горам",
     "HGTV HD",
+    "Terra HD",
     "MM Experiment HD",
     "MM Открытия HD",
     "CGTN Русский",
     "Curiosity Stream",
+    "Моя стихия",
+    "Animal Planet HD",
     "Ocean TV HD",
+    "Viju+ Planet HD",
     "MM Микромир HD",
     "MM Макромир HD",
     "MM Мегамир HD",
     "MM Live Planet HD",
+    "Рыболов",
     "Диалоги о рыбалке HD",
+    "Дикая Охота HD",
+    "Дикая Рыбалка HD",
     "Загородный",
     "Загородный int HD",
     "Триколор Жизнь в деревне",
@@ -475,12 +583,16 @@
     "BCU Charm HD",
     "Кухня ТВ HD",
     "Аппетитный HD",
+    "Авто 24 HD",
     "Hтв Cтиль",
     "Че! +6",
+    "Точка РФ HD",
     "Совершенно секретно",
+    "Еда",
     "Центральное телевидение",
     "MM Relax HD",
     "MM OldSchool HD",
+    "Foodtime HD",
     "Первый вегетарианский",
     "UA | Перший HD",
     "UA | News 24 HD",
@@ -488,6 +600,7 @@
     "UA | 8 канал HD",
     "UA | Интер HD",
     "UA | Интер+",
+    "UA | 1+1 Украина HD",
     "UA | ICTV HD",
     "UA | ICTV 2 HD",
     "UA | 2+2 HD",
@@ -504,10 +617,12 @@
     "UA | Квартал ТВ HD",
     "UA | Zoom HD",
     "UA | Enter-фильм HD",
+    "UA | ПлюсПлюс HD",
     "UA | Бигуди HD",
     "UA | Піксель HD",
     "UA | Солнце",
     "UA | Lale HD",
+    "UA | Niki Junior HD",
     "UA | Niki Kids HD",
     "UA | Кус - Кус HD",
     "UA | Рада HD",
@@ -539,6 +654,7 @@
     "UA | Bolt HD",
     "UA | Апостроф TV HD",
     "UA | Караван тв HD",
+    "UA | Continent E HD",
     "UA | FilmUA Drama HD",
     "UA | Твій серіал HD",
     "UA | Super+ HD",
@@ -653,6 +769,7 @@
     "DE | Kinowelt HD",
     "DE | National Geographic Wild",
     "DE | The HISTORY Channel",
+    "DE | Animal Planet HD",
     "DE | One Terra HD",
     "DE | RTL UHD",
     "DE | RTL HD",
@@ -805,9 +922,11 @@
     "UK | CBeebies",
     "UK | Quest",
     "UK | Quest RED",
+    "UK | Animal Planet",
     "UK | Alibi HD",
     "UK | Boomerang HD",
     "UK | Discovery History",
+    "UK | Nickelodeon",
     "UK | Premiere Sports 1",
     "UK | National Geo HD",
     "UK | Gold",
@@ -834,10 +953,12 @@
     "UK | Sky Sports Tennis",
     "LT | 2TV HD",
     "LT | BTV HD",
+    "LT | Balticum HD",
     "LT | Balticum Auksinis",
     "LT | Balticum Platinum HD",
     "LT | Delfi TV HD",
     "LT | Etaplius",
+    "LT | Go3 Sport 1 HD",
     "LT | Go3 Sport 2 HD",
     "LT | Go3 Sport Open HD",
     "LT | Go3 Films HD",
@@ -859,6 +980,7 @@
     "LV | 24 TV HD",
     "LV | 360 TV HD",
     "LV | 8 TV HD",
+    "LV | Go3 Sport 1 HD",
     "LV | Go3 Sport 2 HD",
     "LV | Go3 Sport 3 HD",
     "LV | Go3 Sport 4 HD",
@@ -922,6 +1044,7 @@
     "EE | ETV HD",
     "EE | ETV2 HD",
     "EE | ETV Plus HD",
+    "EE | Go3 Sport 1 HD",
     "EE | Go3 Sport 2 HD",
     "EE | Duo 3 HD",
     "EE | Duo 4 HD",
@@ -997,6 +1120,7 @@
     "PL | 13 Ulica HD",
     "PL | Adventure HD",
     "PL | Ale Kino+ HD",
+    "PL | Animal Planet HD",
     "PL | AXN HD",
     "PL | AXN Spin HD",
     "PL | AXN Black",
@@ -1250,77 +1374,77 @@
     {
       "name": "Россия 1 HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Россия 1 HD (Дубль)",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Россия 1 SD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Россия 1 +1",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Россия 1 +2",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Россия 1 +4",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Россия 1 +5",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Россия 1 +6",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Россия 1 +7",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Россия 1 +8",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Россия-Культуpa HD",
       "status": "verified",
-      "source": "cache",
+      "source": "category-culture:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -1338,21 +1462,21 @@
     {
       "name": "НТВ HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "НТВ HD (Дубль)",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "НТВ",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -1370,14 +1494,14 @@
     {
       "name": "НТВ +2",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "НТВ +4",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -1395,35 +1519,35 @@
     {
       "name": "НТВ +7",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "ТНТ HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "ТНТ HD (Дубль)",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "ТНТ +2",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "ТНТ +4",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -1441,28 +1565,28 @@
     {
       "name": "ТНТ +7",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Звезда HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Звезда +2",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Звезда +4",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -1480,35 +1604,35 @@
     {
       "name": "Звезда +7",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Звезда Плюс HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Москва 24",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Пятница! HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "playback_attempts": 3
     },
     {
       "name": "Пятница +2",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -1526,28 +1650,28 @@
     {
       "name": "Пятница +7",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Рен ТВ HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Рен ТВ +2",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Рен ТВ +4",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -1565,28 +1689,28 @@
     {
       "name": "Рен ТВ +7",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Пятый Канал HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
-      "playback_attempts": 3
+      "playback_attempts": 1
     },
     {
       "name": "Пятый Канал +2",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Пятый Канал +4",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -1604,7 +1728,7 @@
     {
       "name": "Пятый канал +7",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -1613,12 +1737,12 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
+          "source": "jekalich-smtk:100",
           "reason": "http_403",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
+          "source": "original",
           "reason": "http_403",
           "playback_attempts": 1
         },
@@ -1632,28 +1756,28 @@
     {
       "name": "СТС HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "СТС HD (Дубль)",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "СТС +2",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "СТС +4",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -1671,28 +1795,28 @@
     {
       "name": "СТС +7",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Домашний HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Домашний +2",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Домашний +4",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -1710,14 +1834,14 @@
     {
       "name": "Домашний +7",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "playback_attempts": 2
     },
     {
       "name": "ТВЦ HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -1757,28 +1881,28 @@
     {
       "name": "ТНТ4 HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "ТНТ4 +2",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "ТНТ4 +4",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "ТНТ4 +7",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -1792,7 +1916,7 @@
     {
       "name": "Пятница +4",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -1806,14 +1930,14 @@
     {
       "name": "Дождь HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Россия 24",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -1827,7 +1951,7 @@
     {
       "name": "Мир 24 HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -1845,14 +1969,14 @@
     {
       "name": "Настоящее время",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Известия HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -1979,21 +2103,21 @@
     {
       "name": "Киносемья HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Кинопремьера HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Кинохит HD",
       "status": "verified",
-      "source": "cache",
+      "source": "iptv-org-ru-alternatives:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -2014,23 +2138,61 @@
     {
       "name": "Кинокомедия HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Киноужас HD",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "video_decode_failed",
+          "playback_attempts": 1
+        },
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        },
+        {
+          "source": "iptv-org-ru-alternatives:100",
+          "reason": "http_403",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Мужское кино HD",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "video_decode_failed",
+          "playback_attempts": 1
+        },
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        },
+        {
+          "source": "iptv-org-ru-alternatives:100",
+          "reason": "http_403",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Наше новое кино HD",
@@ -2042,7 +2204,7 @@
     {
       "name": "Родное кино",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -2070,63 +2232,63 @@
     {
       "name": "Start Air HD",
       "status": "verified",
-      "source": "cache",
+      "source": "category-movies:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Viju TV1000 Русское HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Viju TV1000 HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Viju TV1000 Action HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Viju+ Comedy HD",
       "status": "verified",
-      "source": "cache",
+      "source": "iptv-org-ru-alternatives:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Viju+ Premiere HD",
       "status": "verified",
-      "source": "cache",
+      "source": "iptv-org-ru-alternatives:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Viju+ Megahit HD",
       "status": "verified",
-      "source": "cache",
+      "source": "iptv-org-ru-alternatives:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Viju+ Serial HD",
       "status": "verified",
-      "source": "cache",
+      "source": "iptv-org-ru-alternatives:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Amedia Hit HD",
       "status": "verified",
-      "source": "cache",
+      "source": "iptv-org-ru-alternatives:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -2135,11 +2297,6 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        },
-        {
           "source": "jekalich-smtk:100",
           "reason": "video_decode_failed",
           "playback_attempts": 1
@@ -2147,6 +2304,11 @@
         {
           "source": "jekalich-smtk:100",
           "reason": "connection_refused",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         },
         {
@@ -2161,11 +2323,6 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        },
-        {
           "source": "jekalich-smtk:100",
           "reason": "video_decode_failed",
           "playback_attempts": 1
@@ -2173,6 +2330,11 @@
         {
           "source": "jekalich-smtk:100",
           "reason": "connection_refused",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         },
         {
@@ -2184,50 +2346,74 @@
     },
     {
       "name": "Amedia Premium HD",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "video_decode_failed",
+          "playback_attempts": 1
+        },
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        },
+        {
+          "source": "category-series:100",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        },
+        {
+          "source": "jekalich-smtk:88",
+          "reason": "connection_refused",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "НСТ",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "ЕвроКино HD",
       "status": "verified",
-      "source": "cache",
+      "source": "iptv-org-ru-alternatives:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Кино ТВ HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "ТВ-3 HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "ТВ-3 +2",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "ТВ-3 +4",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -2245,21 +2431,21 @@
     {
       "name": "ТВ-3 +7",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Дом Кино Премиум HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Дом Кино",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -2284,42 +2470,42 @@
     {
       "name": "Премиальное HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Романтичное HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Шокирующее HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Остросюжетное HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Комедийное HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Душевное HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -2328,13 +2514,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         }
       ]
@@ -2342,7 +2528,7 @@
     {
       "name": "Криминальное HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -2351,11 +2537,6 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        },
-        {
           "source": "jekalich-smtk:100",
           "reason": "connection_reset",
           "playback_attempts": 3
@@ -2364,20 +2545,25 @@
           "source": "jekalich-smtk:100",
           "reason": "connection_refused",
           "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
         }
       ]
     },
     {
       "name": "Русский бестселлер",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Русский Детектив",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -2386,11 +2572,6 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        },
-        {
           "source": "jekalich-smtk:100",
           "reason": "connection_reset",
           "playback_attempts": 3
@@ -2398,6 +2579,11 @@
         {
           "source": "jekalich-smtk:100",
           "reason": "connection_refused",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         },
         {
@@ -2410,7 +2596,7 @@
     {
       "name": "Русский роман HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -2424,42 +2610,51 @@
     {
       "name": "Русский роман SD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Fox HD",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Fox life HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:93",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Комедия",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Bollywood HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Наше HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -2468,23 +2663,37 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         }
       ]
     },
     {
       "name": "Наше Мужское HD",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "video_decode_failed",
+          "playback_attempts": 1
+        },
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Наш Кинопоказ HD",
@@ -2498,42 +2707,70 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "video_decode_failed",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "video_decode_failed",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         }
       ]
     },
     {
       "name": ".Sci-Fi HD",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "video_decode_failed",
+          "playback_attempts": 1
+        },
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": ".Red HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": ".Black",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "video_decode_failed",
+          "playback_attempts": 1
+        },
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Кинопоказ HD",
       "status": "verified",
-      "source": "cache",
+      "source": "iptv-org-ru-alternatives:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -2561,10 +2798,29 @@
     },
     {
       "name": "Fan HD",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "blocked_variants",
+          "playback_attempts": 1
+        },
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        },
+        {
+          "source": "category-movies:100",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        }
+      ]
     },
     {
       "name": "Scream HD",
@@ -2582,13 +2838,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "video_decode_failed",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "video_decode_failed",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         },
         {
@@ -2601,7 +2857,7 @@
     {
       "name": "Ретро",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -2615,14 +2871,14 @@
     {
       "name": "Дорама",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Тайна",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -2635,31 +2891,26 @@
     },
     {
       "name": "Индия HD",
+      "status": "verified",
+      "source": "jekalich-smtk:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
+    },
+    {
+      "name": "Болт HD",
       "status": "unverified",
       "attempts": [
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "blocked_variants",
+          "playback_attempts": 1
+        },
         {
           "source": "original",
           "reason": "http_403",
           "playback_attempts": 1
-        },
-        {
-          "source": "jekalich-smtk:100",
-          "reason": "http_403",
-          "playback_attempts": 1
-        },
-        {
-          "source": "category-entertainment:100",
-          "reason": "http_403",
-          "playback_attempts": 1
         }
       ]
-    },
-    {
-      "name": "Болт HD",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
     },
     {
       "name": "Epic Drama",
@@ -2674,10 +2925,24 @@
     },
     {
       "name": "Блокбастер HD",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "video_decode_failed",
+          "playback_attempts": 1
+        },
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Shot HD",
@@ -2695,11 +2960,6 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        },
-        {
           "source": "jekalich-smtk:100",
           "reason": "video_decode_failed",
           "playback_attempts": 1
@@ -2707,6 +2967,11 @@
         {
           "source": "jekalich-smtk:100",
           "reason": "connection_refused",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         },
         {
@@ -2718,20 +2983,8 @@
     },
     {
       "name": "Хит HD",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
-    },
-    {
-      "name": "Камеди HD",
       "status": "unverified",
       "attempts": [
-        {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        },
         {
           "source": "jekalich-smtk:100",
           "reason": "video_decode_failed",
@@ -2740,6 +2993,32 @@
         {
           "source": "jekalich-smtk:100",
           "reason": "connection_refused",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        }
+      ]
+    },
+    {
+      "name": "Камеди HD",
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "video_decode_failed",
+          "playback_attempts": 1
+        },
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         }
       ]
@@ -2758,7 +3037,7 @@
     {
       "name": "Trash HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -2774,11 +3053,6 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        },
-        {
           "source": "jekalich-smtk:100",
           "reason": "connection_reset",
           "playback_attempts": 3
@@ -2786,6 +3060,11 @@
         {
           "source": "jekalich-smtk:100",
           "reason": "connection_refused",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         },
         {
@@ -2822,13 +3101,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "video_decode_failed",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "video_decode_failed",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         }
       ]
@@ -2898,13 +3177,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         }
       ]
@@ -2914,13 +3193,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         }
       ]
@@ -2930,13 +3209,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         },
         {
@@ -2951,13 +3230,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         },
         {
@@ -2972,13 +3251,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         }
       ]
@@ -2999,13 +3278,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         }
       ]
@@ -3015,13 +3294,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         }
       ]
@@ -3031,13 +3310,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         }
       ]
@@ -3047,13 +3326,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         }
       ]
@@ -3074,13 +3353,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         }
       ]
@@ -3090,13 +3369,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         }
       ]
@@ -3106,13 +3385,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         }
       ]
@@ -3166,13 +3445,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         }
       ]
@@ -3193,13 +3472,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         }
       ]
@@ -3209,13 +3488,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         }
       ]
@@ -3225,13 +3504,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         }
       ]
@@ -3241,13 +3520,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         }
       ]
@@ -3257,13 +3536,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         }
       ]
@@ -3295,13 +3574,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         }
       ]
@@ -3322,13 +3601,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         }
       ]
@@ -3338,13 +3617,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         }
       ]
@@ -3354,13 +3633,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         }
       ]
@@ -3370,13 +3649,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         }
       ]
@@ -3397,13 +3676,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         }
       ]
@@ -4461,13 +4740,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         }
       ]
@@ -4477,13 +4756,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         }
       ]
@@ -4500,13 +4779,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         }
       ]
@@ -4561,7 +4840,7 @@
     {
       "name": "Fashion TV UHD",
       "status": "verified",
-      "source": "cache",
+      "source": "iptv-org-ru-alternatives:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -4611,28 +4890,28 @@
     {
       "name": "Мульт HD",
       "status": "verified",
-      "source": "cache",
+      "source": "iptv-org-ru-alternatives:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Карусель",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Карусель +2",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Карусель +4",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -4650,35 +4929,35 @@
     {
       "name": "Карусель +7",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Солнце",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Солнце +2",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Солнце +4",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Солнце +7",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -4691,22 +4970,31 @@
     },
     {
       "name": "Nickelodeon HD",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Nick Jr",
       "status": "verified",
-      "source": "cache",
+      "source": "iptv-org-ru-alternatives:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "TiJi",
       "status": "verified",
-      "source": "cache",
+      "source": "iptv-org-ru-alternatives:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -4720,14 +5008,14 @@
     {
       "name": "Мама",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "В гостях у сказки",
       "status": "verified",
-      "source": "cache",
+      "source": "region-eur:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -4747,14 +5035,14 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "blocked_variants",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_reset",
-          "playback_attempts": 3
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
         }
       ]
     },
@@ -4762,11 +5050,6 @@
       "name": "Уникум HD",
       "status": "unverified",
       "attempts": [
-        {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        },
         {
           "source": "jekalich-smtk:100",
           "reason": "connection_reset",
@@ -4778,6 +5061,11 @@
           "playback_attempts": 1
         },
         {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        },
+        {
           "source": "region-eur:100",
           "reason": "connection_reset",
           "playback_attempts": 3
@@ -4786,17 +5074,60 @@
     },
     {
       "name": "СТС Kids HD",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "blocked_variants",
+          "playback_attempts": 1
+        },
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        },
+        {
+          "source": "iptv-org-ru-alternatives:100",
+          "reason": "video_decode_failed",
+          "playback_attempts": 1
+        },
+        {
+          "source": "region-eur:100",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        },
+        {
+          "source": "region-amer:88",
+          "reason": "video_decode_failed",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Мультимузыка",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        },
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Радость Моя",
@@ -4807,10 +5138,34 @@
     },
     {
       "name": "Ani",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "blocked_variants",
+          "playback_attempts": 1
+        },
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        },
+        {
+          "source": "region-eur:100",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        },
+        {
+          "source": "iptv-org-ru-alternatives:100",
+          "reason": "http_404",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Супергерои",
@@ -4822,7 +5177,7 @@
     {
       "name": "Рыжий",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -4836,7 +5191,7 @@
     {
       "name": "Капитан Фантастика HD",
       "status": "verified",
-      "source": "cache",
+      "source": "iptv-org-ru-alternatives:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -4856,13 +5211,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         },
         {
@@ -4889,13 +5244,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         }
       ]
@@ -5042,21 +5397,21 @@
     {
       "name": "Eurosport 1 HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Eurosport 2 HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Матч! HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -5074,35 +5429,35 @@
     {
       "name": "Матч! HD (Дубль)",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Матч! SD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Матч! Премьер HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Матч! Премьер HD (Дубль)",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Матч! Премьер SD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -5111,140 +5466,349 @@
       "status": "verified",
       "source": "cache",
       "reason": "video_frames_decoded",
-      "playback_attempts": 3
+      "playback_attempts": 2
     },
     {
       "name": "Матч! Футбол 1 SD",
       "status": "verified",
       "source": "cache",
       "reason": "video_frames_decoded",
-      "playback_attempts": 3
+      "playback_attempts": 2
     },
     {
       "name": "Матч! Футбол 2 HD",
       "status": "verified",
       "source": "cache",
       "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "playback_attempts": 2
     },
     {
       "name": "Матч! Футбол 2 SD",
       "status": "verified",
       "source": "cache",
       "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "playback_attempts": 2
     },
     {
       "name": "Матч! Футбол 3 HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
-      "playback_attempts": 2
+      "playback_attempts": 3
     },
     {
       "name": "Матч! Футбол 3 SD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
-      "playback_attempts": 2
+      "playback_attempts": 3
     },
     {
       "name": "Матч! Игра HD",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        },
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        },
+        {
+          "source": "category-sports:100",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        }
+      ]
     },
     {
       "name": "Матч! Игра SD",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        },
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        },
+        {
+          "source": "category-sports:100",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        }
+      ]
     },
     {
       "name": "Матч! Арена HD",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        },
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        },
+        {
+          "source": "category-sports:100",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        }
+      ]
     },
     {
       "name": "Матч! Арена SD",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        },
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        },
+        {
+          "source": "category-sports:100",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        }
+      ]
     },
     {
       "name": "Матч! Страна HD",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        },
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        },
+        {
+          "source": "iptv-org-ru-alternatives:100",
+          "reason": "http_404",
+          "playback_attempts": 1
+        },
+        {
+          "source": "category-sports:100",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        }
+      ]
     },
     {
       "name": "Матч! Страна SD",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        },
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        },
+        {
+          "source": "iptv-org-ru-alternatives:100",
+          "reason": "http_404",
+          "playback_attempts": 1
+        },
+        {
+          "source": "category-sports:100",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        }
+      ]
     },
     {
       "name": "Матч! Боец HD",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        },
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Матч! Боец SD",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        },
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Футбол HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Футбол SD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Кхл HD",
       "status": "verified",
-      "source": "cache",
+      "source": "iptv-org-ru-alternatives:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "KHL Prime HD",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "video_decode_failed",
+          "playback_attempts": 1
+        },
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        },
+        {
+          "source": "iptv-org-ru-alternatives:100",
+          "reason": "http_403",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "БОКС ТВ HD",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        },
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        },
+        {
+          "source": "category-sports:100",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        }
+      ]
     },
     {
       "name": "БОКС ТВ SD",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        },
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        },
+        {
+          "source": "category-sports:100",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        }
+      ]
     },
     {
       "name": "US | Fubo Sports Network 5",
@@ -5280,11 +5844,6 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        },
-        {
           "source": "jekalich-smtk:100",
           "reason": "video_decode_failed",
           "playback_attempts": 1
@@ -5292,6 +5851,11 @@
         {
           "source": "jekalich-smtk:100",
           "reason": "connection_refused",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         },
         {
@@ -5306,11 +5870,6 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
           "source": "jekalich-smtk:100",
           "reason": "connection_reset",
           "playback_attempts": 3
@@ -5318,6 +5877,11 @@
         {
           "source": "jekalich-smtk:100",
           "reason": "connection_refused",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_404",
           "playback_attempts": 1
         }
       ]
@@ -5376,7 +5940,7 @@
     {
       "name": "Старт HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -5385,13 +5949,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "http_404",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "http_404",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         },
         {
@@ -5406,13 +5970,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         },
         {
@@ -5582,7 +6146,7 @@
     {
       "name": "Живи Активно HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -5863,11 +6427,6 @@
           "source": "original",
           "reason": "http_403",
           "playback_attempts": 1
-        },
-        {
-          "source": "category-sports:100",
-          "reason": "http_403",
-          "playback_attempts": 1
         }
       ]
     },
@@ -5876,13 +6435,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "video_decode_failed",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "video_decode_failed",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         }
       ]
@@ -5897,7 +6456,7 @@
     {
       "name": "Мяч HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -5962,11 +6521,6 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        },
-        {
-          "source": "category-sports:90",
           "reason": "http_403",
           "playback_attempts": 1
         }
@@ -7413,28 +7967,42 @@
     {
       "name": "Bridge TV",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Bridge TV Hits",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Bridge TV Deluxe HD",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "video_decode_failed",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        },
+        {
+          "source": "category-music:90",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        }
+      ]
     },
     {
       "name": "Bridge TV Classic",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -7450,35 +8018,35 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        },
-        {
           "source": "jekalich-smtk:100",
           "reason": "connection_reset",
           "playback_attempts": 3
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
         }
       ]
     },
     {
       "name": "Bridge TV Русский хит",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "MTV",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Муз ТВ",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -7526,36 +8094,40 @@
     },
     {
       "name": "Музыка Live",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Жара HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Russian MusicBox HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Music Box Gold",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Музыка Первого",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -7569,14 +8141,14 @@
     {
       "name": "AIVA HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Europa Plus TV HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -7623,7 +8195,7 @@
     {
       "name": "Kronehit",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -7919,7 +8491,7 @@
     {
       "name": "Муз ТВ +7",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -7937,51 +8509,75 @@
     {
       "name": "Муз ТВ +4",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Муз ТВ +2",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Discovery Channel HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Investigation Discovery HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "National Geographic HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Наука",
       "status": "verified",
-      "source": "cache",
+      "source": "iptv-org-ru-alternatives:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Моя Планета HD",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
+          "playback_attempts": 1
+        },
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        },
+        {
+          "source": "region-eur:100",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        },
+        {
+          "source": "iptv-org-ru-alternatives:100",
+          "reason": "http_403",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Тайны Галактики HD",
@@ -7997,7 +8593,7 @@
     {
       "name": "Приключения HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -8015,7 +8611,7 @@
     {
       "name": "Оружие",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -8031,11 +8627,6 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        },
-        {
           "source": "jekalich-smtk:100",
           "reason": "video_decode_failed",
           "playback_attempts": 1
@@ -8043,6 +8634,11 @@
         {
           "source": "jekalich-smtk:100",
           "reason": "connection_refused",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         }
       ]
@@ -8066,13 +8662,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         }
       ]
@@ -8080,14 +8676,14 @@
     {
       "name": "TLC HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Техно 24",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -8101,14 +8697,14 @@
     {
       "name": "Da Vinci",
       "status": "verified",
-      "source": "cache",
+      "source": "iptv-org-ru-alternatives:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "365 дней ТВ",
       "status": "verified",
-      "source": "cache",
+      "source": "iptv-org-ru-alternatives:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -8117,23 +8713,47 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        },
-        {
           "source": "jekalich-smtk:100",
           "reason": "connection_reset",
           "playback_attempts": 3
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
         }
       ]
     },
     {
       "name": "Travel+Adventure HD",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        },
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        },
+        {
+          "source": "iptv-org-ru-alternatives:100",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        },
+        {
+          "source": "category-travel:100",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        }
+      ]
     },
     {
       "name": "Пёс и Ко",
@@ -8151,11 +8771,6 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        },
-        {
           "source": "jekalich-smtk:100",
           "reason": "connection_reset",
           "playback_attempts": 3
@@ -8163,6 +8778,11 @@
         {
           "source": "jekalich-smtk:100",
           "reason": "connection_refused",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         }
       ]
@@ -8184,14 +8804,14 @@
     {
       "name": "Арсенал HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Телекафе HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -8207,13 +8827,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         },
         {
@@ -8226,7 +8846,7 @@
     {
       "name": "Поехали! HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -8265,10 +8885,24 @@
     },
     {
       "name": "Terra HD",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        },
+        {
+          "source": "category-documentary:100",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        }
+      ]
     },
     {
       "name": "MM Experiment HD",
@@ -8297,11 +8931,6 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        },
-        {
           "source": "jekalich-smtk:100",
           "reason": "http_404",
           "playback_attempts": 1
@@ -8309,6 +8938,11 @@
         {
           "source": "jekalich-smtk:100",
           "reason": "connection_refused",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         },
         {
@@ -8332,16 +8966,25 @@
     {
       "name": "Нано HD",
       "status": "verified",
-      "source": "cache",
+      "source": "iptv-org-ru-alternatives:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Моя стихия",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Неизвестная Россия",
@@ -8353,28 +8996,42 @@
     {
       "name": "Nat Geo Wild HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Animal Planet HD",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        },
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "В мире животных HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Рыбалка и охота Int",
       "status": "verified",
-      "source": "cache",
+      "source": "iptv-org-ru-alternatives:89",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -8383,13 +9040,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "KeyError",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "KeyError",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         },
         {
@@ -8408,10 +9065,24 @@
     },
     {
       "name": "Viju+ Planet HD",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "video_decode_failed",
+          "playback_attempts": 1
+        },
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "MM Микромир HD",
@@ -8466,15 +9137,19 @@
     },
     {
       "name": "Рыболов",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Охотник и рыболов HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -8482,11 +9157,6 @@
       "name": "Диалоги о рыбалке HD",
       "status": "unverified",
       "attempts": [
-        {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        },
         {
           "source": "jekalich-smtk:100",
           "reason": "video_decode_failed",
@@ -8496,13 +9166,18 @@
           "source": "jekalich-smtk:100",
           "reason": "connection_refused",
           "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
         }
       ]
     },
     {
       "name": "Охота и рыбалка",
       "status": "verified",
-      "source": "cache",
+      "source": "iptv-org-ru-alternatives:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -8515,17 +9190,45 @@
     },
     {
       "name": "Дикая Охота HD",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "video_decode_failed",
+          "playback_attempts": 1
+        },
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Дикая Рыбалка HD",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "video_decode_failed",
+          "playback_attempts": 1
+        },
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Живая Планета",
@@ -8537,7 +9240,7 @@
     {
       "name": "Усадьба HD",
       "status": "verified",
-      "source": "cache",
+      "source": "iptv-org-ru-alternatives:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -8586,13 +9289,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "video_decode_failed",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "video_decode_failed",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         }
       ]
@@ -8602,14 +9305,14 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        },
-        {
           "source": "jekalich-smtk:100",
           "reason": "connection_reset",
           "playback_attempts": 3
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
         }
       ]
     },
@@ -8660,7 +9363,7 @@
     {
       "name": "Dorcel HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -8669,12 +9372,12 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
+          "source": "jekalich-smtk:100",
           "reason": "http_403",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
+          "source": "original",
           "reason": "http_403",
           "playback_attempts": 1
         }
@@ -8694,7 +9397,7 @@
     {
       "name": "Babes TV HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -8703,13 +9406,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "video_decode_failed",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "video_decode_failed",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         }
       ]
@@ -8719,13 +9422,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "video_decode_failed",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "video_decode_failed",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         }
       ]
@@ -8735,13 +9438,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "no_video_track",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "no_video_track",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         }
       ]
@@ -8762,11 +9465,6 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        },
-        {
           "source": "jekalich-smtk:100",
           "reason": "connection_reset",
           "playback_attempts": 3
@@ -8774,6 +9472,11 @@
         {
           "source": "jekalich-smtk:100",
           "reason": "connection_refused",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         }
       ]
@@ -8792,28 +9495,47 @@
     {
       "name": "Viju Explore HD",
       "status": "verified",
-      "source": "cache",
+      "source": "iptv-org-ru-alternatives:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Авто 24 HD",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "http_404",
+          "playback_attempts": 1
+        },
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        },
+        {
+          "source": "iptv-org-ru-alternatives:100",
+          "reason": "http_403",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Сарафан",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Бобёр",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -8834,56 +9556,56 @@
     {
       "name": "2X2",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "2x2 +2",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "2x2 +4",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "2x2 +7",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Мир HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Мир +2",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Мир +4",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Мир +7",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -8908,21 +9630,21 @@
     {
       "name": "Че!",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Че! +2",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Че! +4",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -8940,35 +9662,44 @@
     {
       "name": "Че! +7",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Точка РФ HD",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "СТС Love",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "СТС Love +2",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "СТС Love +4",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -8982,7 +9713,7 @@
     {
       "name": "Время",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -8991,13 +9722,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         },
         {
@@ -9010,51 +9741,60 @@
     {
       "name": "Ю",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Ю +2",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Ю +4",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Ю +7",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Суббота!",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Суббота! +7",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Еда",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "blocked_variants",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Москва доверие",
@@ -9105,15 +9845,24 @@
     },
     {
       "name": "Foodtime HD",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "blocked_variants",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "ОТР",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -9127,7 +9876,7 @@
     {
       "name": "НТВ Стиль",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -9210,10 +9959,19 @@
     },
     {
       "name": "UA | 1+1 Украина HD",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        },
+        {
+          "source": "jekalich-smtk:93",
+          "reason": "connection_refused",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "UA | 1+1 Марафон HD",
@@ -9256,13 +10014,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         }
       ]
@@ -9272,13 +10030,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         }
       ]
@@ -9422,10 +10180,14 @@
     },
     {
       "name": "UA | ПлюсПлюс HD",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "UA | Бигуди HD",
@@ -9480,10 +10242,14 @@
     },
     {
       "name": "UA | Niki Junior HD",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "UA | Niki Kids HD",
@@ -9630,11 +10396,6 @@
           "source": "original",
           "reason": "http_403",
           "playback_attempts": 1
-        },
-        {
-          "source": "category-sports:92",
-          "reason": "http_403",
-          "playback_attempts": 1
         }
       ]
     },
@@ -9644,11 +10405,6 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        },
-        {
-          "source": "category-sports:94",
           "reason": "http_403",
           "playback_attempts": 1
         }
@@ -9869,10 +10625,14 @@
     },
     {
       "name": "UA | Continent E HD",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "UA | FilmUA Drama HD",
@@ -10738,13 +11498,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         }
       ]
@@ -11168,7 +11928,7 @@
     {
       "name": "DE | National Geographic",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:93",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -11196,7 +11956,7 @@
     {
       "name": "DE | Discovery Channel HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:92",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -11213,10 +11973,24 @@
     },
     {
       "name": "DE | Animal Planet HD",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        },
+        {
+          "source": "jekalich-smtk:90",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        },
+        {
+          "source": "jekalich-smtk:90",
+          "reason": "connection_refused",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "DE | One Terra HD",
@@ -12138,7 +12912,7 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "http_403",
+          "reason": "no_video_track",
           "playback_attempts": 1
         }
       ]
@@ -12687,13 +13461,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         }
       ]
@@ -12714,13 +13488,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         }
       ]
@@ -12741,13 +13515,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         }
       ]
@@ -12757,13 +13531,13 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
           "playback_attempts": 1
         },
         {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
+          "source": "original",
+          "reason": "http_403",
           "playback_attempts": 1
         }
       ]
@@ -12969,7 +13743,7 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "http_403",
+          "reason": "no_video_track",
           "playback_attempts": 1
         }
       ]
@@ -13053,10 +13827,24 @@
     },
     {
       "name": "UK | Animal Planet",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        },
+        {
+          "source": "jekalich-smtk:90",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        },
+        {
+          "source": "jekalich-smtk:90",
+          "reason": "connection_refused",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "UK | Alibi HD",
@@ -13099,16 +13887,25 @@
     {
       "name": "UK | Discovery Science",
       "status": "verified",
-      "source": "category-science:92",
+      "source": "cache",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "UK | Nickelodeon",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        },
+        {
+          "source": "jekalich-smtk:88",
+          "reason": "connection_refused",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "UK | Premiere Sports 1",
@@ -13252,7 +14049,7 @@
     {
       "name": "UK | Investigation Discovery",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:94",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -13454,10 +14251,14 @@
     },
     {
       "name": "LT | Balticum HD",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "LT | Balticum Auksinis",
@@ -13505,10 +14306,14 @@
     },
     {
       "name": "LT | Go3 Sport 1 HD",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "LT | Go3 Sport 2 HD",
@@ -13750,10 +14555,14 @@
     },
     {
       "name": "LV | Go3 Sport 1 HD",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "LV | Go3 Sport 2 HD",
@@ -14323,7 +15132,7 @@
     {
       "name": "KZ | Silk Way Cinema",
       "status": "verified",
-      "source": "category-movies:91",
+      "source": "cache",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -14472,10 +15281,14 @@
     },
     {
       "name": "EE | Go3 Sport 1 HD",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "EE | Go3 Sport 2 HD",
@@ -14890,7 +15703,7 @@
     {
       "name": "TR | Discovery Channel HD",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:92",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -15023,8 +15836,8 @@
         },
         {
           "source": "category-movies:88",
-          "reason": "connection_reset",
-          "playback_attempts": 3
+          "reason": "video_decode_failed",
+          "playback_attempts": 1
         }
       ]
     },
@@ -15219,7 +16032,7 @@
     {
       "name": "TR | Star TV HD",
       "status": "verified",
-      "source": "category-news:89",
+      "source": "cache",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -15396,10 +16209,24 @@
     },
     {
       "name": "PL | Animal Planet HD",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        },
+        {
+          "source": "jekalich-smtk:90",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        },
+        {
+          "source": "jekalich-smtk:90",
+          "reason": "connection_refused",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "PL | AXN HD",
@@ -15749,7 +16576,7 @@
     {
       "name": "PL | Discovery Science HD",
       "status": "verified",
-      "source": "category-science:92",
+      "source": "cache",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -15863,7 +16690,7 @@
     {
       "name": "PL | Food Network HD",
       "status": "verified",
-      "source": "cache",
+      "source": "free-tv:89",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -15903,7 +16730,7 @@
     {
       "name": "PL | Investigation Discovery",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:94",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -15998,7 +16825,7 @@
     {
       "name": "PL | Nickelodeon",
       "status": "verified",
-      "source": "cache",
+      "source": "region-eur:88",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -16532,7 +17359,7 @@
     {
       "name": "PL | Viasat History HD",
       "status": "verified",
-      "source": "category-documentary:89",
+      "source": "cache",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -16659,7 +17486,7 @@
     {
       "name": "PL | National Geographic",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:93",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -16768,7 +17595,7 @@
     {
       "name": "PL | Travel Channel",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:90",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -17123,14 +17950,14 @@
     {
       "name": "Мир Белогорья",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
-      "playback_attempts": 3
+      "playback_attempts": 1
     },
     {
       "name": "ОТВ Екатеринбург",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -17175,14 +18002,14 @@
     {
       "name": "Астрахань 24",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Белгород 24",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -17222,7 +18049,7 @@
     {
       "name": "Катунь 24",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -17240,7 +18067,7 @@
     {
       "name": "Краснодар",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -17325,30 +18152,30 @@
     {
       "name": "Сочи 24",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "АТВ Ставрополь",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Брянская Губерния",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "БСТ",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
-      "playback_attempts": 3
+      "playback_attempts": 1
     },
     {
       "name": "Вектор 24 Губкинский",
@@ -17375,7 +18202,7 @@
     {
       "name": "Дзержинск ТВ",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -17433,14 +18260,14 @@
       "status": "unverified",
       "attempts": [
         {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        },
-        {
           "source": "jekalich-smtk:100",
           "reason": "connection_reset",
           "playback_attempts": 3
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
         },
         {
           "source": "iptv-org-ru-alternatives:100",
@@ -17481,14 +18308,14 @@
     {
       "name": "Новый век Тамбов",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Осетия-Ирыстон",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -17513,7 +18340,7 @@
     {
       "name": "Ника ТВ",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -17542,7 +18369,7 @@
     {
       "name": "Сургут 24",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -17560,7 +18387,7 @@
     {
       "name": "НТС Иркутск",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -17612,7 +18439,7 @@
     {
       "name": "Первый Ярославский",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -17630,21 +18457,21 @@
     {
       "name": "РГВК Дагестан",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Своё ТВ Ставрополь",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "С1 Сургут",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -17676,14 +18503,14 @@
     {
       "name": "Татарстан 24",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "ТВ-ИН Магнитогорск",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -17701,21 +18528,21 @@
     {
       "name": "Ямал-Регион",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "ТКР Рязань",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "ТНВ Татарстан",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -17729,7 +18556,7 @@
     {
       "name": "Томское время",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -17747,7 +18574,7 @@
     {
       "name": "Тюменское время",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -17765,7 +18592,7 @@
     {
       "name": "Югра",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -17783,7 +18610,7 @@
     {
       "name": "Якутия 24",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -17822,17 +18649,18 @@
     }
   ],
   "checks": {
-    "http_403": 1615,
-    "no_video_track": 2,
-    "http_404": 42,
-    "video_frames_decoded": 440,
-    "video_decode_failed": 30,
-    "connection_refused": 82,
-    "connection_reset": 35,
+    "http_403": 1411,
+    "video_frames_decoded": 404,
+    "timeout": 4,
+    "video_decode_failed": 69,
+    "connection_refused": 157,
+    "connection_reset": 72,
+    "http_404": 44,
+    "blocked_variants": 14,
+    "dns_error": 4,
     "http_401": 1,
-    "KeyError": 1,
-    "tls_error": 3,
-    "dns_error": 2,
-    "timeout": 3
+    "KeyError": 2,
+    "no_video_track": 3,
+    "tls_error": 3
   }
 }
