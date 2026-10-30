@@ -1,5 +1,6 @@
 import json
 import tempfile
+import threading
 import unittest
 from pathlib import Path
 from unittest.mock import patch
@@ -47,6 +48,49 @@ class GeneratorTests(unittest.TestCase):
             self.assertEqual(result[0]['name'], 'amedia1')
             self.assertEqual(result[0]['url'], 'https://example.com/good')
             self.assertNotIn('https://example.com/wrong', [call.args[0] for call in check.call_args_list])
+
+    def test_mcquack_block_and_subdomains(self):
+        for url in ('http://stream.mcquack.net/live','https://sub.stream.mcquack.net/live','https://STREAM.MCQUACK.NET./live'):
+            self.assertTrue(g.forbidden(url))
+        self.assertFalse(g.forbidden('https://notstream.mcquack.net/live'))
+
+    def test_older_sources_config_includes_smtk(self):
+        with tempfile.TemporaryDirectory() as folder:
+            config = Path(folder) / 'sources.json'
+            config.write_text('[{"name":"old","url":"https://example.com/list"}]')
+            with patch.object(g, 'SOURCE_CONFIG', config):
+                self.assertIn(('jekalich-smtk', g.SMTK_URL), g.load_donors())
+
+    def test_channels_progress_without_global_round_barrier(self):
+        ready = threading.Event()
+        order = []
+        def check(url, *args):
+            if url == 'slow':
+                ready.wait(2)
+                order.append('slow_finished')
+                return False, 'timeout'
+            if url == 'fallback':
+                order.append('fallback_checked')
+                ready.set()
+                return True, 'fixture'
+            return False, 'fixture'
+        plans = [({}, 'slow', [('original','slow')]),
+                 ({}, 'fast', [('original','bad'),('donor','fallback')])]
+        with patch.object(g, 'WORKERS', 2), patch.object(g, 'validate', side_effect=check):
+            g.check_plans(plans)
+        self.assertLess(order.index('fallback_checked'), order.index('slow_finished'))
+
+    def test_smtk_is_checked_before_dead_original(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            source, output, cache, report = [root/n for n in ('source','out','cache','report')]
+            source.write_text('#EXTM3U\n#EXTINF:-1,Amedia 1 HD\nhttps://example.com/dead\n')
+            donor = dict(row('Amedia 1',url='https://example.com/good'),donor='jekalich-smtk')
+            with patch.multiple(g, SOURCE=source,OUT=output,CACHE=cache,REPORT=report,APPEND_NEW=False,KEEP_UNVERIFIED=False), patch.object(g,'load_donors',return_value=[('jekalich-smtk',g.SMTK_URL)]), patch.object(g,'fetch_donor',return_value=[donor]), patch.object(g,'validate',return_value=(True,'fixture')) as check:
+                self.assertEqual(g.main(),0)
+            self.assertEqual(check.call_count,1)
+            self.assertEqual(check.call_args.args[0],'https://example.com/good')
+            self.assertEqual(g.parse_m3u(output.read_text())[0]['name'],'Amedia 1 HD')
 
     def test_removed_domain_ban(self):
         self.assertFalse(g.forbidden('https://ru1.plist.link/live'))
