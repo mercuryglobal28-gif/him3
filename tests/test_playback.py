@@ -40,6 +40,40 @@ class HeaderTests(unittest.TestCase):
         self.assertEqual(check.call_count, 2)
 
 
+class RetryTests(unittest.TestCase):
+    def test_timeout_then_success(self):
+        ok = v.Result(True, 'video_frames_decoded', 'https://example.com/live')
+        with patch.dict(v.os.environ, {'PLAYBACK_ATTEMPTS':'3','PLAYBACK_TIMEOUT':'60','PLAYBACK_RETRY_DELAY':'2'}), patch.object(v, '_validate_once', side_effect=[v.Result(False,'timeout'), ok]) as check, patch.object(v.time, 'sleep') as sleep:
+            result = v.validate_stream('https://example.com/live')
+        self.assertTrue(result.ok)
+        self.assertEqual(result.attempts, 2)
+        self.assertEqual(check.call_count, 2)
+        self.assertEqual(check.call_args.args[2], 60)
+        sleep.assert_called_once_with(2)
+
+    def test_retry_budget_exhaustion(self):
+        with patch.dict(v.os.environ, {'PLAYBACK_ATTEMPTS':'3','PLAYBACK_RETRY_DELAY':'2'}), patch.object(v, '_validate_once', return_value=v.Result(False,'timeout')) as check, patch.object(v.time, 'sleep') as sleep:
+            result = v.validate_stream('https://example.com/live', timeout=8)
+        self.assertFalse(result.ok)
+        self.assertEqual(result.attempts, 3)
+        self.assertEqual(check.call_count, 3)
+        self.assertEqual([c.args[0] for c in sleep.call_args_list], [2,4])
+        self.assertTrue(all(c.args[2] == 8 for c in check.call_args_list))
+
+    def test_permanent_failures_are_not_retried(self):
+        for reason in ('http_403','http_404','tls_error','no_video_track','ffmpeg_unavailable','connection_refused'):
+            with self.subTest(reason=reason), patch.object(v, '_validate_once', return_value=v.Result(False,reason)) as check, patch.object(v.time, 'sleep') as sleep:
+                result = v.validate_stream('https://example.com/live')
+                self.assertFalse(result.ok)
+                check.assert_called_once()
+                sleep.assert_not_called()
+
+    def test_service_unavailable_can_recover(self):
+        with patch.object(v, '_validate_once', side_effect=[v.Result(False,'http_503'),v.Result(True,'video_frames_decoded')]), patch.object(v.time, 'sleep'):
+            self.assertTrue(v.validate_stream('https://example.com/live').ok)
+
+
+
 class PlaybackTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
