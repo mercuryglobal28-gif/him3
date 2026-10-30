@@ -35,13 +35,14 @@ ALIASES = json.loads(ALIAS_FILE.read_text(encoding='utf-8')) if ALIAS_FILE.exist
 BLOCKED = tuple(x.strip().lower().rstrip('.') for x in os.getenv('BLOCKED_DOMAINS', '').split(',') if x.strip())
 FILTER_ADULT = os.getenv('FILTER_ADULT', 'false').lower() == 'true'
 APPEND_NEW = os.getenv('APPEND_NEW_CHANNELS', 'false').lower() == 'true'
-KEEP_UNVERIFIED = os.getenv('KEEP_UNVERIFIED_CHANNELS', 'true').lower() == 'true'
+KEEP_UNVERIFIED = os.getenv('KEEP_UNVERIFIED_CHANNELS', 'false').lower() == 'true'
 MAX_NEW = max(0, int(os.getenv('MAX_NEW_CHANNELS', '200')))
 SOURCE_CONFIG = Path(os.getenv('SOURCES_FILE', 'sources.json'))
 UA = {'User-Agent': 'Mozilla/5.0 (compatible; PublicStreamChecker/2.0)', 'Accept': '*/*'}
 # Preserve the existing search catalogs; sources.json prioritizes Russian catalogs.
 # Public availability does not, by itself, prove redistribution rights for each stream.
 DONORS = [
+    ('jekalich-smtk', 'https://raw.githubusercontent.com/JekaLich/smtk/5132d1f5992e523b637b9e46f94707965aa0e37d/tv.smtk.m3u'),
     # Main public catalog; specialized catalogs provide overlapping fallback streams.
     ('iptv-org-index', 'https://iptv-org.github.io/iptv/index.m3u'),
     ('iptv-org-raw', 'https://iptv-org.github.io/iptv/index.country.m3u'),
@@ -377,8 +378,6 @@ def main():
                                              'channels': channel_results,
                                              'checks': Counter(x[1] for x in checks.values())},
                                             ensure_ascii=False, indent=2)+'\n')):
-        if not output and path in (OUT, CACHE):
-            continue
         path.parent.mkdir(parents=True, exist_ok=True)
         with tempfile.NamedTemporaryFile(mode='w', encoding='utf-8', dir=path.parent,
                                          delete=False) as handle:
@@ -389,8 +388,8 @@ def main():
         LOG.info('Playlist saved: %s entries, %s verified, %s originals retained unverified',
                  len(output), verified_count, stats['retained_unverified'])
     else:
-        LOG.error('No channels verified; existing playlist and cache retained; report updated')
-    return 0 if output else 2
+        LOG.warning('No channels verified; output playlists and cache cleared; source preserved')
+    return 0
 
 
 if __name__ == '__main__':
