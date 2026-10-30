@@ -30,7 +30,7 @@ jobs:
         env:
           PLAYBACK_TIMEOUT: '20'
           APPEND_NEW_CHANNELS: 'false'
-          KEEP_UNVERIFIED_CHANNELS: 'true'
+          KEEP_UNVERIFIED_CHANNELS: 'false'
           MAX_NEW_CHANNELS: '200'
           MAX_CANDIDATES: '10'
           FUZZY_THRESHOLD: '88'
