@@ -9,6 +9,7 @@ import logging
 import os
 import re
 import tempfile
+import threading
 import unicodedata
 from collections import Counter, defaultdict
 from functools import lru_cache
@@ -33,7 +34,7 @@ FUZZY_THRESHOLD = max(65, min(100, int(os.getenv('FUZZY_THRESHOLD', '88'))))
 MATCH_POOL = max(1, int(os.getenv('MATCH_POOL', '24')))
 ALIAS_FILE = Path(os.getenv('ALIASES_FILE', str(Path(__file__).with_name('channel_aliases.json'))))
 ALIASES = json.loads(ALIAS_FILE.read_text(encoding='utf-8')) if ALIAS_FILE.exists() else {}
-BLOCKED = tuple(x.strip().lower().rstrip('.') for x in os.getenv('BLOCKED_DOMAINS', '').split(',') if x.strip())
+BLOCKED = ('stream.mcquack.net',) + tuple(x.strip().lower().rstrip('.') for x in os.getenv('BLOCKED_DOMAINS', '').split(',') if x.strip())
 FILTER_ADULT = os.getenv('FILTER_ADULT', 'false').lower() == 'true'
 APPEND_NEW = os.getenv('APPEND_NEW_CHANNELS', 'false').lower() == 'true'
 KEEP_UNVERIFIED = os.getenv('KEEP_UNVERIFIED_CHANNELS', 'false').lower() == 'true'
@@ -42,6 +43,7 @@ SOURCE_CONFIG = Path(os.getenv('SOURCES_FILE', 'sources.json'))
 UA = {'User-Agent': 'Mozilla/5.0 (compatible; PublicStreamChecker/2.0)', 'Accept': '*/*'}
 # Preserve the existing search catalogs; sources.json prioritizes Russian catalogs.
 # Public availability does not, by itself, prove redistribution rights for each stream.
+SMTK_URL = 'https://raw.githubusercontent.com/JekaLich/smtk/5132d1f5992e523b637b9e46f94707965aa0e37d/tv.smtk.m3u'
 DONORS = [
     ('jekalich-smtk', 'https://raw.githubusercontent.com/JekaLich/smtk/5132d1f5992e523b637b9e46f94707965aa0e37d/tv.smtk.m3u'),
     # Main public catalog; specialized catalogs provide overlapping fallback streams.
@@ -67,12 +69,17 @@ def load_donors():
     if not SOURCE_CONFIG.exists():
         return DONORS
     data = json.loads(SOURCE_CONFIG.read_text(encoding='utf-8'))
+    # An older sources.json must not silently hide the user's requested source.
+    if not any(entry.get('url') == SMTK_URL for entry in data):
+        data.insert(0, {'name': 'jekalich-smtk', 'url': SMTK_URL, 'enabled': True})
     result = []
     seen = set()
     for entry in data:
         if not entry.get('enabled', True):
             continue
         label, url = entry['name'], entry['url']
+        if url == SMTK_URL:
+            label = 'jekalich-smtk'
         if not isinstance(label, str) or not label or forbidden(url):
             raise ValueError('Invalid source configuration')
         if url not in seen:
@@ -270,28 +277,39 @@ def extend_channels(original, donors):
 
 
 def check_plans(planned):
-    """Bounded rounds; identical URLs with different headers are separate checks."""
-    checks = {}
-    with cf.ThreadPoolExecutor(max_workers=WORKERS) as pool:
-        for rank in range(max((len(c) for _, _, c in planned), default=0)):
-            pending = {}
-            for _, _, candidates in planned:
-                if any(checks.get(check_key(c), (False,))[0] for c in candidates):
-                    continue
-                if rank < len(candidates):
-                    c = candidates[rank]
-                    key = check_key(c)
-                    if key not in checks:
-                        pending[key] = c
-            futures = {pool.submit(validate, c[1], c[2] if len(c) > 2 else ()): key
-                       for key, c in pending.items()}
-            for future in cf.as_completed(futures):
+    """Each channel advances independently; duplicate targets share one future.
+
+    A slow original URL from another channel must not postpone a ready SMTK
+    alternative. A channel stops immediately after its first verified candidate.
+    """
+    lock = threading.Lock()
+    shared = {}
+
+    def check_channel(plan):
+        for candidate in plan[2]:
+            key = check_key(candidate)
+            with lock:
+                future = shared.get(key)
+                owner = future is None
+                if owner:
+                    future = cf.Future()
+                    shared[key] = future
+            if owner:
                 try:
-                    checks[futures[future]] = future.result()
+                    result = validate(candidate[1], candidate[2] if len(candidate) > 2 else ())
                 except Exception as exc:
-                    checks[futures[future]] = (False, type(exc).__name__)
-            LOG.info('Validation round %d: %d targets', rank + 1, len(pending))
-    return checks
+                    result = (False, type(exc).__name__)
+                future.set_result(result)
+            if future.result()[0]:
+                return
+
+    with cf.ThreadPoolExecutor(max_workers=WORKERS) as pool:
+        futures = [pool.submit(check_channel, plan) for plan in planned]
+        for count, future in enumerate(cf.as_completed(futures), 1):
+            future.result()
+            if count % 25 == 0 or count == len(planned):
+                LOG.info('Finished channel checks: %d/%d', count, len(planned))
+    return {key: future.result() for key, future in shared.items()}
 
 
 def main():
@@ -306,8 +324,10 @@ def main():
     original = [x for x in parse_m3u(source_text) if suitable(x['meta'])]
     source_count = len(original)
     cached = read_cache()
+    configured_donors = load_donors()
     with cf.ThreadPoolExecutor(max_workers=8) as pool:
-        donor_rows = [item for chunk in pool.map(fetch_donor, load_donors()) for item in chunk]
+        donor_rows = [item for chunk in pool.map(fetch_donor, configured_donors) for item in chunk]
+    source_counts = Counter(row['donor'] for row in donor_rows)
     donor_rows = list({(channel_id(r['meta']), name_key(r['name']), r['url'], tuple(r['extras'])): r for r in donor_rows}.values())
     original = extend_channels(original, donor_rows)
     donor_by_url = {r['url']: r for r in donor_rows}
@@ -354,7 +374,11 @@ def main():
                     for donor in index[candidate_key]:
                         consider(donor)
         matched.sort(key=lambda entry: -entry[0])
-        candidates.extend((f"{d['donor']}:{score}", d['url'], d['extras']) for score, d in matched)
+        preferred = [(f"{d['donor']}:{score}", d['url'], d['extras'])
+                     for score, d in matched if d['donor'] == 'jekalich-smtk' and score == 100]
+        others = [(f"{d['donor']}:{score}", d['url'], d['extras'])
+                  for score, d in matched if not (d['donor'] == 'jekalich-smtk' and score == 100)]
+        candidates = preferred + candidates + others
         seen, unique = set(), []
         for label, url, extras in candidates:
             key = target(url, extras)
@@ -381,7 +405,7 @@ def main():
             channel_results.append({'name': row['name'], 'status': 'unverified',
                 'attempts': [{'source': c[0], 'reason': checks.get(check_key(c), (False, 'not_checked'))[1],
                               'playback_attempts': getattr(checks.get(check_key(c)), 'attempts', 1)} for c in candidates]})
-            if KEEP_UNVERIFIED and row_index < source_count:
+            if KEEP_UNVERIFIED and row_index < source_count and not forbidden(row['url']):
                 output.append((row, row['url']))
                 stats['retained_unverified'] += 1
             continue
@@ -389,6 +413,11 @@ def main():
         label, url, extras = chosen
         result = checks[check_key(chosen)]
         url = getattr(result, 'url', '') or url
+        if forbidden(url):
+            verified_count -= 1
+            failures.append(row['name'])
+            stats['blocked_result'] += 1
+            continue
         headers = getattr(result, 'headers', ()) or target(url, extras)[1]
         # Cache preserves request headers as URL suffix for the next run.
         new_cache[cache_key(row)] = url + '|' + urlencode(dict(headers))
@@ -417,6 +446,7 @@ def main():
                                              'validation_method': 'ffmpeg_3_video_frames',
                                              'discovered_count': len(original) - source_count,
                                              'donor_count': len(donor_rows),
+                                             'sources': {name: source_counts[name] for name, _ in configured_donors},
                                              'output_count': len(output),
                                              'verified_count': verified_count, 'stats': dict(stats),
                                              'unverified_names': failures,
