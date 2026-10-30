@@ -27,10 +27,10 @@ OUT = Path(os.getenv('OUTPUT_PLAYLIST', 'playlist.m3u'))
 CACHE = Path(os.getenv('CACHE_FILE', 'working_links.json'))
 REPORT = Path(os.getenv('REPORT_FILE', 'update_report.txt'))
 WORKERS = max(1, min(int(os.getenv('MAX_WORKERS', '16')), 32))
-TIMEOUT = max(10, int(os.getenv('STREAM_TIMEOUT', '25')))
-MAX_CANDIDATES = max(1, int(os.getenv('MAX_CANDIDATES', '10')))
+TIMEOUT = max(3, int(os.getenv('STREAM_TIMEOUT', '20')))
+MAX_CANDIDATES = max(1, int(os.getenv('MAX_CANDIDATES', '30')))
 FUZZY_THRESHOLD = max(65, min(100, int(os.getenv('FUZZY_THRESHOLD', '88'))))
-MATCH_POOL = max(1, int(os.getenv('MATCH_POOL', '8')))
+MATCH_POOL = max(1, int(os.getenv('MATCH_POOL', '24')))
 ALIAS_FILE = Path(os.getenv('ALIASES_FILE', str(Path(__file__).with_name('channel_aliases.json'))))
 ALIASES = json.loads(ALIAS_FILE.read_text(encoding='utf-8')) if ALIAS_FILE.exists() else {}
 BLOCKED = tuple(x.strip().lower().rstrip('.') for x in os.getenv('BLOCKED_DOMAINS', '').split(',') if x.strip())
@@ -379,7 +379,8 @@ def main():
             stats['unverified'] += 1
             failures.append(row['name'])
             channel_results.append({'name': row['name'], 'status': 'unverified',
-                'attempts': [{'source': c[0], 'reason': checks.get(check_key(c), (False, 'not_checked'))[1]} for c in candidates]})
+                'attempts': [{'source': c[0], 'reason': checks.get(check_key(c), (False, 'not_checked'))[1],
+                              'playback_attempts': getattr(checks.get(check_key(c)), 'attempts', 1)} for c in candidates]})
             if KEEP_UNVERIFIED and row_index < source_count:
                 output.append((row, row['url']))
                 stats['retained_unverified'] += 1
@@ -397,7 +398,7 @@ def main():
         selected['extras'] += player_extras(headers)
         output.append((selected, url))
         verified_rows.append((selected, url))
-        channel_results.append({'name': row['name'], 'status': 'verified', 'source': label, 'reason': result[1]})
+        channel_results.append({'name': row['name'], 'status': 'verified', 'source': label, 'reason': result[1], 'playback_attempts': getattr(result, 'attempts', 1)})
         stats['from_' + label] += 1
     timestamp = datetime.now(timezone.utc).isoformat(timespec='seconds')
     lines = [header, '# Updated: ' + timestamp, '# Verified channels: ' + str(verified_count),
