@@ -1,0 +1,61 @@
+name: Smart IPTV Playlist Update
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 */6 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: playlist-update-main
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Regression tests
+        run: python -m unittest discover -s tests -v
+      - name: Generate and publish safely
+        env:
+          DEEP_VIDEO_CHECK: 'true'
+          APPEND_NEW_CHANNELS: 'true'
+          MAX_NEW_CHANNELS: '200'
+          MAX_CANDIDATES: '10'
+          FUZZY_THRESHOLD: '88'
+          MATCH_POOL: '8'
+          MAX_WORKERS: '16'
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git checkout -B main origin/main
+            python iptv_generator.py
+            git add playlist.m3u working_links.json update_report.txt
+            if git diff --cached --quiet; then
+              echo 'No changes'; exit 0
+            fi
+            n=$(grep -c '^#EXTINF:' playlist.m3u || true)
+            git commit -m "Smart playlist update (${n:-0} channels)"
+            if git push origin HEAD:main; then exit 0; fi
+            echo "Push conflict attempt $attempt; retrying with remote head"
+          done
+          exit 1
+      - name: Keep diagnostics even on failure
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playlist-diagnostics
+          path: update_report.txt
+          retention-days: 7
