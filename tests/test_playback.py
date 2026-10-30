@@ -12,6 +12,13 @@ import iptv_generator as g
 
 
 class HeaderTests(unittest.TestCase):
+    def test_blocked_host_never_starts_decoder(self):
+        with patch.object(v.subprocess, 'run') as run, patch.object(v.requests, 'get') as get:
+            result = v.validate_stream('http://stream.mcquack.net/live')
+        self.assertEqual(result.reason, 'blocked_domain')
+        run.assert_not_called()
+        get.assert_not_called()
+
     def test_vlc_kodi_and_url_headers(self):
         url, headers = v.target('https://example.com/live|User-Agent=Player&Referer=https%3A%2F%2Fexample.com',
                                 ['#KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fexample.org'])
