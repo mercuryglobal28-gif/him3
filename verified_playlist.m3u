@@ -36,6 +36,48 @@ https://stream8.cinerama.uz/1020/tracks-v1a1/mono.m3u8
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 https://stream8.cinerama.uz/1020/tracks-v1a1/mono.m3u8
+#EXTINF:0 tvg-id="chnl-2839" tvg-name="Россия 1 +1" tvg-logo="http://ru1.plist.link/plepg/img/channels/2839.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Россия 1 +1
+#EXTGRP:1. Федеральные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://rt-vlg-saratov-htlive.cdn.ngenix.net/hls/CH_R04_OTT_VLG_SARATOV_ROSSIA1/variant.m3u8
+#EXTINF:0 tvg-id="chnl-365" tvg-name="Россия 1 +2" tvg-logo="http://ru1.plist.link/plepg/img/channels/365.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Россия 1 +2
+#EXTGRP:1. Федеральные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1_2/variant.m3u8
+#EXTINF:0 tvg-id="chnl-366" tvg-name="Россия 1 +4" tvg-logo="http://ru1.plist.link/plepg/img/channels/366.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Россия 1 +4
+#EXTGRP:1. Федеральные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1_4/variant.m3u8
+#EXTINF:0 tvg-id="chnl-2841" tvg-name="Россия 1 +5" tvg-logo="http://ru1.plist.link/plepg/img/channels/2841.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Россия 1 +5
+#EXTGRP:1. Федеральные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R04_ROSSIA1_IRKUTSK/variant.m3u8
+#EXTINF:0 tvg-id="chnl-388" tvg-name="Россия 1 +6" tvg-logo="http://ru1.plist.link/plepg/img/channels/388.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Россия 1 +6
+#EXTGRP:1. Федеральные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1_7/variant.m3u8
+#EXTINF:0 tvg-id="chnl-2804" tvg-name="Россия 1 +7" tvg-logo="http://ru1.plist.link/plepg/img/channels/2804.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Россия 1 +7
+#EXTGRP:1. Федеральные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://s91030.cdn.ngenix.net/hls/CH_R25_OTT_DV_VLD_ROSSIA1/variant.m3u8
+#EXTINF:0 tvg-id="chnl-389" tvg-name="Россия 1 +8" tvg-logo="http://ru1.plist.link/plepg/img/channels/389.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Россия 1 +8
+#EXTGRP:1. Федеральные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://s20441.cdn.ngenix.net/hls/CH_R49_OTT_DV_MGDN_ROSSIA1/variant.m3u8
 #EXTINF:0 tvg-id="chnl-102" tvg-name="Россия-Культуpa HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/102.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Россия-Культуpa HD
 #EXTGRP:1. Федеральные
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -60,6 +102,24 @@ https://stream8.cinerama.uz/1023/tracks-v1a1/mono.m3u8
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 https://stream8.cinerama.uz/1023/tracks-v1a1/mono.m3u8
+#EXTINF:0 tvg-id="chnl-367" tvg-name="НТВ +2" tvg-logo="http://ru1.plist.link/plepg/img/channels/367.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", НТВ +2
+#EXTGRP:1. Федеральные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_2/variant.m3u8
+#EXTINF:0 tvg-id="chnl-368" tvg-name="НТВ +4" tvg-logo="http://ru1.plist.link/plepg/img/channels/368.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", НТВ +4
+#EXTGRP:1. Федеральные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_4/variant.m3u8
+#EXTINF:0 tvg-id="chnl-2805" tvg-name="НТВ +7" tvg-logo="http://ru1.plist.link/plepg/img/channels/2805.png?6ada7df81efc2" tvg-rec="0" timeshift="0" group-title="1. Федеральные", НТВ +7
+#EXTGRP:1. Федеральные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_7/variant.m3u8
 #EXTINF:0 tvg-id="chnl-5" tvg-name="ТНТ HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/5.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", ТНТ HD
 #EXTGRP:1. Федеральные
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -72,12 +132,48 @@ http://stream.mcquack.net/135/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 http://stream.mcquack.net/135/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1
+#EXTINF:0 tvg-id="chnl-369" tvg-name="ТНТ +2" tvg-logo="http://ru1.plist.link/plepg/img/channels/369.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", ТНТ +2
+#EXTGRP:1. Федеральные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_2/variant.m3u8
+#EXTINF:0 tvg-id="chnl-370" tvg-name="ТНТ +4" tvg-logo="http://ru1.plist.link/plepg/img/channels/370.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", ТНТ +4
+#EXTGRP:1. Федеральные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_4/variant.m3u8
+#EXTINF:0 tvg-id="chnl-391" tvg-name="ТНТ +7" tvg-logo="http://ru1.plist.link/plepg/img/channels/391.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", ТНТ +7
+#EXTGRP:1. Федеральные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_7/variant.m3u8
 #EXTINF:0 tvg-id="chnl-23" tvg-name="Звезда HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/23.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Звезда HD
 #EXTGRP:1. Федеральные
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 https://stream8.cinerama.uz/1050/tracks-v1a1/mono.m3u8
+#EXTINF:0 tvg-id="chnl-373" tvg-name="Звезда +2" tvg-logo="http://ru1.plist.link/plepg/img/channels/373.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Звезда +2
+#EXTGRP:1. Федеральные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA_2/variant.m3u8
+#EXTINF:0 tvg-id="chnl-406" tvg-name="Звезда +4" tvg-logo="http://ru1.plist.link/plepg/img/channels/406.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Звезда +4
+#EXTGRP:1. Федеральные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA_4/variant.m3u8
+#EXTINF:0 tvg-id="chnl-2807" tvg-name="Звезда +7" tvg-logo="http://ru1.plist.link/plepg/img/channels/2807.png?6ada7df81efc2" tvg-rec="0" timeshift="0" group-title="1. Федеральные", Звезда +7
+#EXTGRP:1. Федеральные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA_7/variant.m3u8
 #EXTINF:0 tvg-id="chnl-724" tvg-name="Звезда Плюс HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/724.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Звезда Плюс HD
 #EXTGRP:1. Федеральные
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -96,18 +192,66 @@ https://stream.smotrim.ru/hls/givc8/playlist.m3u8?entity=channel&id=798&sign=378
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 http://stream.mcquack.net/181/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1
+#EXTINF:0 tvg-id="chnl-412" tvg-name="Пятница +2" tvg-logo="http://ru1.plist.link/plepg/img/channels/412.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Пятница +2
+#EXTGRP:1. Федеральные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_FRIDAY_2/variant.m3u8
+#EXTINF:0 tvg-id="chnl-2814" tvg-name="Пятница +7" tvg-logo="http://ru1.plist.link/plepg/img/channels/2814.png?6ada7df81efc2" tvg-rec="0" timeshift="0" group-title="1. Федеральные", Пятница +7
+#EXTGRP:1. Федеральные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_FRIDAY_7/variant.m3u8
 #EXTINF:0 tvg-id="chnl-4" tvg-name="Рен ТВ HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/4.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Рен ТВ HD
 #EXTGRP:1. Федеральные
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 http://185.23.80.23:8080/REN/tracks-v1a1/mono.ts.m3u8
+#EXTINF:0 tvg-id="chnl-371" tvg-name="Рен ТВ +2" tvg-logo="http://ru1.plist.link/plepg/img/channels/371.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Рен ТВ +2
+#EXTGRP:1. Федеральные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV_2/variant.m3u8
+#EXTINF:0 tvg-id="chnl-1059" tvg-name="Рен ТВ +4" tvg-logo="http://ru1.plist.link/plepg/img/channels/1059.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Рен ТВ +4
+#EXTGRP:1. Федеральные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV_4/variant.m3u8
+#EXTINF:0 tvg-id="chnl-2809" tvg-name="Рен ТВ +7" tvg-logo="http://ru1.plist.link/plepg/img/channels/2809.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Рен ТВ +7
+#EXTGRP:1. Федеральные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV_7/variant.m3u8
 #EXTINF:0 tvg-id="chnl-68" tvg-name="Пятый Канал HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/68.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Пятый Канал HD
 #EXTGRP:1. Федеральные
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 http://31.148.5.241/kanal_5/tracks-v1a1/mono.ts.m3u8
+#EXTINF:0 tvg-id="chnl-372" tvg-name="Пятый Канал +2" tvg-logo="http://ru1.plist.link/plepg/img/channels/372.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Пятый Канал +2
+#EXTGRP:1. Федеральные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_5TV_2/variant.m3u8
+#EXTINF:0 tvg-id="chnl-395" tvg-name="Пятый Канал +4" tvg-logo="http://ru1.plist.link/plepg/img/channels/395.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Пятый Канал +4
+#EXTGRP:1. Федеральные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_5TV_4/variant.m3u8
+#EXTINF:0 tvg-id="chnl-2810" tvg-name="Пятый канал +7" tvg-logo="http://ru1.plist.link/plepg/img/channels/2810.png?6ada7df81efc2" tvg-rec="0" timeshift="0" group-title="1. Федеральные", Пятый канал +7
+#EXTGRP:1. Федеральные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_5TV_7/variant.m3u8
 #EXTINF:0 tvg-id="chnl-21" tvg-name="СТС HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/21.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", СТС HD
 #EXTGRP:1. Федеральные
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -120,12 +264,48 @@ http://tshift-1.telecoma.tv/sts/tracks-v1a1/mono.ts.m3u8
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 http://tshift-1.telecoma.tv/sts/tracks-v1a1/mono.ts.m3u8
+#EXTINF:0 tvg-id="chnl-398" tvg-name="СТС +2" tvg-logo="http://ru1.plist.link/plepg/img/channels/398.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", СТС +2
+#EXTGRP:1. Федеральные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_STS_2/variant.m3u8
+#EXTINF:0 tvg-id="chnl-399" tvg-name="СТС +4" tvg-logo="http://ru1.plist.link/plepg/img/channels/399.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", СТС +4
+#EXTGRP:1. Федеральные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_STS_4/variant.m3u8
+#EXTINF:0 tvg-id="chnl-2817" tvg-name="СТС +7" tvg-logo="http://ru1.plist.link/plepg/img/channels/2817.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", СТС +7
+#EXTGRP:1. Федеральные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_STS_7/variant.m3u8
 #EXTINF:0 tvg-id="chnl-110" tvg-name="Домашний HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/110.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Домашний HD
 #EXTGRP:1. Федеральные
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 http://stream.mcquack.net/227/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1
+#EXTINF:0 tvg-id="chnl-417" tvg-name="Домашний +2" tvg-logo="http://ru1.plist.link/plepg/img/channels/417.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Домашний +2
+#EXTGRP:1. Федеральные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNY_2/variant.m3u8
+#EXTINF:0 tvg-id="chnl-2027" tvg-name="Домашний +4" tvg-logo="http://ru1.plist.link/plepg/img/channels/2027.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Домашний +4
+#EXTGRP:1. Федеральные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY_4/variant.m3u8
+#EXTINF:0 tvg-id="chnl-2813" tvg-name="Домашний +7" tvg-logo="http://ru1.plist.link/plepg/img/channels/2813.png?6ada7df81efc2" tvg-rec="0" timeshift="0" group-title="1. Федеральные", Домашний +7
+#EXTGRP:1. Федеральные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNY_7/variant.m3u8
 #EXTINF:0 tvg-id="chnl-22" tvg-name="ТВЦ HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/22.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", ТВЦ HD
 #EXTGRP:1. Федеральные
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -138,18 +318,48 @@ https://tvc-hls.cdnvideo.ru/tvc-res/smil:vd9221.smil/2072cd4ca954c76c7aee35e73f9
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 http://flussonic.linkintel.ru/tnt4/tracks-v1a1/mono.ts.m3u8
+#EXTINF:0 tvg-id="chnl-423" tvg-name="ТНТ4 +2" tvg-logo="http://ru1.plist.link/plepg/img/channels/423.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", ТНТ4 +2
+#EXTGRP:1. Федеральные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_2/variant.m3u8
+#EXTINF:0 tvg-id="chnl-424" tvg-name="ТНТ4 +4" tvg-logo="http://ru1.plist.link/plepg/img/channels/424.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", ТНТ4 +4
+#EXTGRP:1. Федеральные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_4/variant.m3u8
+#EXTINF:0 tvg-id="chnl-2819" tvg-name="ТНТ4 +7" tvg-logo="http://ru1.plist.link/plepg/img/channels/2819.png?6ada7df81efc2" tvg-rec="0" timeshift="0" group-title="1. Федеральные", ТНТ4 +7
+#EXTGRP:1. Федеральные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_7/variant.m3u8
 #EXTINF:0 tvg-id="chnl-20055" tvg-name="Санкт-Петербург HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/20055.png?6ada7df81efc2" tvg-rec="0" timeshift="0" group-title="1. Федеральные", Санкт-Петербург HD
 #EXTGRP:1. Федеральные
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 https://stream.smotrim.ru/hls2/ext_spbtv/playlist_5.m3u8
+#EXTINF:0 tvg-id="chnl-2855" tvg-name="Пятница +4" tvg-logo="http://ru1.plist.link/plepg/img/channels/2855.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Пятница +4
+#EXTGRP:1. Федеральные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_PYATNIZZA_4/variant.m3u8
 #EXTINF:0 tvg-id="chnl-2918" tvg-name="Euronews Russian" tvg-logo="http://ru1.plist.link/plepg/img/channels/2918.png?6ada7df81f14c" tvg-rec="0" timeshift="0" group-title="2. Новостные", Euronews Russian
 #EXTGRP:2. Новостные
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 https://cdn-euronews.akamaized.net/live/eds/euronews-ru/25071/euronews-ru-avc1_250000=21-mp4a_143200_rus=2.m3u8
+#EXTINF:0 tvg-id="chnl-88" tvg-name="Дождь HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/88.png?6ada7df81f14c" tvg-rec="3" timeshift="3" group-title="2. Новостные", Дождь HD
+#EXTGRP:2. Новостные
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+https://wl.tvrain.tv/transcode/ngrp:ses_all/chunklist_b6692000.m3u8
 #EXTINF:0 tvg-id="chnl-7" tvg-name="Россия 24" tvg-logo="http://ru1.plist.link/plepg/img/channels/7.png?6ada7df81f14c" tvg-rec="1" timeshift="1" group-title="2. Новостные", Россия 24
 #EXTGRP:2. Новостные
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -168,6 +378,12 @@ http://212.5.144.156:8080/rt/tracks-v1a1/mono.m3u8
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 http://5.188.159.128:8070/mir_24/tracks-v1a1/mono.m3u8
+#EXTINF:0 tvg-id="chnl-528" tvg-name="Настоящее время" tvg-logo="http://ru1.plist.link/plepg/img/channels/528.png?6ada7df81f14c" tvg-rec="0" timeshift="0" group-title="2. Новостные", Настоящее время
+#EXTGRP:2. Новостные
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+https://rferl-ingest.akamaized.net/hls/live/2121657/tvmc05/playlist_1080.m3u8
 #EXTINF:0 tvg-id="chnl-509" tvg-name="Известия HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/509.png?6ada7df81f14c" tvg-rec="0" timeshift="0" group-title="2. Новостные", Известия HD
 #EXTGRP:2. Новостные
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -378,6 +594,24 @@ http://176.118.197.101/KinoTvHD/tracks-v1a1/mono.ts.m3u8
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 http://178.124.179.122:8080/TB-3/tracks-v1a1/mono.m3u8
+#EXTINF:0 tvg-id="chnl-409" tvg-name="ТВ-3 +2" tvg-logo="http://ru1.plist.link/plepg/img/channels/409.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", ТВ-3 +2
+#EXTGRP:3. Кино
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TV3_2/variant.m3u8
+#EXTINF:0 tvg-id="chnl-410" tvg-name="ТВ-3 +4" tvg-logo="http://ru1.plist.link/plepg/img/channels/410.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", ТВ-3 +4
+#EXTGRP:3. Кино
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TV3_4/variant.m3u8
+#EXTINF:0 tvg-id="chnl-2816" tvg-name="ТВ-3 +7" tvg-logo="http://ru1.plist.link/plepg/img/channels/2816.png?6ada7df81f19e" tvg-rec="0" timeshift="0" group-title="3. Кино", ТВ-3 +7
+#EXTGRP:3. Кино
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TV3_7/variant.m3u8
 #EXTINF:0 tvg-id="chnl-80" tvg-name="Дом Кино Премиум HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/80.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", Дом Кино Премиум HD
 #EXTGRP:3. Кино
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -396,6 +630,12 @@ http://stream.mcquack.net/236/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 http://stream.mcquack.net/421/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1
+#EXTINF:0 tvg-id="chnl-98" tvg-name="Романтичное HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/98.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", Романтичное HD
+#EXTGRP:3. Кино
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+http://stream-msk-05.ott.tricolor.tv/dtv/id496_MSKSG-PVR-1--Romantichnoe/03/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NjIxOTAwODYwMjk2MyIsImV4cCI6MTc5MzM5OTU4NiwiaHdpZCI6IjRjYzRkODliOGI2ODIxZTZhZGM5NDdiZGRlMmRkMmQ2MDM3MjYzMTM3ODFhODk2Nzc4MGNjMDI2YzRhZmE0ZDUiLCJsYXN0X3JlcV9kYXRlIjoxNzkyNzk0Nzg2LCJzZXNzaW9uX2lkIjoiYmYxYmNjNTRmMzNiNDMxNTk3M2M1Y2UzYjExZDI2MWQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.zLCqoHLKrXtGToj6NJK1DKvfzPrjvrZQaD98qAi_z08
 #EXTINF:0 tvg-id="chnl-134" tvg-name="Шокирующее HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/134.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", Шокирующее HD
 #EXTGRP:3. Кино
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -420,6 +660,12 @@ http://stream.mcquack.net/74/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 http://stream.mcquack.net/213/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1
+#EXTINF:0 tvg-id="chnl-2127" tvg-name="Криминальное HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/2127.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", Криминальное HD
+#EXTGRP:3. Кино
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+http://stream-msk-12.ott.tricolor.tv/dtv/id871_MSKSG-PVR-1--Kriminalnoe_HD/01/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NjIxOTAwODYwMjk2MyIsImV4cCI6MTc5MzM5OTU4NiwiaHdpZCI6IjRjYzRkODliOGI2ODIxZTZhZGM5NDdiZGRlMmRkMmQ2MDM3MjYzMTM3ODFhODk2Nzc4MGNjMDI2YzRhZmE0ZDUiLCJsYXN0X3JlcV9kYXRlIjoxNzkyNzk0Nzg2LCJzZXNzaW9uX2lkIjoiYmYxYmNjNTRmMzNiNDMxNTk3M2M1Y2UzYjExZDI2MWQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.zLCqoHLKrXtGToj6NJK1DKvfzPrjvrZQaD98qAi_z08
 #EXTINF:0 tvg-id="chnl-115" tvg-name="Русский бестселлер" tvg-logo="http://ru1.plist.link/plepg/img/channels/115.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", Русский бестселлер
 #EXTGRP:3. Кино
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -491,7 +737,7 @@ http://stream.mcquack.net/362/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
-http://46.53.200.153:7777/play/SRT_Nash_kinopokaz/26507791.m3u8
+http://46.53.200.153:7777/play/SRT_Nash_kinopokaz/33263642.m3u8
 #EXTINF:0 tvg-id="chnl-464" tvg-name=".Sci-Fi HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/464.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", .Sci-Fi HD
 #EXTGRP:3. Кино
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -534,6 +780,12 @@ http://stream.mcquack.net/191/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 https://stream8.cinerama.uz/1273/tracks-v1a1/mono.m3u8
+#EXTINF:0 tvg-id="chnl-543" tvg-name="Тайна" tvg-logo="http://ru1.plist.link/plepg/img/channels/543.png?6ada7df81f19e" tvg-rec="0" timeshift="0" group-title="3. Кино", Тайна
+#EXTGRP:3. Кино
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+https://river-3-3103.rtbcdn.ru/stream/genetta-417.ntv.rutube.ru/AdKUL64fhC_RSPVlupqhlw/1793964066/a11c890a0ec0730ad33bdaaf2d244e1a/360p_stream.m3u8
 #EXTINF:0 tvg-id="chnl-585" tvg-name="Star Family HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/585.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", Star Family HD
 #EXTGRP:3. Кино
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -552,12 +804,24 @@ http://stream.mcquack.net/364/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 http://stream.mcquack.net/363/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1
+#EXTINF:0 tvg-id="chnl-730" tvg-name="Trash HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/730.png?6ada7df81f19e" tvg-rec="0" timeshift="0" group-title="3. Кино", Trash HD
+#EXTGRP:3. Кино
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+http://5.188.159.128:8070/Trash_HD/tracks-v1a1/mono.m3u8
 #EXTINF:0 tvg-id="chnl-2077" tvg-name="Сапфир HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/2077.png?6ada7df81f19e" tvg-rec="0" timeshift="0" group-title="3. Кино", Сапфир HD
 #EXTGRP:3. Кино
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
-http://46.53.200.153:7777/play/Sapfir_HD/66827381.m3u8
+http://46.53.200.153:7777/play/Sapfir_HD/84088776.m3u8
+#EXTINF:0 tvg-id="chnl-1254" tvg-name="MM Приключения HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1254.png?6ada7df81f35f" tvg-rec="0" timeshift="0" group-title="4. Кинозалы", MM Приключения HD
+#EXTGRP:4. Кинозалы
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+http://stream-msk-04.ott.tricolor.tv/dtv/id158_MSKSG-PVR-1--HD_Teletr/03/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NjIxOTAwODYwMjk2MyIsImV4cCI6MTc5MzM5OTU4NiwiaHdpZCI6IjRjYzRkODliOGI2ODIxZTZhZGM5NDdiZGRlMmRkMmQ2MDM3MjYzMTM3ODFhODk2Nzc4MGNjMDI2YzRhZmE0ZDUiLCJsYXN0X3JlcV9kYXRlIjoxNzkyNzk0Nzg2LCJzZXNzaW9uX2lkIjoiYmYxYmNjNTRmMzNiNDMxNTk3M2M1Y2UzYjExZDI2MWQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.zLCqoHLKrXtGToj6NJK1DKvfzPrjvrZQaD98qAi_z08
 #EXTINF:0 tvg-id="chnl-558" tvg-name="Cinema UHD" tvg-logo="http://ru1.plist.link/plepg/img/channels/558.png?6ada7df81f587" tvg-rec="3" timeshift="3" group-title="5. UHD", Cinema UHD
 #EXTGRP:5. UHD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -587,7 +851,13 @@ http://88.212.7.14/live/test_home_uhd_tizen/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
-http://46.53.200.153:7777/play/test_krask1/25099477.m3u8
+http://46.53.200.153:7777/play/test_krask1/48644985.m3u8
+#EXTINF:0 tvg-id="chnl-44" tvg-name="Детский мир" tvg-logo="http://ru1.plist.link/plepg/img/channels/44.png?6ada7df81f5bb" tvg-rec="3" timeshift="3" group-title="6. Детские", Детский мир
+#EXTGRP:6. Детские
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+http://80.245.95.243:8888/play/ert4862/82412023.m3u8
 #EXTINF:0 tvg-id="chnl-45" tvg-name="Мульт HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/45.png?6ada7df81f5bb" tvg-rec="3" timeshift="3" group-title="6. Детские", Мульт HD
 #EXTGRP:6. Детские
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -600,12 +870,54 @@ http://stream.mcquack.net/232/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 http://185.37.150.46/Karusel/tracks-v1a1/mono.ts.m3u8
+#EXTINF:0 tvg-id="chnl-480" tvg-name="Карусель +2" tvg-logo="http://ru1.plist.link/plepg/img/channels/480.png?6ada7df81f5bb" tvg-rec="0" timeshift="0" group-title="6. Детские", Карусель +2
+#EXTGRP:6. Детские
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL_2/variant.m3u8
+#EXTINF:0 tvg-id="chnl-481" tvg-name="Карусель +4" tvg-logo="http://ru1.plist.link/plepg/img/channels/481.png?6ada7df81f5bb" tvg-rec="0" timeshift="0" group-title="6. Детские", Карусель +4
+#EXTGRP:6. Детские
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL_4/variant.m3u8
+#EXTINF:0 tvg-id="chnl-2811" tvg-name="Карусель +7" tvg-logo="http://ru1.plist.link/plepg/img/channels/2811.png?6ada7df81f5bb" tvg-rec="0" timeshift="0" group-title="6. Детские", Карусель +7
+#EXTGRP:6. Детские
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL_7/variant.m3u8
 #EXTINF:0 tvg-id="chnl-41" tvg-name="Солнце" tvg-logo="http://ru1.plist.link/plepg/img/channels/41.png?6ada7df81f5bb" tvg-rec="3" timeshift="3" group-title="6. Детские", Солнце
 #EXTGRP:6. Детские
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 http://217.114.191.150/Solnce/tracks-v1a1/mono.m3u8
+#EXTINF:0 tvg-id="chnl-2821" tvg-name="Солнце +2" tvg-logo="http://ru1.plist.link/plepg/img/channels/2821.png?6ada7df81f5bb" tvg-rec="3" timeshift="3" group-title="6. Детские", Солнце +2
+#EXTGRP:6. Детские
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY_2/variant.m3u8
+#EXTINF:0 tvg-id="chnl-2822" tvg-name="Солнце +4" tvg-logo="http://ru1.plist.link/plepg/img/channels/2822.png?6ada7df81f5bb" tvg-rec="3" timeshift="3" group-title="6. Детские", Солнце +4
+#EXTGRP:6. Детские
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY_4/variant.m3u8
+#EXTINF:0 tvg-id="chnl-2823" tvg-name="Солнце +7" tvg-logo="http://ru1.plist.link/plepg/img/channels/2823.png?6ada7df81f5bb" tvg-rec="3" timeshift="3" group-title="6. Детские", Солнце +7
+#EXTGRP:6. Детские
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY_7/variant.m3u8
+#EXTINF:0 tvg-id="chnl-81" tvg-name="Cartoon Network" tvg-logo="http://ru1.plist.link/plepg/img/channels/81.png?6ada7df81f5bb" tvg-rec="3" timeshift="3" group-title="6. Детские", Cartoon Network
+#EXTGRP:6. Детские
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+http://80.245.95.243:8888/play/qwe9877/78691270.m3u8
 #EXTINF:0 tvg-id="chnl-479" tvg-name="Nickelodeon HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/479.png?6ada7df81f5bb" tvg-rec="0" timeshift="0" group-title="6. Детские", Nickelodeon HD
 #EXTGRP:6. Детские
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -696,6 +1008,36 @@ http://stream.mcquack.net/144/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 https://live20.bozztv.com/giatvplayout7/giatv-208314/tracks-v1a1/mono.ts.m3u8
+#EXTINF:0 tvg-id="chnl-39" tvg-name="Eurosport 1 HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/39.png?6ada7df81f693" tvg-rec="3" timeshift="3" group-title="7. Спорт", Eurosport 1 HD
+#EXTGRP:7. Спорт
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+http://5.188.159.128:8070/eurosport1/tracks-v1a1/mono.m3u8
+#EXTINF:0 tvg-id="chnl-71" tvg-name="Eurosport 2 HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/71.png?6ada7df81f693" tvg-rec="3" timeshift="3" group-title="7. Спорт", Eurosport 2 HD
+#EXTGRP:7. Спорт
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+http://5.188.159.128:8070/eurosport2/tracks-v1a1/mono.m3u8
+#EXTINF:0 tvg-id="chnl-57" tvg-name="Матч! HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/57.png?6ada7df81f693" tvg-rec="3" timeshift="3" group-title="7. Спорт", Матч! HD
+#EXTGRP:7. Спорт
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+https://edge04p.mediavitrina.ru/hls-livef5/matchtv/tracks-v1a1/mono.ts.m3u8?token=v2.ncTyRhDLvg78VsqQuhq7ENq08ChUnC-6IGgfod1zYaA.f88jnr2_YA0dll7HMdNkAODb2NJCRaEtYaj53XepKQc.1793907489.81cd4cc5e7c8c122c57033bd3733b98e
+#EXTINF:0 tvg-id="chnl-609" tvg-name="Матч! HD (Дубль)" tvg-logo="http://ru1.plist.link/plepg/img/channels/609.png?6ada7df81f693" tvg-rec="0" timeshift="0" group-title="7. Спорт", Матч! HD (Дубль)
+#EXTGRP:7. Спорт
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+https://edge04p.mediavitrina.ru/hls-livef5/matchtv/tracks-v1a1/mono.ts.m3u8?token=v2.ncTyRhDLvg78VsqQuhq7ENq08ChUnC-6IGgfod1zYaA.f88jnr2_YA0dll7HMdNkAODb2NJCRaEtYaj53XepKQc.1793907489.81cd4cc5e7c8c122c57033bd3733b98e
+#EXTINF:0 tvg-id="chnl-2126" tvg-name="Матч! SD" tvg-logo="http://ru1.plist.link/plepg/img/channels/2126.png?6ada7df81f693" tvg-rec="0" timeshift="0" group-title="7. Спорт", Матч! SD
+#EXTGRP:7. Спорт
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+https://edge04p.mediavitrina.ru/hls-livef5/matchtv/tracks-v1a1/mono.ts.m3u8?token=v2.ncTyRhDLvg78VsqQuhq7ENq08ChUnC-6IGgfod1zYaA.f88jnr2_YA0dll7HMdNkAODb2NJCRaEtYaj53XepKQc.1793907489.81cd4cc5e7c8c122c57033bd3733b98e
 #EXTINF:0 tvg-id="chnl-135" tvg-name="Матч! Премьер HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/135.png?6ada7df81f693" tvg-rec="3" timeshift="3" group-title="7. Спорт", Матч! Премьер HD
 #EXTGRP:7. Спорт
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -714,6 +1056,42 @@ http://185.23.80.23:8080/MATCH_PREMIER/tracks-v1a1/mono.ts.m3u8
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 http://185.23.80.23:8080/MATCH_PREMIER/tracks-v1a1/mono.ts.m3u8
+#EXTINF:0 tvg-id="chnl-61" tvg-name="Матч! Футбол 1 HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/61.png?6ada7df81f693" tvg-rec="3" timeshift="3" group-title="7. Спорт", Матч! Футбол 1 HD
+#EXTGRP:7. Спорт
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+http://31.148.5.241/Match_Football_1_HD/tracks-v1a1/mono.ts.m3u8
+#EXTINF:0 tvg-id="chnl-2123" tvg-name="Матч! Футбол 1 SD" tvg-logo="http://ru1.plist.link/plepg/img/channels/2123.png?6ada7df81f693" tvg-rec="0" timeshift="0" group-title="7. Спорт", Матч! Футбол 1 SD
+#EXTGRP:7. Спорт
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+http://31.148.5.241/Match_Football_1_HD/tracks-v1a1/mono.ts.m3u8
+#EXTINF:0 tvg-id="chnl-62" tvg-name="Матч! Футбол 2 HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/62.png?6ada7df81f693" tvg-rec="3" timeshift="3" group-title="7. Спорт", Матч! Футбол 2 HD
+#EXTGRP:7. Спорт
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+http://31.148.5.241/Match_Football_2_HD/tracks-v1a1/mono.ts.m3u8
+#EXTINF:0 tvg-id="chnl-2124" tvg-name="Матч! Футбол 2 SD" tvg-logo="http://ru1.plist.link/plepg/img/channels/2124.png?6ada7df81f693" tvg-rec="0" timeshift="0" group-title="7. Спорт", Матч! Футбол 2 SD
+#EXTGRP:7. Спорт
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+http://31.148.5.241/Match_Football_2_HD/tracks-v1a1/mono.ts.m3u8
+#EXTINF:0 tvg-id="chnl-63" tvg-name="Матч! Футбол 3 HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/63.png?6ada7df81f693" tvg-rec="3" timeshift="3" group-title="7. Спорт", Матч! Футбол 3 HD
+#EXTGRP:7. Спорт
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+http://31.148.5.241/Match_Football_3_HD/tracks-v1a1/mono.ts.m3u8
+#EXTINF:0 tvg-id="chnl-2125" tvg-name="Матч! Футбол 3 SD" tvg-logo="http://ru1.plist.link/plepg/img/channels/2125.png?6ada7df81f693" tvg-rec="0" timeshift="0" group-title="7. Спорт", Матч! Футбол 3 SD
+#EXTGRP:7. Спорт
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+http://31.148.5.241/Match_Football_3_HD/tracks-v1a1/mono.ts.m3u8
 #EXTINF:0 tvg-id="chnl-56" tvg-name="Матч! Игра HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/56.png?6ada7df81f693" tvg-rec="3" timeshift="3" group-title="7. Спорт", Матч! Игра HD
 #EXTGRP:7. Спорт
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -762,6 +1140,18 @@ http://stream.mcquack.net/112/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 http://stream.mcquack.net/112/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1
+#EXTINF:0 tvg-id="chnl-1702" tvg-name="Футбол HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1702.png?6ada7df81f693" tvg-rec="0" timeshift="0" group-title="7. Спорт", Футбол HD
+#EXTGRP:7. Спорт
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+http://195.64.140.147:10107/107
+#EXTINF:0 tvg-id="chnl-1720" tvg-name="Футбол SD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1720.png?6ada7df81f693" tvg-rec="0" timeshift="0" group-title="7. Спорт", Футбол SD
+#EXTGRP:7. Спорт
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+http://195.64.140.147:10107/107
 #EXTINF:0 tvg-id="chnl-34" tvg-name="Кхл HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/34.png?6ada7df81f693" tvg-rec="3" timeshift="3" group-title="7. Спорт", Кхл HD
 #EXTGRP:7. Спорт
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -798,6 +1188,12 @@ https://stream8.cinerama.uz/1031/tracks-v1a1/mono.m3u8
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 http://stream.mcquack.net/333/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1
+#EXTINF:0 tvg-id="chnl-662" tvg-name="Старт HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/662.png?6ada7df81f693" tvg-rec="3" timeshift="3" group-title="7. Спорт", Старт HD
+#EXTGRP:7. Спорт
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+http://stream-msk-13.ott.tricolor.tv/dtv/id625_MSKSG-PVR-1--Start/04/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NjIxOTAwODYwMjk2MyIsImV4cCI6MTc5MzM5OTU4NiwiaHdpZCI6IjRjYzRkODliOGI2ODIxZTZhZGM5NDdiZGRlMmRkMmQ2MDM3MjYzMTM3ODFhODk2Nzc4MGNjMDI2YzRhZmE0ZDUiLCJsYXN0X3JlcV9kYXRlIjoxNzkyNzk0Nzg2LCJzZXNzaW9uX2lkIjoiYmYxYmNjNTRmMzNiNDMxNTk3M2M1Y2UzYjExZDI2MWQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.zLCqoHLKrXtGToj6NJK1DKvfzPrjvrZQaD98qAi_z08
 #EXTINF:0 tvg-id="chnl-688" tvg-name="US | ACC  Network" tvg-logo="http://ru1.plist.link/plepg/img/channels/688.png?6ada7df81f693" tvg-rec="0" timeshift="0" group-title="7. Спорт", US | ACC  Network
 #EXTGRP:7. Спорт
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -822,6 +1218,12 @@ https://bein-xtra-bein.amagi.tv/playlistR240p.m3u8
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 http://23.237.104.106:8080/USA_YES_NETWORK/tracks-v1a1/mono.m3u8
+#EXTINF:0 tvg-id="chnl-1880" tvg-name="Живи Активно HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1880.png?6ada7df81f693" tvg-rec="3" timeshift="3" group-title="7. Спорт", Живи Активно HD
+#EXTGRP:7. Спорт
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+https://flussonic.mkpnet.ru/tv-fa810958620d77d8/tracks-v1a1/mono.ts.m3u8
 #EXTINF:0 tvg-id="chnl-2338" tvg-name="US | Golf channel" tvg-logo="http://ru1.plist.link/plepg/img/channels/2338.png?6ada7df81f693" tvg-rec="0" timeshift="0" group-title="7. Спорт", US | Golf channel
 #EXTGRP:7. Спорт
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -870,6 +1272,12 @@ http://213.91.179.28:8000/play/a05n
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 http://178.124.179.122:8080/Setanta1/tracks-v1a1/mono.m3u8
+#EXTINF:0 tvg-id="chnl-20064" tvg-name="Мяч HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/20064.png?6ada7df81f693" tvg-rec="0" timeshift="0" group-title="7. Спорт", Мяч HD
+#EXTGRP:7. Спорт
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+https://stream-msk-08.ottgoods.ru/dtv/id734_MSKSG-PVR-1--Futbolnyy_HD/04/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NjIxOTAwODYwMjk2MyIsImV4cCI6MTc5MzM5OTU4NiwiaHdpZCI6IjRjYzRkODliOGI2ODIxZTZhZGM5NDdiZGRlMmRkMmQ2MDM3MjYzMTM3ODFhODk2Nzc4MGNjMDI2YzRhZmE0ZDUiLCJsYXN0X3JlcV9kYXRlIjoxNzkyNzk0Nzg2LCJzZXNzaW9uX2lkIjoiYmYxYmNjNTRmMzNiNDMxNTk3M2M1Y2UzYjExZDI2MWQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.zLCqoHLKrXtGToj6NJK1DKvfzPrjvrZQaD98qAi_z08
 #EXTINF:0 tvg-id="chnl-3155" tvg-name="US | Big Ten Network" tvg-logo="http://ru1.plist.link/plepg/img/channels/3155.png?6ada7df81f693" tvg-rec="0" timeshift="0" group-title="7. Спорт", US | Big Ten Network
 #EXTGRP:7. Спорт
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -923,7 +1331,7 @@ https://nhl-firetv.amagi.tv/playlist240p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
-https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_013/Stream/live13_1/low/chunks.m3u8?nimblesessionid=1942587713
+https://stream-msk-14.ott.tricolor.tv:443/dtv/id610_MSKSG-PVR-1--Bridge/04/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NjIxOTAwODYwMjk2MyIsImV4cCI6MTc5MzM5OTU4NiwiaHdpZCI6IjRjYzRkODliOGI2ODIxZTZhZGM5NDdiZGRlMmRkMmQ2MDM3MjYzMTM3ODFhODk2Nzc4MGNjMDI2YzRhZmE0ZDUiLCJsYXN0X3JlcV9kYXRlIjoxNzkyNzk0Nzg2LCJzZXNzaW9uX2lkIjoiYmYxYmNjNTRmMzNiNDMxNTk3M2M1Y2UzYjExZDI2MWQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.zLCqoHLKrXtGToj6NJK1DKvfzPrjvrZQaD98qAi_z08
 #EXTINF:0 tvg-id="chnl-493" tvg-name="Bridge TV Hits" tvg-logo="http://ru1.plist.link/plepg/img/channels/493.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Bridge TV Hits
 #EXTGRP:8. Музыкальные
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -948,6 +1356,12 @@ http://stream.mcquack.net/272/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 http://178.134.1.158:8081/BRIDGEROCK/tracks-v1a1/mono.m3u8
+#EXTINF:0 tvg-id="chnl-494" tvg-name="Bridge TV Русский хит" tvg-logo="http://ru1.plist.link/plepg/img/channels/494.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Bridge TV Русский хит
+#EXTGRP:8. Музыкальные
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+https://stream-msk-06.ott.tricolor.tv:443/dtv/id617_MSKSG-PVR-1--BRIDGE_TV_Russkiy_hit/04/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NjIxOTAwODYwMjk2MyIsImV4cCI6MTc5MzM5OTU4NiwiaHdpZCI6IjRjYzRkODliOGI2ODIxZTZhZGM5NDdiZGRlMmRkMmQ2MDM3MjYzMTM3ODFhODk2Nzc4MGNjMDI2YzRhZmE0ZDUiLCJsYXN0X3JlcV9kYXRlIjoxNzkyNzk0Nzg2LCJzZXNzaW9uX2lkIjoiYmYxYmNjNTRmMzNiNDMxNTk3M2M1Y2UzYjExZDI2MWQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.zLCqoHLKrXtGToj6NJK1DKvfzPrjvrZQaD98qAi_z08
 #EXTINF:0 tvg-id="chnl-30" tvg-name="MTV" tvg-logo="http://ru1.plist.link/plepg/img/channels/30.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", MTV
 #EXTGRP:8. Музыкальные
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -990,12 +1404,24 @@ https://lotus.stingray.com/manifest/djazz-djaads-montreal/samsungtvplus/73e02e1d
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 http://stream.mcquack.net/303/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1
+#EXTINF:0 tvg-id="chnl-529" tvg-name="Жара HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/529.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Жара HD
+#EXTGRP:8. Музыкальные
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+https://stream-msk-14.ott.tricolor.tv/dtv/id389_MSKSG-PVR-1--Zhara/04/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NjIxOTAwODYwMjk2MyIsImV4cCI6MTc5MzM5OTU4NiwiaHdpZCI6IjRjYzRkODliOGI2ODIxZTZhZGM5NDdiZGRlMmRkMmQ2MDM3MjYzMTM3ODFhODk2Nzc4MGNjMDI2YzRhZmE0ZDUiLCJsYXN0X3JlcV9kYXRlIjoxNzkyNzk0Nzg2LCJzZXNzaW9uX2lkIjoiYmYxYmNjNTRmMzNiNDMxNTk3M2M1Y2UzYjExZDI2MWQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.zLCqoHLKrXtGToj6NJK1DKvfzPrjvrZQaD98qAi_z08
 #EXTINF:0 tvg-id="chnl-555" tvg-name="Russian MusicBox HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/555.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Russian MusicBox HD
 #EXTGRP:8. Музыкальные
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 http://stream.mcquack.net/319/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1
+#EXTINF:0 tvg-id="chnl-650" tvg-name="Music Box Gold" tvg-logo="http://ru1.plist.link/plepg/img/channels/650.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Music Box Gold
+#EXTGRP:8. Музыкальные
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+https://stream-msk-10.ott.tricolor.tv/dtv/id901_MSKSG-PVR-1--Music_Box_GOLD/04/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NjIxOTAwODYwMjk2MyIsImV4cCI6MTc5MzM5OTU4NiwiaHdpZCI6IjRjYzRkODliOGI2ODIxZTZhZGM5NDdiZGRlMmRkMmQ2MDM3MjYzMTM3ODFhODk2Nzc4MGNjMDI2YzRhZmE0ZDUiLCJsYXN0X3JlcV9kYXRlIjoxNzkyNzk0Nzg2LCJzZXNzaW9uX2lkIjoiYmYxYmNjNTRmMzNiNDMxNTk3M2M1Y2UzYjExZDI2MWQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.zLCqoHLKrXtGToj6NJK1DKvfzPrjvrZQaD98qAi_z08
 #EXTINF:0 tvg-id="chnl-615" tvg-name="Музыка Первого" tvg-logo="http://ru1.plist.link/plepg/img/channels/615.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Музыка Первого
 #EXTGRP:8. Музыкальные
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -1008,6 +1434,12 @@ http://stream.mcquack.net/153/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 https://stream8.cinerama.uz/1272/tracks-v1a1/mono.m3u8
+#EXTINF:0 tvg-id="chnl-661" tvg-name="AIVA HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/661.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", AIVA HD
+#EXTGRP:8. Музыкальные
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+https://stream-msk-11.ott.tricolor.tv/dtv/id935_MSKSG-PVR-1--AIVA_HD/04/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NjIxOTAwODYwMjk2MyIsImV4cCI6MTc5MzM5OTU4NiwiaHdpZCI6IjRjYzRkODliOGI2ODIxZTZhZGM5NDdiZGRlMmRkMmQ2MDM3MjYzMTM3ODFhODk2Nzc4MGNjMDI2YzRhZmE0ZDUiLCJsYXN0X3JlcV9kYXRlIjoxNzkyNzk0Nzg2LCJzZXNzaW9uX2lkIjoiYmYxYmNjNTRmMzNiNDMxNTk3M2M1Y2UzYjExZDI2MWQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.zLCqoHLKrXtGToj6NJK1DKvfzPrjvrZQaD98qAi_z08
 #EXTINF:0 tvg-id="chnl-715" tvg-name="Europa Plus TV HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/715.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Europa Plus TV HD
 #EXTGRP:8. Музыкальные
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -1170,6 +1602,24 @@ https://channels.trace.plus/Traceprod/KITOKO.m3u8
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 https://channels.trace.plus/Traceprod/MZIKI.m3u8
+#EXTINF:0 tvg-id="chnl-2843" tvg-name="Муз ТВ +7" tvg-logo="http://ru1.plist.link/plepg/img/channels/2843.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Муз ТВ +7
+#EXTGRP:8. Музыкальные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_7/variant.m3u8
+#EXTINF:0 tvg-id="chnl-2858" tvg-name="Муз ТВ +4" tvg-logo="http://ru1.plist.link/plepg/img/channels/2858.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Муз ТВ +4
+#EXTGRP:8. Музыкальные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_4/variant.m3u8
+#EXTINF:0 tvg-id="chnl-2859" tvg-name="Муз ТВ +2" tvg-logo="http://ru1.plist.link/plepg/img/channels/2859.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Муз ТВ +2
+#EXTGRP:8. Музыкальные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_2/variant.m3u8
 #EXTINF:0 tvg-id="chnl-123" tvg-name="Discovery Channel HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/123.png?6ada7df81fb30" tvg-rec="3" timeshift="3" group-title="9. Образовательные", Discovery Channel HD
 #EXTGRP:9. Образовательные
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -1206,6 +1656,12 @@ http://stream.mcquack.net/124/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 http://stream.mcquack.net/198/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1
+#EXTINF:0 tvg-id="chnl-327" tvg-name="Оружие" tvg-logo="http://ru1.plist.link/plepg/img/channels/327.png?6ada7df81fb30" tvg-rec="2" timeshift="2" group-title="9. Образовательные", Оружие
+#EXTGRP:9. Образовательные
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+http://stream-msk-06.ottgoods.ru:80/dtv/id369_MSKSG-PVR-1--Oruzhie/01/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NjIxOTAwODYwMjk2MyIsImV4cCI6MTc5MzM5OTU4NiwiaHdpZCI6IjRjYzRkODliOGI2ODIxZTZhZGM5NDdiZGRlMmRkMmQ2MDM3MjYzMTM3ODFhODk2Nzc4MGNjMDI2YzRhZmE0ZDUiLCJsYXN0X3JlcV9kYXRlIjoxNzkyNzk0Nzg2LCJzZXNzaW9uX2lkIjoiYmYxYmNjNTRmMzNiNDMxNTk3M2M1Y2UzYjExZDI2MWQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.zLCqoHLKrXtGToj6NJK1DKvfzPrjvrZQaD98qAi_z08
 #EXTINF:0 tvg-id="chnl-126" tvg-name="Viju History HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/126.png?6ada7df81fb30" tvg-rec="3" timeshift="3" group-title="9. Образовательные", Viju History HD
 #EXTGRP:9. Образовательные
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -1314,6 +1770,12 @@ http://stream.mcquack.net/141/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 http://185.23.80.23:8080/NeizvestnayaRossia/index.m3u8
+#EXTINF:0 tvg-id="chnl-47" tvg-name="Nat Geo Wild HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/47.png?6ada7df81fbea" tvg-rec="3" timeshift="3" group-title="10. Природа", Nat Geo Wild HD
+#EXTGRP:10. Природа
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+https://river-3-3124.rtbcdn.ru/stream/genetta-405.ntv.rutube.ru/0s_S4v1x2V9_4pUXXjAv5w/1793964096/c11af26c0ab831ce6c37a4888056479b/360p_stream.m3u8
 #EXTINF:0 tvg-id="chnl-124" tvg-name="Animal Planet HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/124.png?6ada7df81fbea" tvg-rec="3" timeshift="3" group-title="10. Природа", Animal Planet HD
 #EXTGRP:10. Природа
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -1392,6 +1854,18 @@ http://stream.mcquack.net/211/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 http://185.57.68.33/40/tracks-v1a1/mono.ts.m3u8
+#EXTINF:0 tvg-id="chnl-97" tvg-name="Dorcel HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/97.png?6ada7df81fc65" tvg-rec="0" timeshift="0" group-title="11. Клубничка", Dorcel HD
+#EXTGRP:11. Клубничка
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F43.0.0.0+Safari%2F537.36
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F43.0.0.0+Safari%2F537.36
+http://88.212.7.11/live/test_dorcel_hd_hevc/playlist.m3u8
+#EXTINF:0 tvg-id="chnl-826" tvg-name="Babes TV HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/826.png?6ada7df81fc65" tvg-rec="0" timeshift="0" group-title="11. Клубничка", Babes TV HD
+#EXTGRP:11. Клубничка
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F43.0.0.0+Safari%2F537.36
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F43.0.0.0+Safari%2F537.36
+http://88.212.7.11/live/test_basbes_hd_hevc/playlist.m3u8
 #EXTINF:0 tvg-id="chnl-11" tvg-name="Viju Explore HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/11.png?6ada7df81fc9a" tvg-rec="3" timeshift="3" group-title="12. Разное", Viju Explore HD
 #EXTGRP:12. Разное
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -1422,12 +1896,48 @@ https://streaming.astrakhan.ru/proastrakhanhd/tracks-v2a1/mono.ts.m3u8
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 https://river-3-3120.rtbcdn.ru/stream/genetta-318.m9.rutube.ru/X_jGQSC66OycV-8TE37hEw/1793958991/392b4686b770bae2da6bf5ac4574add5/360p_stream.m3u8
+#EXTINF:0 tvg-id="chnl-2830" tvg-name="2x2 +2" tvg-logo="http://ru1.plist.link/plepg/img/channels/2830.png?6ada7df81fc9a" tvg-rec="0" timeshift="0" group-title="12. Разное", 2x2 +2
+#EXTGRP:12. Разное
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_2X2_2/variant.m3u8
+#EXTINF:0 tvg-id="chnl-2831" tvg-name="2x2 +4" tvg-logo="http://ru1.plist.link/plepg/img/channels/2831.png?6ada7df81fc9a" tvg-rec="0" timeshift="0" group-title="12. Разное", 2x2 +4
+#EXTGRP:12. Разное
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_2X2_4/variant.m3u8
+#EXTINF:0 tvg-id="chnl-2832" tvg-name="2x2 +7" tvg-logo="http://ru1.plist.link/plepg/img/channels/2832.png?6ada7df81fc9a" tvg-rec="0" timeshift="0" group-title="12. Разное", 2x2 +7
+#EXTGRP:12. Разное
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_2X2_7/variant.m3u8
 #EXTINF:0 tvg-id="chnl-729" tvg-name="Мир HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/729.png?6ada7df81fc9a" tvg-rec="3" timeshift="3" group-title="12. Разное", Мир HD
 #EXTGRP:12. Разное
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 http://45.153.24.78/MIR/tracks-v1a1/mono.ts.m3u8
+#EXTINF:0 tvg-id="chnl-403" tvg-name="Мир +2" tvg-logo="http://ru1.plist.link/plepg/img/channels/403.png?6ada7df81fc9a" tvg-rec="0" timeshift="0" group-title="12. Разное", Мир +2
+#EXTGRP:12. Разное
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_MIR_2/variant.m3u8
+#EXTINF:0 tvg-id="chnl-404" tvg-name="Мир +4" tvg-logo="http://ru1.plist.link/plepg/img/channels/404.png?6ada7df81fc9a" tvg-rec="0" timeshift="0" group-title="12. Разное", Мир +4
+#EXTGRP:12. Разное
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_MIR_4/variant.m3u8
+#EXTINF:0 tvg-id="chnl-2818" tvg-name="Мир +7" tvg-logo="http://ru1.plist.link/plepg/img/channels/2818.png?6ada7df81fc9a" tvg-rec="0" timeshift="0" group-title="12. Разное", Мир +7
+#EXTGRP:12. Разное
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_MIR_7/variant.m3u8
 #EXTINF:0 tvg-id="chnl-106" tvg-name="Квн ТВ" tvg-logo="http://ru1.plist.link/plepg/img/channels/106.png?6ada7df81fc9a" tvg-rec="0" timeshift="0" group-title="12. Разное", Квн ТВ
 #EXTGRP:12. Разное
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -1440,6 +1950,24 @@ http://178.124.179.122:8080/KVN-TV/tracks-v1a1/mono.m3u8
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 http://flussonic.linkintel.ru/che/tracks-v1a1/mono.ts.m3u8
+#EXTINF:0 tvg-id="chnl-2860" tvg-name="Че! +2" tvg-logo="http://ru1.plist.link/plepg/img/channels/2860.png?6ada7df81fc9a" tvg-rec="0" timeshift="0" group-title="12. Разное", Че! +2
+#EXTGRP:12. Разное
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_CHE_2/variant.m3u8
+#EXTINF:0 tvg-id="chnl-408" tvg-name="Че! +4" tvg-logo="http://ru1.plist.link/plepg/img/channels/408.png?6ada7df81fc9a" tvg-rec="0" timeshift="0" group-title="12. Разное", Че! +4
+#EXTGRP:12. Разное
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_CHE_4/variant.m3u8
+#EXTINF:0 tvg-id="chnl-2820" tvg-name="Че! +7" tvg-logo="http://ru1.plist.link/plepg/img/channels/2820.png?6ada7df81fc9a" tvg-rec="0" timeshift="0" group-title="12. Разное", Че! +7
+#EXTGRP:12. Разное
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ_7/variant.m3u8
 #EXTINF:0 tvg-id="chnl-122" tvg-name="Точка РФ HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/122.png?6ada7df81fc9a" tvg-rec="3" timeshift="3" group-title="12. Разное", Точка РФ HD
 #EXTGRP:12. Разное
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -1452,6 +1980,18 @@ http://stream.mcquack.net/161/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 http://stream.mcquack.net/183/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1
+#EXTINF:0 tvg-id="chnl-2824" tvg-name="СТС Love +2" tvg-logo="http://ru1.plist.link/plepg/img/channels/2824.png?6ada7df81fc9a" tvg-rec="0" timeshift="0" group-title="12. Разное", СТС Love +2
+#EXTGRP:12. Разное
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE_2/variant.m3u8
+#EXTINF:0 tvg-id="chnl-2825" tvg-name="СТС Love +4" tvg-logo="http://ru1.plist.link/plepg/img/channels/2825.png?6ada7df81fc9a" tvg-rec="3" timeshift="3" group-title="12. Разное", СТС Love +4
+#EXTGRP:12. Разное
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+https://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE_4/variant.m3u8
 #EXTINF:0 tvg-id="chnl-113" tvg-name="Ностальгия" tvg-logo="http://ru1.plist.link/plepg/img/channels/113.png?6ada7df81fc9a" tvg-rec="3" timeshift="3" group-title="12. Разное", Ностальгия
 #EXTGRP:12. Разное
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -1470,12 +2010,36 @@ http://stream.mcquack.net/237/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 https://river-3-373.rtbcdn.ru/stream/genetta-313.m9.rutube.ru/TiX-yuq8JCldqzZ8NeOD9Q/1793958993/5c9327074e25ca86f3111d4085cbbb65/360p_stream.m3u8
+#EXTINF:0 tvg-id="chnl-2827" tvg-name="Ю +2" tvg-logo="http://ru1.plist.link/plepg/img/channels/2827.png?6ada7df81fc9a" tvg-rec="0" timeshift="0" group-title="12. Разное", Ю +2
+#EXTGRP:12. Разное
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_U_2/variant.m3u8
+#EXTINF:0 tvg-id="chnl-2828" tvg-name="Ю +4" tvg-logo="http://ru1.plist.link/plepg/img/channels/2828.png?6ada7df81fc9a" tvg-rec="0" timeshift="0" group-title="12. Разное", Ю +4
+#EXTGRP:12. Разное
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_U_4/variant.m3u8
+#EXTINF:0 tvg-id="chnl-2829" tvg-name="Ю +7" tvg-logo="http://ru1.plist.link/plepg/img/channels/2829.png?6ada7df81fc9a" tvg-rec="0" timeshift="0" group-title="12. Разное", Ю +7
+#EXTGRP:12. Разное
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_U_7/variant.m3u8
 #EXTINF:0 tvg-id="chnl-414" tvg-name="Суббота!" tvg-logo="http://ru1.plist.link/plepg/img/channels/414.png?6ada7df81fc9a" tvg-rec="3" timeshift="3" group-title="12. Разное", Суббота!
 #EXTGRP:12. Разное
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 https://river-3-372.rtbcdn.ru/stream/genetta-319.m9.rutube.ru/Qag2FfzJMQfmW7pN4tu1dA/1793958994/310744c10a5809da38aa445c952976da/360p_stream.m3u8
+#EXTINF:0 tvg-id="chnl-2815" tvg-name="Суббота! +7" tvg-logo="http://ru1.plist.link/plepg/img/channels/2815.png?6ada7df81fc9a" tvg-rec="0" timeshift="0" group-title="12. Разное", Суббота! +7
+#EXTGRP:12. Разное
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER_7/variant.m3u8
 #EXTINF:0 tvg-id="chnl-538" tvg-name="Еда" tvg-logo="http://ru1.plist.link/plepg/img/channels/538.png?6ada7df81fc9a" tvg-rec="0" timeshift="0" group-title="12. Разное", Еда
 #EXTGRP:12. Разное
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -1500,6 +2064,12 @@ https://nonmirya7cc.a.trbcdn.net/livemaster/tzrz5_sazlypl5ot.smil/e04807a8629ae6
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 http://stream.mcquack.net/216/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1
+#EXTINF:0 tvg-id="chnl-405" tvg-name="ОТР" tvg-logo="http://ru1.plist.link/plepg/img/channels/405.png?6ada7df81fc9a" tvg-rec="0" timeshift="0" group-title="12. Разное", ОТР
+#EXTGRP:12. Разное
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+https://edge03p.mediavitrina.ru/hls-livef5/otr_0/tracks-v1a1/mono.ts.m3u8?token=v2.wS5Nuf3Zaj6D5inlHjgkSrV6r5gWvra_JIngpapWTiE.LSOdgXnK63_A5HD90yUTws1g9nKpP4zdd9-6mcH6iR4.1793907490.f878971bee7fcd6f7903cede19011ac9
 #EXTINF:0 tvg-id="chnl-516" tvg-name="360 HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/516.png?6ada7df81fc9a" tvg-rec="0" timeshift="0" group-title="12. Разное", 360 HD
 #EXTGRP:12. Разное
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -1542,12 +2112,24 @@ https://dash2.antik.sk/live/test_star_cinema_atktv/playlist.m3u8
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F149.0.0.0+Safari%2F537.36
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F149.0.0.0+Safari%2F537.36
 http://stream.mcquack.net/449/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1
+#EXTINF:0 tvg-id="chnl-286" tvg-name="DE | Eurosport 1 HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/286.png?6ada7df81feb9" tvg-rec="1" timeshift="1" group-title="14. Немецкие", DE | Eurosport 1 HD
+#EXTGRP:14. Немецкие
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+http://5.188.159.128:8070/eurosport1/tracks-v1a1/mono.m3u8
+#EXTINF:0 tvg-id="chnl-287" tvg-name="DE | Eurosport 2 HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/287.png?6ada7df81feb9" tvg-rec="1" timeshift="1" group-title="14. Немецкие", DE | Eurosport 2 HD
+#EXTGRP:14. Немецкие
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+http://5.188.159.128:8070/eurosport2/tracks-v1a1/mono.m3u8
 #EXTINF:0 tvg-id="chnl-1904" tvg-name="DE | More Than Sports TV" tvg-logo="http://ru1.plist.link/plepg/img/channels/1904.png?6ada7df81feb9" tvg-rec="1" timeshift="1" group-title="14. Немецкие", DE | More Than Sports TV
 #EXTGRP:14. Немецкие
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
-https://mts1.iptv-playoutcenter.de/mts/mts-web/mts/mtsw3/chunks.m3u8?nimblesessionid=585614617
+https://mts1.iptv-playoutcenter.de/mts/mts-web/mts/mtsw3/chunks.m3u8?nimblesessionid=585647530
 #EXTINF:0 tvg-id="chnl-1903" tvg-name="DE | Red Bull TV HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1903.png?6ada7df81feb9" tvg-rec="1" timeshift="1" group-title="14. Немецкие", DE | Red Bull TV HD
 #EXTGRP:14. Немецкие
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -1578,6 +2160,12 @@ http://stream.mcquack.net/177/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 http://stream.mcquack.net/114/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1
+#EXTINF:0 tvg-id="chnl-162" tvg-name="DE | Cartoon Network HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/162.png?6ada7df81feb9" tvg-rec="0" timeshift="0" group-title="14. Немецкие", DE | Cartoon Network HD
+#EXTGRP:14. Немецкие
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+http://80.245.95.243:8888/play/qwe9877/78691270.m3u8
 #EXTINF:0 tvg-id="chnl-237" tvg-name="DE | Deluxe Music HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/237.png?6ada7df81feb9" tvg-rec="0" timeshift="0" group-title="14. Немецкие", DE | Deluxe Music HD
 #EXTGRP:14. Немецкие
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -1601,7 +2189,7 @@ https://mcdn.br.de/br/fs/bfs_sued/hls/de/master.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
-https://hrhls.akamaized.net/hls/live/2024525/hrhls/index.m3u8
+https://dash4.antik.sk/live/test_hr_tizen/playlist.m3u8
 #EXTINF:0 tvg-id="chnl-1680" tvg-name="DE | NDR Fernsehen HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1680.png?6ada7df81feb9" tvg-rec="0" timeshift="0" group-title="14. Немецкие", DE | NDR Fernsehen HD
 #EXTGRP:14. Немецкие
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -1650,13 +2238,19 @@ http://stream.mcquack.net/114/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
-https://drk6xq0vhn.gpcdn.net/live/discovery_science_abr/live/discovery_science/chunks.m3u8?nimblesessionid=242201507
+https://drk6xq0vhn.gpcdn.net/live/discovery_science_abr/live/discovery_science/chunks.m3u8?nimblesessionid=242314425
 #EXTINF:0 tvg-id="chnl-2978" tvg-name="UK | Nickelodeon" tvg-logo="http://ru1.plist.link/plepg/img/channels/2978.png?6ada7df820214" tvg-rec="0" timeshift="0" group-title="16. Англия", UK | Nickelodeon
 #EXTGRP:16. Англия
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 http://stream.mcquack.net/443/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1
+#EXTINF:0 tvg-id="chnl-2980" tvg-name="UK | Nat Geo Wild HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/2980.png?6ada7df820214" tvg-rec="0" timeshift="0" group-title="16. Англия", UK | Nat Geo Wild HD
+#EXTGRP:16. Англия
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+https://river-3-3124.rtbcdn.ru/stream/genetta-405.ntv.rutube.ru/0s_S4v1x2V9_4pUXXjAv5w/1793964096/c11af26c0ab831ce6c37a4888056479b/360p_stream.m3u8
 #EXTINF:0 tvg-id="chnl-2989" tvg-name="UK | Crime Investigation" tvg-logo="http://ru1.plist.link/plepg/img/channels/2989.png?6ada7df820214" tvg-rec="0" timeshift="0" group-title="16. Англия", UK | Crime Investigation
 #EXTGRP:16. Англия
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -1705,12 +2299,18 @@ http://stream.mcquack.net/177/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 https://tv.ensonhaber.com/haberglobal/haberglobal_360p.m3u8
+#EXTINF:0 tvg-id="chnl-1462" tvg-name="TR | Nat Geo Wild HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1462.png?6ada7df8204e3" tvg-rec="0" timeshift="0" group-title="25. Турция", TR | Nat Geo Wild HD
+#EXTGRP:25. Турция
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+https://river-3-3124.rtbcdn.ru/stream/genetta-405.ntv.rutube.ru/0s_S4v1x2V9_4pUXXjAv5w/1793964096/c11af26c0ab831ce6c37a4888056479b/360p_stream.m3u8
 #EXTINF:0 tvg-id="chnl-855" tvg-name="PL | Active Family HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/855.png?6ada7df8205d9" tvg-rec="0" timeshift="0" group-title="34. Польша", PL | Active Family HD
 #EXTGRP:34. Польша
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
-http://92.114.85.87:8010/play/a00p/11981411.m3u8
+http://92.114.85.87:8010/play/a00p/42037915.m3u8
 #EXTINF:0 tvg-id="chnl-858" tvg-name="PL | Animal Planet HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/858.png?6ada7df8205d9" tvg-rec="1" timeshift="1" group-title="34. Польша", PL | Animal Planet HD
 #EXTGRP:34. Польша
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -1722,49 +2322,67 @@ http://stream.mcquack.net/114/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
-http://92.114.85.87:8019/play/a009/52718980.m3u8
+http://92.114.85.87:8019/play/a009/38088440.m3u8
+#EXTINF:0 tvg-id="chnl-2182" tvg-name="PL | Cartoon Network" tvg-logo="http://ru1.plist.link/plepg/img/channels/2182.png?6ada7df8205d9" tvg-rec="1" timeshift="1" group-title="34. Польша", PL | Cartoon Network
+#EXTGRP:34. Польша
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+http://80.245.95.243:8888/play/qwe9877/78691270.m3u8
 #EXTINF:0 tvg-id="chnl-884" tvg-name="PL | Discovery Science HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/884.png?6ada7df8205d9" tvg-rec="1" timeshift="1" group-title="34. Польша", PL | Discovery Science HD
 #EXTGRP:34. Польша
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
-https://drk6xq0vhn.gpcdn.net/live/discovery_science_abr/live/discovery_science/chunks.m3u8?nimblesessionid=242201507
+https://drk6xq0vhn.gpcdn.net/live/discovery_science_abr/live/discovery_science/chunks.m3u8?nimblesessionid=242314425
 #EXTINF:0 tvg-id="chnl-637" tvg-name="PL | Eleven Sports 1 4K" tvg-logo="http://ru1.plist.link/plepg/img/channels/637.png?6ada7df8205d9" tvg-rec="0" timeshift="0" group-title="34. Польша", PL | Eleven Sports 1 4K
 #EXTGRP:34. Польша
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
-http://92.114.85.87:8002/play/a00e/73873148.m3u8
+http://92.114.85.87:8002/play/a00e/67495080.m3u8
 #EXTINF:0 tvg-id="chnl-887" tvg-name="PL | Eleven Sports 1 HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/887.png?6ada7df8205d9" tvg-rec="1" timeshift="1" group-title="34. Польша", PL | Eleven Sports 1 HD
 #EXTGRP:34. Польша
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
-http://92.114.85.87:8002/play/a00e/73873148.m3u8
+http://92.114.85.87:8002/play/a00e/67495080.m3u8
 #EXTINF:0 tvg-id="chnl-888" tvg-name="PL | Eleven Sports 2 HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/888.png?6ada7df8205d9" tvg-rec="0" timeshift="0" group-title="34. Польша", PL | Eleven Sports 2 HD
 #EXTGRP:34. Польша
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
-http://92.114.85.87:8002/play/a00f/91400981.m3u8
+http://92.114.85.87:8002/play/a00f/48871385.m3u8
 #EXTINF:0 tvg-id="chnl-889" tvg-name="PL | Eleven Sports 3 HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/889.png?6ada7df8205d9" tvg-rec="0" timeshift="0" group-title="34. Польша", PL | Eleven Sports 3 HD
 #EXTGRP:34. Польша
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
-http://92.114.85.87:8002/play/a00g/52669125.m3u8
+http://92.114.85.87:8002/play/a00g/57160316.m3u8
 #EXTINF:0 tvg-id="chnl-890" tvg-name="PL | Eleven Sports 4 HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/890.png?6ada7df8205d9" tvg-rec="0" timeshift="0" group-title="34. Польша", PL | Eleven Sports 4 HD
 #EXTGRP:34. Польша
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
-http://92.114.85.87:8002/play/a00h/20194908.m3u8
+http://92.114.85.87:8002/play/a00h/48290093.m3u8
+#EXTINF:0 tvg-id="chnl-891" tvg-name="PL | Eurosport 1 HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/891.png?6ada7df8205d9" tvg-rec="1" timeshift="1" group-title="34. Польша", PL | Eurosport 1 HD
+#EXTGRP:34. Польша
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+http://5.188.159.128:8070/eurosport1/tracks-v1a1/mono.m3u8
+#EXTINF:0 tvg-id="chnl-892" tvg-name="PL | Eurosport 2 HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/892.png?6ada7df8205d9" tvg-rec="1" timeshift="1" group-title="34. Польша", PL | Eurosport 2 HD
+#EXTGRP:34. Польша
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+http://5.188.159.128:8070/eurosport2/tracks-v1a1/mono.m3u8
 #EXTINF:0 tvg-id="chnl-896" tvg-name="PL | FilmBox Action" tvg-logo="http://ru1.plist.link/plepg/img/channels/896.png?6ada7df8205d9" tvg-rec="0" timeshift="0" group-title="34. Польша", PL | FilmBox Action
 #EXTGRP:34. Польша
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
-http://92.114.85.87:8008/play/a007/47048223.m3u8
+http://92.114.85.87:8008/play/a007/12840329.m3u8
 #EXTINF:0 tvg-id="chnl-901" tvg-name="PL | Food Network HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/901.png?6ada7df8205d9" tvg-rec="1" timeshift="1" group-title="34. Польша", PL | Food Network HD
 #EXTGRP:34. Польша
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -1783,24 +2401,30 @@ http://stream.mcquack.net/205/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 http://stream.mcquack.net/443/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1
+#EXTINF:0 tvg-id="chnl-931" tvg-name="PL | Polsat Rodzina HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/931.png?6ada7df8205d9" tvg-rec="1" timeshift="1" group-title="34. Польша", PL | Polsat Rodzina HD
+#EXTGRP:34. Польша
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+http://92.114.85.87:8014/play/a00i/96417195.m3u8
 #EXTINF:0 tvg-id="chnl-927" tvg-name="PL | Polsat Music HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/927.png?6ada7df8205d9" tvg-rec="0" timeshift="0" group-title="34. Польша", PL | Polsat Music HD
 #EXTGRP:34. Польша
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
-http://92.114.85.87:8001/play/a00z/38882871.m3u8
+http://92.114.85.87:8001/play/a00z/72063449.m3u8
 #EXTINF:0 tvg-id="chnl-939" tvg-name="PL | Super Polsat HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/939.png?6ada7df8205d9" tvg-rec="1" timeshift="1" group-title="34. Польша", PL | Super Polsat HD
 #EXTGRP:34. Польша
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
-http://92.114.85.87:8004/play/a00c/46965682.m3u8
+http://92.114.85.87:8004/play/a00c/23598229.m3u8
 #EXTINF:0 tvg-id="chnl-2201" tvg-name="PL | Stopklatka TV HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/2201.png?6ada7df8205d9" tvg-rec="0" timeshift="0" group-title="34. Польша", PL | Stopklatka TV HD
 #EXTGRP:34. Польша
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
-http://92.114.85.87:8018/play/a004/15722006.m3u8
+http://92.114.85.87:8018/play/a004/90617756.m3u8
 #EXTINF:0 tvg-id="chnl-2183" tvg-name="PL | TVP Polonia" tvg-logo="http://ru1.plist.link/plepg/img/channels/2183.png?6ada7df8205d9" tvg-rec="1" timeshift="1" group-title="34. Польша", PL | TVP Polonia
 #EXTGRP:34. Польша
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -1812,7 +2436,7 @@ https://dash2.antik.sk/live/test_tvp_polonia/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
-http://92.114.85.87:8002/play/a00d/97288590.m3u8
+http://92.114.85.87:8002/play/a00d/55204887.m3u8
 #EXTINF:0 tvg-id="chnl-961" tvg-name="PL | TVP Rozrywka HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/961.png?6ada7df8205d9" tvg-rec="1" timeshift="1" group-title="34. Польша", PL | TVP Rozrywka HD
 #EXTGRP:34. Польша
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -1824,19 +2448,19 @@ http://185.227.34.179:8080/tvp-rozrywka/tracks-v1a1/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
-http://92.114.85.87:8019/play/a00a/58895265.m3u8
+http://92.114.85.87:8019/play/a00a/60503303.m3u8
 #EXTINF:0 tvg-id="chnl-965" tvg-name="PL | TVP Kultura HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/965.png?6ada7df8205d9" tvg-rec="1" timeshift="1" group-title="34. Польша", PL | TVP Kultura HD
 #EXTGRP:34. Польша
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
-http://92.114.85.87:8006/play/a007/92173729.m3u8
+http://92.114.85.87:8006/play/a007/40187688.m3u8
 #EXTINF:0 tvg-id="chnl-2136" tvg-name="PL | TV Republika HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/2136.png?6ada7df8205d9" tvg-rec="0" timeshift="0" group-title="34. Польша", PL | TV Republika HD
 #EXTGRP:34. Польша
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
-http://92.114.85.87:8018/play/a008/67891978.m3u8
+http://92.114.85.87:8018/play/a008/15085279.m3u8
 #EXTINF:0 tvg-id="chnl-967" tvg-name="PL | Viasat History HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/967.png?6ada7df8205d9" tvg-rec="1" timeshift="1" group-title="34. Польша", PL | Viasat History HD
 #EXTGRP:34. Польша
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -1848,13 +2472,13 @@ http://185.227.34.179:8080/polsat-viasat-history-hd/tracks-v1a1/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
-http://92.114.85.87:8016/play/a004/37431047.m3u8
+http://92.114.85.87:8016/play/a004/60815515.m3u8
 #EXTINF:0 tvg-id="chnl-2140" tvg-name="PL | Viasat Explore HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/2140.png?6ada7df8205d9" tvg-rec="1" timeshift="1" group-title="34. Польша", PL | Viasat Explore HD
 #EXTGRP:34. Польша
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
-http://92.114.85.87:8014/play/a00g/54657295.m3u8
+http://92.114.85.87:8014/play/a00g/36274189.m3u8
 #EXTINF:0 tvg-id="chnl-2888" tvg-name="PL | National Geographic" tvg-logo="http://ru1.plist.link/plepg/img/channels/2888.png?6ada7df8205d9" tvg-rec="0" timeshift="0" group-title="34. Польша", PL | National Geographic
 #EXTGRP:34. Польша
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -1866,25 +2490,19 @@ http://stream.mcquack.net/116/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
-http://92.114.85.87:8016/play/a007/31795023.m3u8
+http://92.114.85.87:8016/play/a007/55848490.m3u8
 #EXTINF:0 tvg-id="chnl-2920" tvg-name="PL | Travel Channel" tvg-logo="http://ru1.plist.link/plepg/img/channels/2920.png?6ada7df8205d9" tvg-rec="0" timeshift="0" group-title="34. Польша", PL | Travel Channel
 #EXTGRP:34. Польша
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 http://stream.mcquack.net/231/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1
-#EXTINF:0 tvg-id="chnl-2922" tvg-name="PL | Nat Geo People" tvg-logo="http://ru1.plist.link/plepg/img/channels/2922.png?6ada7df8205d9" tvg-rec="0" timeshift="0" group-title="34. Польша", PL | Nat Geo People
-#EXTGRP:34. Польша
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
-#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
-http://92.114.85.87:8016/play/a003/58260056.m3u8
 #EXTINF:0 tvg-id="chnl-2930" tvg-name="PL | Polsat Seriale" tvg-logo="http://ru1.plist.link/plepg/img/channels/2930.png?6ada7df8205d9" tvg-rec="0" timeshift="0" group-title="34. Польша", PL | Polsat Seriale
 #EXTGRP:34. Польша
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
-http://92.114.85.87:8014/play/a00a/93244284.m3u8
+http://92.114.85.87:8014/play/a00a/42627737.m3u8
 #EXTINF:0 tvg-id="chnl-2948" tvg-name="PL | Paramount Network" tvg-logo="http://ru1.plist.link/plepg/img/channels/2948.png?6ada7df8205d9" tvg-rec="0" timeshift="0" group-title="34. Польша", PL | Paramount Network
 #EXTGRP:34. Польша
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -1896,7 +2514,7 @@ http://23.237.104.106:8080/USA_PARAMOUNT_NETWORK/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
-http://92.114.85.87:8016/play/a008/71152331.m3u8
+http://92.114.85.87:8016/play/a008/77755491.m3u8
 #EXTINF:0 tvg-id="chnl-2936" tvg-name="PL | Disco Polo Music" tvg-logo="http://ru1.plist.link/plepg/img/channels/2936.png?6ada7df8205d9" tvg-rec="0" timeshift="0" group-title="34. Польша", PL | Disco Polo Music
 #EXTGRP:34. Польша
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -1909,6 +2527,12 @@ http://185.227.34.179:8080/disco-polo-music/tracks-v1a1/mono.m3u8
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 http://mirbelogorya.ru:8080/mirbelogorya/tracks-v1a1/mono.ts.m3u8
+#EXTINF:0 tvg-id="chnl-1986" tvg-name="ОТВ Екатеринбург" tvg-logo="http://ru1.plist.link/plepg/img/channels/1986.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", ОТВ Екатеринбург
+#EXTGRP:36. Региональные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R02_OTT_OTV_URAL_EKT/variant.m3u8?version=2
 #EXTINF:0 tvg-id="chnl-2713" tvg-name="Астрахань 24" tvg-logo="http://ru1.plist.link/plepg/img/channels/2713.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Астрахань 24
 #EXTGRP:36. Региональные
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -1921,30 +2545,72 @@ https://streaming.astrakhan.ru/astrakhan24/tracks-v3a1/mono.ts.m3u8
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 https://belnovosti.cdn.easyhoster.ru:8443/stream.m3u8
+#EXTINF:0 tvg-id="chnl-2718" tvg-name="Катунь 24" tvg-logo="http://ru1.plist.link/plepg/img/channels/2718.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Катунь 24
+#EXTGRP:36. Региональные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+https://rt-sib-bul-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_BUL_KATUN24/variant.m3u8?version=2
+#EXTINF:0 tvg-id="chnl-2720" tvg-name="Краснодар" tvg-logo="http://ru1.plist.link/plepg/img/channels/2720.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Краснодар
+#EXTGRP:36. Региональные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+https://rt-sth-krdar-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_KRDAR_KRASNODAR/variant.m3u8?version=2
 #EXTINF:0 tvg-id="chnl-2726" tvg-name="Арис 24" tvg-logo="http://ru1.plist.link/plepg/img/channels/2726.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Арис 24
 #EXTGRP:36. Региональные
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
-http://serv25.vintera.tv:8081/test/aris/chunks.m3u8?nimblesessionid=281220153
+http://serv25.vintera.tv:8081/test/aris/chunks.m3u8?nimblesessionid=281249175
 #EXTINF:0 tvg-id="chnl-2729" tvg-name="Сочи 24" tvg-logo="http://ru1.plist.link/plepg/img/channels/2729.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Сочи 24
 #EXTGRP:36. Региональные
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
-http://serv30.vintera.tv:8081/sochi/sochi24_tv/chunks.m3u8?nimblesessionid=99200143
+http://serv30.vintera.tv:8081/sochi/sochi24_tv/chunks.m3u8?nimblesessionid=99230825
+#EXTINF:0 tvg-id="chnl-2730" tvg-name="АТВ Ставрополь" tvg-logo="http://ru1.plist.link/plepg/img/channels/2730.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", АТВ Ставрополь
+#EXTGRP:36. Региональные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+https://rt-sth-stavr-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_STAVR_ATV/variant.m3u8?version=2
+#EXTINF:0 tvg-id="chnl-2731" tvg-name="Брянская Губерния" tvg-logo="http://ru1.plist.link/plepg/img/channels/2731.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Брянская Губерния
+#EXTGRP:36. Региональные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+https://rt-ct-bryansk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_BRYANSK_BRGRUBER/variant.m3u8?version=2
 #EXTINF:0 tvg-id="chnl-2732" tvg-name="БСТ" tvg-logo="http://ru1.plist.link/plepg/img/channels/2732.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", БСТ
 #EXTGRP:36. Региональные
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 https://bst.bratsk.ru/hls/bst2/fhd/stream.m3u8
+#EXTINF:0 tvg-id="chnl-2735" tvg-name="Дзержинск ТВ" tvg-logo="http://ru1.plist.link/plepg/img/channels/2735.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Дзержинск ТВ
+#EXTGRP:36. Региональные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+https://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R01_DZERZHINSK/variant.m3u8?version=2
 #EXTINF:0 tvg-id="chnl-2743" tvg-name="МТВ Волгоград" tvg-logo="http://ru1.plist.link/plepg/img/channels/2743.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", МТВ Волгоград
 #EXTGRP:36. Региональные
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 http://hls.volgograd1vtv.cdnvideo.ru/volgograd1vtv/volgograd1vtv.sdp/tracks-v1a1/mono.ts.m3u8?hls_proxy_host=6d3d0ec460286e56dd37c8d765c7487d
+#EXTINF:0 tvg-id="chnl-2745" tvg-name="Новый век Тамбов" tvg-logo="http://ru1.plist.link/plepg/img/channels/2745.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Новый век Тамбов
+#EXTGRP:36. Региональные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+https://rt-ct-tamb-htlive.cdn.ngenix.net/hls/CH_R03_OTT_CT_TAMB_NOVIY_VEK/variant.m3u8?version=2
+#EXTINF:0 tvg-id="chnl-2746" tvg-name="Осетия-Ирыстон" tvg-logo="http://ru1.plist.link/plepg/img/channels/2746.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Осетия-Ирыстон
+#EXTGRP:36. Региональные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+https://rt-sth-vkaz-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_VKAZ_IRISTON/variant.m3u8?version=2
 #EXTINF:0 tvg-id="chnl-2749" tvg-name="Нижний Новгород 24" tvg-logo="http://ru1.plist.link/plepg/img/channels/2749.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Нижний Новгород 24
 #EXTGRP:36. Региональные
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -1963,12 +2629,36 @@ https://live-nikatv.cdnvideo.ru/nikatv/nikatv.sdp/tracks-v1a1/mono.ts.m3u8?hls_p
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 https://sitv.ru/vgtrk/stv.m3u8
+#EXTINF:0 tvg-id="chnl-2755" tvg-name="НТС Иркутск" tvg-logo="http://ru1.plist.link/plepg/img/channels/2755.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", НТС Иркутск
+#EXTGRP:36. Региональные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+https://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_IRK_RENTVIRK/variant.m3u8?version=2
 #EXTINF:0 tvg-id="chnl-2756" tvg-name="НТС Севастополь" tvg-logo="http://ru1.plist.link/plepg/img/channels/2756.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", НТС Севастополь
 #EXTGRP:36. Региональные
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 https://peqk71plnjy.a.trbcdn.net/livemaster/w4kz7pki62_nts_tv/tracks-v1a1/mono.ts.m3u8?hls_proxy_host=4c17238f7fd006d66efb4dd3961cfced
+#EXTINF:0 tvg-id="chnl-2760" tvg-name="Первый Ярославский" tvg-logo="http://ru1.plist.link/plepg/img/channels/2760.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Первый Ярославский
+#EXTGRP:36. Региональные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+https://rt-ct-yarl-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_YARL_NTM/variant.m3u8?version=2
+#EXTINF:0 tvg-id="chnl-2762" tvg-name="РГВК Дагестан" tvg-logo="http://ru1.plist.link/plepg/img/channels/2762.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", РГВК Дагестан
+#EXTGRP:36. Региональные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+https://rt-sth-mahachk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_MAHACHK_DAGESTAN/variant.m3u8?version=2
+#EXTINF:0 tvg-id="chnl-2763" tvg-name="Своё ТВ Ставрополь" tvg-logo="http://ru1.plist.link/plepg/img/channels/2763.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Своё ТВ Ставрополь
+#EXTGRP:36. Региональные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+https://rt-sth-stavr-htlive.cdn.ngenix.net/hls/CH_R03_OTT_STH_STAVR_STV-PLUS/variant.m3u8?version=2
 #EXTINF:0 tvg-id="chnl-2764" tvg-name="С1 Сургут" tvg-logo="http://ru1.plist.link/plepg/img/channels/2764.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", С1 Сургут
 #EXTGRP:36. Региональные
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -1981,6 +2671,24 @@ https://sitv.ru/hls/stv.m3u8
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 https://2vko9pchwon.a.trbcdn.net/livemaster/8ilgc_cw63ucn03p.smil/1d870e2301ec4f9a7fd742775f38f9e1--livemaster--8bnosv45sx_stream5--tracks-v1a1--mono.m3u8?hls_proxy_host=a50406e9ee2e2c2a49995681145b0350
+#EXTINF:0 tvg-id="chnl-2768" tvg-name="Татарстан 24" tvg-logo="http://ru1.plist.link/plepg/img/channels/2768.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Татарстан 24
+#EXTGRP:36. Региональные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+https://rt-vlg-kzn-htlive.cdn.ngenix.net/hls/CH_R02_EFIR24/variant.m3u8?version=2
+#EXTINF:0 tvg-id="chnl-2769" tvg-name="ТВ-ИН Магнитогорск" tvg-logo="http://ru1.plist.link/plepg/img/channels/2769.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", ТВ-ИН Магнитогорск
+#EXTGRP:36. Региональные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+https://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R01_TVIN_MAGN/variant.m3u8?version=2
+#EXTINF:0 tvg-id="chnl-2771" tvg-name="Ямал-Регион" tvg-logo="http://ru1.plist.link/plepg/img/channels/2771.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Ямал-Регион
+#EXTGRP:36. Региональные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+https://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_YAMREG_URAL_YNF/variant.m3u8?version=2
 #EXTINF:0 tvg-id="chnl-2772" tvg-name="ТКР Рязань" tvg-logo="http://ru1.plist.link/plepg/img/channels/2772.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", ТКР Рязань
 #EXTGRP:36. Региональные
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
@@ -1999,6 +2707,24 @@ https://user91229.clients-cdnnow.ru/hls/user91229_1_480/index.m3u8
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
 https://stream8.cinerama.uz/1062/tracks-v1a1/mono.m3u8
+#EXTINF:0 tvg-id="chnl-2775" tvg-name="Томское время" tvg-logo="http://ru1.plist.link/plepg/img/channels/2775.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Томское время
+#EXTGRP:36. Региональные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+https://rt-sib-tomsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_TOMSK_TOMSKVREMIA/variant.m3u8?version=2
+#EXTINF:0 tvg-id="chnl-2777" tvg-name="Тюменское время" tvg-logo="http://ru1.plist.link/plepg/img/channels/2777.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Тюменское время
+#EXTGRP:36. Региональные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+https://rt-ural-tum-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TUMVR_URAL_TUM/variant.m3u8?version=2
+#EXTINF:0 tvg-id="chnl-2780" tvg-name="Югра" tvg-logo="http://ru1.plist.link/plepg/img/channels/2780.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Югра
+#EXTGRP:36. Региональные
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer2%2F2.37
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayer2%2F2.37
+https://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_UGRA_URAL_SUR/variant.m3u8?version=2
 #EXTINF:0 tvg-id="chnl-2789" tvg-name="Якутия 24" tvg-logo="http://ru1.plist.link/plepg/img/channels/2789.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Якутия 24
 #EXTGRP:36. Региональные
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
