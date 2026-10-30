@@ -64,6 +64,16 @@ def player_extras(headers):
     return result
 
 
+def blocked_url(url):
+    try:
+        host = (urlparse(url.partition('|')[0]).hostname or '').lower().rstrip('.')
+        domains = ['stream.mcquack.net', *os.getenv('BLOCKED_DOMAINS', '').split(',')]
+        return any(host == d.strip().lower() or host.endswith('.' + d.strip().lower())
+                   for d in domains if d.strip())
+    except ValueError:
+        return True
+
+
 def ffmpeg_binary():
     configured = os.getenv('FFMPEG_BINARY')
     if configured:
@@ -92,6 +102,8 @@ def error_reason(stderr):
 
 
 def decode(url, headers, timeout, binary):
+    if blocked_url(url):
+        return Result(False, 'blocked_domain')
     if urlparse(url).scheme not in ('http', 'https'):
         return Result(False, 'unsupported_protocol')
     arguments = [binary, '-nostdin', '-hide_banner', '-loglevel', 'error',
@@ -122,6 +134,8 @@ def decode(url, headers, timeout, binary):
 
 def _validate_once(url, extras=(), timeout=None):
     url, headers = target(url, extras)
+    if blocked_url(url):
+        return Result(False, 'blocked_domain')
     if urlparse(url).scheme not in ('http', 'https'):
         return Result(False, 'unsupported_protocol')
     binary = ffmpeg_binary()
@@ -135,6 +149,8 @@ def _validate_once(url, extras=(), timeout=None):
     try:
         with requests.get(url, headers=dict(headers), stream=True,
                           timeout=(min(10, timeout), min(10, timeout))) as response:
+            if blocked_url(response.url):
+                return Result(False, 'blocked_redirect')
             body = bytearray()
             if response.ok:
                 for chunk in response.iter_content(4096):
@@ -145,8 +161,15 @@ def _validate_once(url, extras=(), timeout=None):
                         break
                 if body.lstrip(b'\xef\xbb\xbf \r\n').startswith(b'#EXTM3U'):
                     manifest = m3u8.loads(body.decode('utf-8-sig'), uri=response.url)
+                    resources = [s.absolute_uri for s in manifest.segments]
+                    resources += [k.absolute_uri for k in manifest.keys if k and k.uri]
+                    if any(blocked_url(u) for u in resources):
+                        return Result(False, 'blocked_media_url')
                     if manifest.is_variant:
-                        variants = sorted(manifest.playlists, key=lambda p: p.stream_info.bandwidth or 0)
+                        variants = sorted([p for p in manifest.playlists if not blocked_url(p.absolute_uri)],
+                                          key=lambda p: p.stream_info.bandwidth or 0)
+                        if not variants:
+                            return Result(False, 'blocked_variants')
                         # Keep the master when audio lives in separate renditions.
                         if not any(p.stream_info.audio for p in variants):
                             candidates = [p.absolute_uri for p in variants[:3]] or [url]
