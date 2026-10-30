@@ -2,7 +2,7 @@ name: Smart IPTV Playlist Update
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 */6 * * *'
+    - cron: '17 */20 * * *'
 permissions:
   contents: write
 concurrency:
@@ -11,7 +11,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 55
+    timeout-minutes: 330
     steps:
       - uses: actions/checkout@v4
         with:
@@ -28,13 +28,16 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Generate and publish safely
         env:
-          PLAYBACK_TIMEOUT: '20'
+          PLAYBACK_TIMEOUT: '60'
+          PLAYBACK_ATTEMPTS: '3'
+          PLAYBACK_RETRY_DELAY: '2'
+          STREAM_TIMEOUT: '20'
           APPEND_NEW_CHANNELS: 'false'
           KEEP_UNVERIFIED_CHANNELS: 'false'
           MAX_NEW_CHANNELS: '200'
-          MAX_CANDIDATES: '10'
+          MAX_CANDIDATES: '30'
           FUZZY_THRESHOLD: '88'
-          MATCH_POOL: '8'
+          MATCH_POOL: '24'
           MAX_WORKERS: '16'
         shell: bash
         run: |
