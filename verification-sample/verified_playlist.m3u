@@ -1,0 +1,27 @@
+#EXTM3U playlist-name="super puper iptv co." url-tvg="http://ru1.plist.link/plepg/epg-33.xml" playlist-logo="http://ru1.plist.link/plepg/img/pl.logos/playlist.logo.png"
+# Only streams with decoded video frames
+#EXTINF:0 tvg-id="chnl-1" tvg-name="Первый HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Первый HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+http://178.217.49.7/1/tracks-v1a1/mono.ts.m3u8
+#EXTINF:0 tvg-id="chnl-3" tvg-name="НТВ HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/3.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", НТВ HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+https://stream8.cinerama.uz/1023/tracks-v1a1/mono.m3u8
+#EXTINF:0 tvg-id="chnl-532" tvg-name="360 новости HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/532.png?6ada7df81f14c" tvg-rec="0" timeshift="0" group-title="2. Новостные", 360 новости HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+https://e10-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/2.m3u8
+#EXTINF:0 tvg-id="chnl-729" tvg-name="Мир HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/729.png?6ada7df81fc9a" tvg-rec="3" timeshift="3" group-title="12. Разное", Мир HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+https://stream8.cinerama.uz/1218/tracks-v1a1/mono.m3u8
+#EXTINF:0 tvg-id="chnl-2" tvg-name="Россия 1 HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/2.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Россия 1 HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (compatible; Hither/3.0)
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0+%28compatible%3B+Hither%2F3.0%29
+https://stream8.cinerama.uz/1020/tracks-v1a1/mono.m3u8

@@ -1,0 +1,50 @@
+{
+  "updated": "2026-10-30T09:42:37+00:00",
+  "source_count": 5,
+  "discovered_count": 0,
+  "donor_count": 687,
+  "output_count": 5,
+  "verified_count": 5,
+  "stats": {
+    "from_ru-alternatives:100": 5
+  },
+  "unverified_names": [],
+  "channels": [
+    {
+      "name": "Первый HD",
+      "status": "verified",
+      "source": "ru-alternatives:100",
+      "reason": "video_frames_decoded"
+    },
+    {
+      "name": "НТВ HD",
+      "status": "verified",
+      "source": "ru-alternatives:100",
+      "reason": "video_frames_decoded"
+    },
+    {
+      "name": "360 новости HD",
+      "status": "verified",
+      "source": "ru-alternatives:100",
+      "reason": "video_frames_decoded"
+    },
+    {
+      "name": "Мир HD",
+      "status": "verified",
+      "source": "ru-alternatives:100",
+      "reason": "video_frames_decoded"
+    },
+    {
+      "name": "Россия 1 HD",
+      "status": "verified",
+      "source": "ru-alternatives:100",
+      "reason": "video_frames_decoded"
+    }
+  ],
+  "checks": {
+    "timeout": 6,
+    "video_decode_failed": 1,
+    "video_frames_decoded": 5,
+    "tls_error": 1
+  }
+}

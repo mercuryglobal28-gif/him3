@@ -1,0 +1,44 @@
+test_arabic_normalization (test_generator.GeneratorTests.test_arabic_normalization) ... ok
+test_cache_isolation (test_generator.GeneratorTests.test_cache_isolation) ... ok
+test_commas (test_generator.GeneratorTests.test_commas) ... ok
+test_feed_ids (test_generator.GeneratorTests.test_feed_ids) ... ok
+test_filters_opt_in (test_generator.GeneratorTests.test_filters_opt_in) ... ok
+test_global_id_conflict (test_generator.GeneratorTests.test_global_id_conflict) ... ok
+test_new_channel_limits_and_dedup (test_generator.GeneratorTests.test_new_channel_limits_and_dedup) ... ok
+test_no_output_keeps_playlist_but_writes_diagnostics (test_generator.GeneratorTests.test_no_output_keeps_playlist_but_writes_diagnostics) ... 2026-10-30 05:44:36,815 INFO Source channels: 1; donors: 0; candidate URLs: 1
+2026-10-30 05:44:36,817 INFO Validation round 1: 1 targets
+2026-10-30 05:44:36,820 ERROR No channels verified; existing playlist and cache retained; report updated
+ok
+test_numbered_stations_and_timeshifts (test_generator.GeneratorTests.test_numbered_stations_and_timeshifts) ... ok
+test_optional_blocklist (test_generator.GeneratorTests.test_optional_blocklist) ... ok
+test_provider_ids_can_match_catalog (test_generator.GeneratorTests.test_provider_ids_can_match_catalog) ... ok
+test_removed_domain_ban (test_generator.GeneratorTests.test_removed_domain_ban) ... ok
+test_russian_catalog_aliases (test_generator.GeneratorTests.test_russian_catalog_aliases) ... ok
+test_skip_unneeded_alternatives_and_share_checks (test_generator.GeneratorTests.test_skip_unneeded_alternatives_and_share_checks) ... 2026-10-30 05:44:36,826 INFO Validation round 1: 2 targets
+2026-10-30 05:44:36,826 INFO Validation round 2: 0 targets
+ok
+test_source_roster_and_header_are_preserved (test_generator.GeneratorTests.test_source_roster_and_header_are_preserved) ... 2026-10-30 05:44:36,832 INFO Source channels: 2; donors: 1; candidate URLs: 2
+2026-10-30 05:44:36,835 INFO Validation round 1: 2 targets
+2026-10-30 05:44:36,841 INFO Playlist saved: 2 entries, 1 verified, 1 originals retained unverified
+ok
+test_successful_discovery_end_to_end (test_generator.GeneratorTests.test_successful_discovery_end_to_end) ... 2026-10-30 05:44:36,857 INFO Source channels: 2; donors: 2; candidate URLs: 3
+2026-10-30 05:44:36,860 INFO Validation round 1: 2 targets
+2026-10-30 05:44:36,861 INFO Validation round 2: 1 targets
+2026-10-30 05:44:36,871 INFO Playlist saved: 2 entries, 2 verified, 0 originals retained unverified
+ok
+test_exit_zero_without_frames_is_failure (test_playback.HeaderTests.test_exit_zero_without_frames_is_failure) ... ok
+test_header_injection_rejected (test_playback.HeaderTests.test_header_injection_rejected) ... ok
+test_headers_isolate_results (test_playback.HeaderTests.test_headers_isolate_results) ... 2026-10-30 05:44:36,885 INFO Validation round 1: 2 targets
+ok
+test_no_decoder_no_success (test_playback.HeaderTests.test_no_decoder_no_success) ... ok
+test_vlc_kodi_and_url_headers (test_playback.HeaderTests.test_vlc_kodi_and_url_headers) ... ok
+test_audio_is_not_tv (test_playback.PlaybackTests.test_audio_is_not_tv) ... ok
+test_fake_media_signature_is_not_playable (test_playback.PlaybackTests.test_fake_media_signature_is_not_playable) ... ok
+test_master_falls_back_to_working_variant (test_playback.PlaybackTests.test_master_falls_back_to_working_variant) ... ok
+test_missing_headers_fail (test_playback.PlaybackTests.test_missing_headers_fail) ... ok
+test_real_hls_and_fmp4 (test_playback.PlaybackTests.test_real_hls_and_fmp4) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 3.338s
+
+OK
