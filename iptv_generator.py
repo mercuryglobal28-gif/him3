@@ -11,6 +11,7 @@ import re
 import tempfile
 import unicodedata
 from collections import Counter, defaultdict
+from functools import lru_cache
 from rapidfuzz import fuzz, process
 from datetime import datetime, timezone
 from pathlib import Path
@@ -95,14 +96,44 @@ def suitable(meta):
     return not FILTER_ADULT or not re.search(r'(?i)(?:\bxxx\b|\badult\b|\bporn\b|18\+|для взрослых)', meta)
 
 
+@lru_cache(maxsize=65536)
 def name_key(name):
     name = unicodedata.normalize('NFKC', name)
     name = re.sub(r'[\u064b-\u065f\u0670\u0640]', '', name)
-    name = name.translate(str.maketrans('أإآى', 'اااي'))
+    name = name.translate(str.maketrans('أإآىё', 'ااايе'))
     name = re.sub(r'(?i)\((?:\d{3,4}[pi]|дубль)\)|\[(?:geo-blocked|not 24/7)\]', ' ', name)
-    name = re.sub(r'(?i)\b(?:hd|fhd|uhd|4k|1080p|720p|sd|live)\b', ' ', name)
-    name = re.sub(r'[^\w]+', ' ', name.casefold(), flags=re.UNICODE)
+    # Remove standalone labels first so «FHD» cannot be mistaken for «F» + «HD».
+    name = re.sub(r'(?i)\b(?:full[ .-]*hd|fhd|uhd|hd|sd|4k|8k|\d{3,4}[pi]|live)\b', ' ', name)
+    name = name.rstrip()
+    name = re.sub(r'(?<=[\w])(?:FHD|UHD|HD|SD)$', '', name)
+    name = re.sub(r'(?i)(?<=\d)(?:fhd|uhd|hd|sd)$', '', name)
+    name = re.sub(r'(?i)(?<=\w)(?:2160p|1080p|720p)$', '', name)
+    name = re.sub(r'([^\W\d_])(?=\d)|(?<=\d)([^\W\d_])', r'\1 \2', name)
+    # Keep plus signs: «1+1», «11» and time-shifted feeds are different.
+    name = re.sub(r'[^\w+]+|_', ' ', name.casefold(), flags=re.UNICODE)
     return ' '.join(name.split())
+
+
+@lru_cache(maxsize=65536)
+def transliterated(name):
+    alphabet = 'абвгдеёжзийклмнопрстуфхцчшщъыьэюя'
+    latin = ['a','b','v','g','d','e','e','zh','z','i','y','k','l','m','n','o',
+             'p','r','s','t','u','f','kh','ts','ch','sh','shch','','y','','e','yu','ya']
+    return name.translate(str.maketrans(dict(zip(alphabet, latin))))
+
+
+def spelling_keys(name):
+    normalized = name_key(name)
+    return {normalized, normalized.replace(' ', ''),
+            transliterated(normalized), transliterated(normalized).replace(' ', '')} - {''}
+
+
+def shift_key(name):
+    return tuple(re.findall(r'\+\s*(\d+)', unicodedata.normalize('NFKC', name)))
+
+
+def row_names(row):
+    return [row['name'], *ALIASES.get(channel_id(row['meta']), [])]
 
 
 def channel_id(meta):
@@ -115,33 +146,30 @@ def channel_id(meta):
 
 
 def channel_match(source, candidate):
-    # A stable tvg-id takes priority; different known IDs reject false positives.
+    # Explicit time shifts must agree even when the channel IDs are equal.
+    if shift_key(source['name']) != shift_key(candidate['name']):
+        return 0
     source_id, candidate_id = channel_id(source['meta']), channel_id(candidate['meta'])
     if source_id and candidate_id:
-        if source_id == candidate_id:
-            return 100
-        # Different broadcasters often share very similar display names.
-        return 0
-    a, b = name_key(source['name']), name_key(candidate['name'])
-    aliases = [name_key(n) for n in ALIASES.get(candidate_id, [])]
-    if a and a in aliases:
-        return 100
-    if not a or not b:
-        return 0
-    if a == b:
-        return 100
-    # Require a meaningful shared token for longer channel names.
-    a_words, b_words = set(a.split()), set(b.split())
-    if max(len(a), len(b)) > 5 and not (a_words & b_words):
-        return 0
-    # Never confuse numbered stations or time-shifted feeds.
-    if re.findall(r'\d+', a) != re.findall(r'\d+', b):
-        return 0
-    score = fuzz.ratio(a, b)
-    # Short names are ambiguous: use stricter equality.
-    if min(len(a), len(b)) <= 4 and score < 100:
-        return 0
-    return score
+        return 100 if source_id == candidate_id else 0
+    best = 0
+    for left in row_names(source):
+        for right in row_names(candidate):
+            a, b = name_key(left), name_key(right)
+            if not a or not b:
+                continue
+            # Check number sequences, not concatenated digits (1 2 != 12).
+            if re.findall(r'\d+', a) != re.findall(r'\d+', b):
+                continue
+            if spelling_keys(left) & spelling_keys(right):
+                return 100
+            a, b = transliterated(a), transliterated(b)
+            if min(len(a.replace(' ', '')), len(b.replace(' ', ''))) <= 4:
+                continue
+            # Full-name comparisons only; partial/token-set matching can confuse
+            # channels such as «Amedia» and «Amedia Premium».
+            best = max(best, fuzz.ratio(a, b), fuzz.token_sort_ratio(a, b))
+    return round(best)
 
 
 def parse_m3u(text):
@@ -214,7 +242,11 @@ def read_cache():
 
 
 def cache_key(row):
-    return 'id:' + channel_id(row['meta']) if channel_id(row['meta']) else 'name:' + name_key(row['name'])
+    cid = channel_id(row['meta'])
+    if cid:
+        shift = shift_key(row['name'])
+        return 'id:' + cid + (':shift:' + ','.join(shift) if shift else '')
+    return 'name:' + name_key(row['name'])
 
 
 def extend_channels(original, donors):
@@ -282,8 +314,8 @@ def main():
     index = defaultdict(list)
     ids = defaultdict(list)
     for row in donor_rows:
-        names = [row['name'], *ALIASES.get(channel_id(row['meta']), [])]
-        for k in {name_key(n) for n in names} - {''}:
+        names = row_names(row)
+        for k in {key for n in names for key in spelling_keys(n)}:
             index[k].append(row)
         if channel_id(row['meta']):
             ids[channel_id(row['meta'])].append(row)
@@ -298,17 +330,29 @@ def main():
             candidates.append(('cache', cached_url, donor_by_url.get(cached_url, {}).get('extras', [])))
         source_id = channel_id(row['meta'])
         matched = []
-        matched.extend((100, r) for r in ids.get(source_id, []))
-        matched.extend((100, r) for r in index.get(k, []) if channel_match(row, r) == 100)
-        if k and len(matched) < MAX_CANDIDATES and keys:
-            for candidate_key, _score, _ in process.extract(k, keys, scorer=fuzz.WRatio,
-                                                              limit=MATCH_POOL):
-                if candidate_key == k:
-                    continue
-                for donor in index[candidate_key]:
-                    score = channel_match(row, donor)
-                    if score >= FUZZY_THRESHOLD:
-                        matched.append((score, donor))
+        seen_rows = set()
+        def consider(donor):
+            identity = (donor['url'], tuple(donor['extras']), donor['meta'])
+            if identity in seen_rows:
+                return
+            seen_rows.add(identity)
+            score = channel_match(row, donor)
+            if score >= FUZZY_THRESHOLD:
+                matched.append((score, donor))
+        for donor in ids.get(source_id, []):
+            consider(donor)
+        query_keys = {key for n in row_names(row) for key in spelling_keys(n)}
+        for key in sorted(query_keys):
+            for donor in index.get(key, []):
+                consider(donor)
+        # Evaluate fuzzy alternatives too; duplicates must not consume the pool
+        # and prevent a different working URL from ever being considered.
+        if keys:
+            for key in sorted(query_keys):
+                for candidate_key, _, _ in process.extract(key, keys, scorer=fuzz.ratio,
+                                                          limit=MATCH_POOL):
+                    for donor in index[candidate_key]:
+                        consider(donor)
         matched.sort(key=lambda entry: -entry[0])
         candidates.extend((f"{d['donor']}:{score}", d['url'], d['extras']) for score, d in matched)
         seen, unique = set(), []
