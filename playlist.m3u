@@ -1,0 +1,348 @@
+#EXTM3U
+# Updated: 2026-10-30T05:51:08+00:00
+# Verified channels: 115
+#EXTINF:0 tvg-id="chnl-1" tvg-name="Первый HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Первый HD
+#EXTGRP:1. Федеральные
+https://ngtrk.dc.beltelecom.by/ngtrk/smil:informacionnyy.smil/playlist.m3u8
+#EXTINF:0 tvg-id="chnl-1643" tvg-name="Первый SD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1643.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Первый SD
+#EXTGRP:1. Федеральные
+https://ngtrk.dc.beltelecom.by/ngtrk/smil:informacionnyy.smil/playlist.m3u8
+#EXTINF:0 tvg-id="chnl-3" tvg-name="НТВ HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/3.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", НТВ HD
+#EXTGRP:1. Федеральные
+https://zabava-htlive.cdn.ngenix.net/hls/CH_NTV/variant.m3u8
+#EXTINF:0 tvg-id="chnl-2453" tvg-name="НТВ" tvg-logo="http://ru1.plist.link/plepg/img/channels/2453.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", НТВ
+#EXTGRP:1. Федеральные
+https://zabava-htlive.cdn.ngenix.net/hls/CH_NTV/variant.m3u8
+#EXTINF:0 tvg-id="chnl-6" tvg-name="Москва 24" tvg-logo="http://ru1.plist.link/plepg/img/channels/6.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Москва 24
+#EXTGRP:1. Федеральные
+https://stream.smotrim.ru/hls2/moscow_24/playlist_3.m3u8
+#EXTINF:0 tvg-id="chnl-2918" tvg-name="Euronews Russian" tvg-logo="http://ru1.plist.link/plepg/img/channels/2918.png?6ada7df81f14c" tvg-rec="0" timeshift="0" group-title="2. Новостные", Euronews Russian
+#EXTGRP:2. Новостные
+https://cdn-euronews.akamaized.net/live/eds/euronews-ru/25071/index.m3u8
+#EXTINF:0 tvg-id="chnl-7" tvg-name="Россия 24" tvg-logo="http://ru1.plist.link/plepg/img/channels/7.png?6ada7df81f14c" tvg-rec="1" timeshift="1" group-title="2. Новостные", Россия 24
+#EXTGRP:2. Новостные
+https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/variant.m3u8
+#EXTINF:0 tvg-id="chnl-500" tvg-name="CNN International" tvg-logo="http://ru1.plist.link/plepg/img/channels/500.png?6ada7df81f14c" tvg-rec="0" timeshift="0" group-title="2. Новостные", CNN International
+#EXTGRP:2. Новостные
+https://d3bp6dwmpbdajl.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ury0meh5m4nzm/index.m3u8
+#EXTINF:0 tvg-id="chnl-498" tvg-name="Euronews English" tvg-logo="http://ru1.plist.link/plepg/img/channels/498.png?6ada7df81f14c" tvg-rec="0" timeshift="0" group-title="2. Новостные", Euronews English
+#EXTGRP:2. Новостные
+https://dash4.antik.sk/live/test_euronews/playlist.m3u8
+#EXTINF:0 tvg-id="chnl-1095" tvg-name="TRT World HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1095.png?6ada7df81f14c" tvg-rec="0" timeshift="0" group-title="2. Новостные", TRT World HD
+#EXTGRP:2. Новостные
+https://dash2.antik.sk/live/test_trt_world_atktv/playlist.m3u8
+#EXTINF:0 tvg-id="chnl-2709" tvg-name="Deutsche Welle" tvg-logo="http://ru1.plist.link/plepg/img/channels/2709.png?6ada7df81f14c" tvg-rec="0" timeshift="0" group-title="2. Новостные", Deutsche Welle
+#EXTGRP:2. Новостные
+http://stream.mcquack.net/440/index.m3u8
+#EXTINF:0 tvg-id="chnl-2924" tvg-name="DW English" tvg-logo="http://ru1.plist.link/plepg/img/channels/2924.png?6ada7df81f14c" tvg-rec="0" timeshift="0" group-title="2. Новостные", DW English
+#EXTGRP:2. Новостные
+https://amg01644-amg01644c1-amgplt0343.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg01644-amg01644c1-amgplt0343/playlist.m3u8
+#EXTINF:0 tvg-id="chnl-1418" tvg-name="TRT World HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1418.png?6ada7df81f14c" tvg-rec="0" timeshift="0" group-title="2. Новостные", TRT World HD
+#EXTGRP:2. Новостные
+https://dash2.antik.sk/live/test_trt_world_atktv/playlist.m3u8
+#EXTINF:0 tvg-id="chnl-116" tvg-name="Родное кино" tvg-logo="http://ru1.plist.link/plepg/img/channels/116.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", Родное кино
+#EXTGRP:3. Кино
+https://stream8.cinerama.uz/1052/index.m3u8
+#EXTINF:0 tvg-id="chnl-461" tvg-name="Индийское кино" tvg-logo="http://ru1.plist.link/plepg/img/channels/461.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", Индийское кино
+#EXTGRP:3. Кино
+https://stream8.cinerama.uz/1060/index.m3u8
+#EXTINF:0 tvg-id="chnl-506" tvg-name="Start Air HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/506.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", Start Air HD
+#EXTGRP:3. Кино
+http://176.118.197.101/START_AIR/index.m3u8
+#EXTINF:0 tvg-id="chnl-58" tvg-name="Viju+ Comedy HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/58.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", Viju+ Comedy HD
+#EXTGRP:3. Кино
+http://stream.mcquack.net/201/index.m3u8
+#EXTINF:0 tvg-id="chnl-60" tvg-name="Viju+ Premiere HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/60.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", Viju+ Premiere HD
+#EXTGRP:3. Кино
+http://stream.mcquack.net/202/index.m3u8
+#EXTINF:0 tvg-id="chnl-59" tvg-name="Viju+ Megahit HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/59.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", Viju+ Megahit HD
+#EXTGRP:3. Кино
+http://stream.mcquack.net/200/index.m3u8
+#EXTINF:0 tvg-id="chnl-701" tvg-name="Viju+ Serial HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/701.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", Viju+ Serial HD
+#EXTGRP:3. Кино
+http://stream.mcquack.net/311/index.m3u8
+#EXTINF:0 tvg-id="chnl-32" tvg-name="Amedia Hit HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/32.png?6ada7df81f19e" tvg-rec="2" timeshift="2" group-title="3. Кино", Amedia Hit HD
+#EXTGRP:3. Кино
+http://stream.mcquack.net/162/index.m3u8
+#EXTINF:0 tvg-id="chnl-462" tvg-name="Русский Детектив" tvg-logo="http://ru1.plist.link/plepg/img/channels/462.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", Русский Детектив
+#EXTGRP:3. Кино
+http://185.46.16.239:8000/Russkiy_roman
+#EXTINF:0 tvg-id="chnl-465" tvg-name=".Black" tvg-logo="http://ru1.plist.link/plepg/img/channels/465.png?6ada7df81f19e" tvg-rec="1" timeshift="1" group-title="3. Кино", .Black
+#EXTGRP:3. Кино
+http://stream.mcquack.net/283/index.m3u8
+#EXTINF:0 tvg-id="chnl-508" tvg-name="Ретро" tvg-logo="http://ru1.plist.link/plepg/img/channels/508.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", Ретро
+#EXTGRP:3. Кино
+https://stream8.cinerama.uz/1047/index.m3u8
+#EXTINF:0 tvg-id="chnl-543" tvg-name="Тайна" tvg-logo="http://ru1.plist.link/plepg/img/channels/543.png?6ada7df81f19e" tvg-rec="0" timeshift="0" group-title="3. Кино", Тайна
+#EXTGRP:3. Кино
+https://bl.rutube.ru/livestream/a11c890a0ec0730ad33bdaaf2d244e1a/index.m3u8?s=hCc3BqSwghCQ0GRhDJ967A&e=2070623490&scheme=https
+#EXTINF:0 tvg-id="chnl-585" tvg-name="Star Family HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/585.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", Star Family HD
+#EXTGRP:3. Кино
+https://dash2.antik.sk/live/test_star_family_atktv/playlist.m3u8
+#EXTINF:0 tvg-id="chnl-44" tvg-name="Детский мир" tvg-logo="http://ru1.plist.link/plepg/img/channels/44.png?6ada7df81f5bb" tvg-rec="3" timeshift="3" group-title="6. Детские", Детский мир
+#EXTGRP:6. Детские
+http://185.37.150.46/Karusel/index.m3u8
+#EXTINF:0 tvg-id="chnl-40" tvg-name="Карусель" tvg-logo="http://ru1.plist.link/plepg/img/channels/40.png?6ada7df81f5bb" tvg-rec="3" timeshift="3" group-title="6. Детские", Карусель
+#EXTGRP:6. Детские
+http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL/variant.m3u8
+#EXTINF:0 tvg-id="chnl-41" tvg-name="Солнце" tvg-logo="http://ru1.plist.link/plepg/img/channels/41.png?6ada7df81f5bb" tvg-rec="3" timeshift="3" group-title="6. Детские", Солнце
+#EXTGRP:6. Детские
+http://tv.mediacdn.ru/live/solntse/playlist_3000k.m3u8
+#EXTINF:0 tvg-id="chnl-81" tvg-name="Cartoon Network" tvg-logo="http://ru1.plist.link/plepg/img/channels/81.png?6ada7df81f5bb" tvg-rec="3" timeshift="3" group-title="6. Детские", Cartoon Network
+#EXTGRP:6. Детские
+https://bl.rutube.ru/livestream/d2119cfb95146b3983cf05c1fe35e66f/index.m3u8?s=SBAsUrxODR6nk6ktHKTpoQ&e=2090795468&scheme=https
+#EXTINF:0 tvg-id="chnl-43" tvg-name="Gulli Girl" tvg-logo="http://ru1.plist.link/plepg/img/channels/43.png?6ada7df81f5bb" tvg-rec="3" timeshift="3" group-title="6. Детские", Gulli Girl
+#EXTGRP:6. Детские
+https://stream8.cinerama.uz/1445/tracks-v1a1/mono.m3u8
+#EXTINF:0 tvg-id="chnl-487" tvg-name="Радость Моя" tvg-logo="http://ru1.plist.link/plepg/img/channels/487.png?6ada7df81f5bb" tvg-rec="0" timeshift="0" group-title="6. Детские", Радость Моя
+#EXTGRP:6. Детские
+https://radm.mediacdn.ru/cdn/radost/playlist_sdhigh.m3u8
+#EXTINF:0 tvg-id="chnl-617" tvg-name="Супергерои" tvg-logo="http://ru1.plist.link/plepg/img/channels/617.png?6ada7df81f5bb" tvg-rec="0" timeshift="0" group-title="6. Детские", Супергерои
+#EXTGRP:6. Детские
+http://109.94.1.3:8080/132/index.m3u8
+#EXTINF:0 tvg-id="chnl-634" tvg-name="Мультиландия" tvg-logo="http://ru1.plist.link/plepg/img/channels/634.png?6ada7df81f5bb" tvg-rec="0" timeshift="0" group-title="6. Детские", Мультиландия
+#EXTGRP:6. Детские
+https://stream8.cinerama.uz/1440/index.m3u8
+#EXTINF:0 tvg-id="chnl-48" tvg-name="Точка отрыва" tvg-logo="http://ru1.plist.link/plepg/img/channels/48.png?6ada7df81f693" tvg-rec="3" timeshift="3" group-title="7. Спорт", Точка отрыва
+#EXTGRP:7. Спорт
+https://stream8.cinerama.uz/1031/index.m3u8
+#EXTINF:0 tvg-id="chnl-30" tvg-name="MTV" tvg-logo="http://ru1.plist.link/plepg/img/channels/30.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", MTV
+#EXTGRP:8. Музыкальные
+http://23.237.104.106:8080/USA_MTV_LIVE/index.m3u8
+#EXTINF:0 tvg-id="chnl-324" tvg-name="Stingray iConcerts HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/324.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Stingray iConcerts HD
+#EXTGRP:8. Музыкальные
+https://dash4.antik.sk/live/test_stingray_iconcerts_hd_hevc50/playlist.m3u8
+#EXTINF:0 tvg-id="chnl-615" tvg-name="Музыка Первого" tvg-logo="http://ru1.plist.link/plepg/img/channels/615.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Музыка Первого
+#EXTGRP:8. Музыкальные
+http://rr2.73mtv.org/~109e1a3c05fcad5b22d13b9453dc0db5122/81/hls/pl.m3u8
+#EXTINF:0 tvg-id="chnl-20001" tvg-name="Dance TV Best Of" tvg-logo="http://ru1.plist.link/plepg/img/channels/20001.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Dance TV Best Of
+#EXTGRP:8. Музыкальные
+https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
+#EXTINF:0 tvg-id="chnl-10006" tvg-name="Dance TV Chill AF Downtempo" tvg-logo="http://ru1.plist.link/plepg/img/channels/10006.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Dance TV Chill AF Downtempo
+#EXTGRP:8. Музыкальные
+https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
+#EXTINF:0 tvg-id="chnl-392" tvg-name="Dance TV Melodic Tech" tvg-logo="http://ru1.plist.link/plepg/img/channels/392.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Dance TV Melodic Tech
+#EXTGRP:8. Музыкальные
+https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
+#EXTINF:0 tvg-id="chnl-635" tvg-name="Dance TV Mainstream EDM" tvg-logo="http://ru1.plist.link/plepg/img/channels/635.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Dance TV Mainstream EDM
+#EXTGRP:8. Музыкальные
+https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
+#EXTINF:0 tvg-id="chnl-455" tvg-name="Dance TV MiNiMaL" tvg-logo="http://ru1.plist.link/plepg/img/channels/455.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Dance TV MiNiMaL
+#EXTGRP:8. Музыкальные
+https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
+#EXTINF:0 tvg-id="chnl-2620" tvg-name="Dance TV House Floor" tvg-logo="http://ru1.plist.link/plepg/img/channels/2620.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Dance TV House Floor
+#EXTGRP:8. Музыкальные
+https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
+#EXTINF:0 tvg-id="chnl-1918" tvg-name="Dance TV Tech House Terrace" tvg-logo="http://ru1.plist.link/plepg/img/channels/1918.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Dance TV Tech House Terrace
+#EXTGRP:8. Музыкальные
+https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
+#EXTINF:0 tvg-id="chnl-556" tvg-name="Dance TV Techno Warehouse" tvg-logo="http://ru1.plist.link/plepg/img/channels/556.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Dance TV Techno Warehouse
+#EXTGRP:8. Музыкальные
+https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
+#EXTINF:0 tvg-id="chnl-10004" tvg-name="Dance TV Deep House District" tvg-logo="http://ru1.plist.link/plepg/img/channels/10004.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Dance TV Deep House District
+#EXTGRP:8. Музыкальные
+https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
+#EXTINF:0 tvg-id="chnl-631" tvg-name="TRACE URBAN International" tvg-logo="http://ru1.plist.link/plepg/img/channels/631.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", TRACE URBAN International
+#EXTGRP:8. Музыкальные
+https://channels.trace.plus/Traceprod/URBAN_INTER_hd/index.m3u8
+#EXTINF:0 tvg-id="chnl-633" tvg-name="TRACE BRAZIL Brazil" tvg-logo="http://ru1.plist.link/plepg/img/channels/633.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", TRACE BRAZIL Brazil
+#EXTGRP:8. Музыкальные
+https://channels.trace.plus/Traceprod/BRAZIL.m3u8
+#EXTINF:0 tvg-id="chnl-1878" tvg-name="TRACE LATINA Latin America" tvg-logo="http://ru1.plist.link/plepg/img/channels/1878.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", TRACE LATINA Latin America
+#EXTGRP:8. Музыкальные
+https://channels.trace.plus/Traceprod/LATINA.m3u8
+#EXTINF:0 tvg-id="chnl-1985" tvg-name="TRACE GOSPEL Africa Franco" tvg-logo="http://ru1.plist.link/plepg/img/channels/1985.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", TRACE GOSPEL Africa Franco
+#EXTGRP:8. Музыкальные
+https://channels.trace.plus/Traceprod/GOSPEL_FR.m3u8
+#EXTINF:0 tvg-id="chnl-721" tvg-name="TRACE NGOMA South Africa" tvg-logo="http://ru1.plist.link/plepg/img/channels/721.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", TRACE NGOMA South Africa
+#EXTGRP:8. Музыкальные
+https://channels.trace.plus/Traceprod/AFRICA_EN.m3u8
+#EXTINF:0 tvg-id="chnl-381" tvg-name="TRACE URBAN Africa Franco" tvg-logo="http://ru1.plist.link/plepg/img/channels/381.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", TRACE URBAN Africa Franco
+#EXTGRP:8. Музыкальные
+https://channels.trace.plus/Traceprod/URBAN_AFRIC_FR.m3u8
+#EXTINF:0 tvg-id="chnl-248" tvg-name="TRACE TOCA Angola CVerde Mozambique" tvg-logo="http://ru1.plist.link/plepg/img/channels/248.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", TRACE TOCA Angola CVerde Mozambique
+#EXTGRP:8. Музыкальные
+https://channels.trace.plus/Traceprod/TOCA.m3u8
+#EXTINF:0 tvg-id="chnl-651" tvg-name="TRACE GOSPEL Southern Africa" tvg-logo="http://ru1.plist.link/plepg/img/channels/651.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", TRACE GOSPEL Southern Africa
+#EXTGRP:8. Музыкальные
+https://channels.trace.plus/Traceprod/GOSPEL_SA.m3u8
+#EXTINF:0 tvg-id="chnl-247" tvg-name="TRACE NAIJA Nigeria" tvg-logo="http://ru1.plist.link/plepg/img/channels/247.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", TRACE NAIJA Nigeria
+#EXTGRP:8. Музыкальные
+https://channels.trace.plus/Traceprod/NAIJA.m3u8
+#EXTINF:0 tvg-id="chnl-415" tvg-name="TRACE URBAN Southern Africa" tvg-logo="http://ru1.plist.link/plepg/img/channels/415.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", TRACE URBAN Southern Africa
+#EXTGRP:8. Музыкальные
+https://channels.trace.plus/Traceprod/URBAN_SA.m3u8
+#EXTINF:0 tvg-id="chnl-840" tvg-name="TRACE URBAN Caribbean and Indian Ocean" tvg-logo="http://ru1.plist.link/plepg/img/channels/840.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", TRACE URBAN Caribbean and Indian Ocean
+#EXTGRP:8. Музыкальные
+https://channels.trace.plus/Traceprod/URBAN_DOM.m3u8
+#EXTINF:0 tvg-id="chnl-623" tvg-name="TRACE JAMA Ghana" tvg-logo="http://ru1.plist.link/plepg/img/channels/623.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", TRACE JAMA Ghana
+#EXTGRP:8. Музыкальные
+https://channels.trace.plus/Traceprod/JAMA.m3u8
+#EXTINF:0 tvg-id="chnl-663" tvg-name="TRACE GOSPEL Nigeria and East Africa" tvg-logo="http://ru1.plist.link/plepg/img/channels/663.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", TRACE GOSPEL Nigeria and East Africa
+#EXTGRP:8. Музыкальные
+https://channels.trace.plus/Traceprod/GOSPEL_ROA.m3u8
+#EXTINF:0 tvg-id="chnl-2603" tvg-name="TRACE AFRICA Francophone" tvg-logo="http://ru1.plist.link/plepg/img/channels/2603.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", TRACE AFRICA Francophone
+#EXTGRP:8. Музыкальные
+https://channels.trace.plus/Traceprod/AFRICA_FR.m3u8
+#EXTINF:0 tvg-id="chnl-1768" tvg-name="TRACE MUZICA Ethiopia" tvg-logo="http://ru1.plist.link/plepg/img/channels/1768.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", TRACE MUZICA Ethiopia
+#EXTGRP:8. Музыкальные
+https://channels.trace.plus/Traceprod/MUZIKA.m3u8
+#EXTINF:0 tvg-id="chnl-2005" tvg-name="TRACE IVOIRE Ivory Coast" tvg-logo="http://ru1.plist.link/plepg/img/channels/2005.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", TRACE IVOIRE Ivory Coast
+#EXTGRP:8. Музыкальные
+https://channels.trace.plus/Traceprod/TRACE_IVOIRE.m3u8
+#EXTINF:0 tvg-id="chnl-20051" tvg-name="TRACE VANILLA Indian Ocean" tvg-logo="http://ru1.plist.link/plepg/img/channels/20051.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", TRACE VANILLA Indian Ocean
+#EXTGRP:8. Музыкальные
+https://channels.trace.plus/Traceprod/VANILLA.m3u8
+#EXTINF:0 tvg-id="chnl-20052" tvg-name="TRACE TERANGA Senegal Mali Gambia" tvg-logo="http://ru1.plist.link/plepg/img/channels/20052.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", TRACE TERANGA Senegal Mali Gambia
+#EXTGRP:8. Музыкальные
+https://channels.trace.plus/Traceprod/TERANGA.m3u8
+#EXTINF:0 tvg-id="chnl-1116" tvg-name="TRACE KITOKO Kongo" tvg-logo="http://ru1.plist.link/plepg/img/channels/1116.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", TRACE KITOKO Kongo
+#EXTGRP:8. Музыкальные
+https://channels.trace.plus/Traceprod/KITOKO.m3u8
+#EXTINF:0 tvg-id="chnl-385" tvg-name="TRACE MZIKI East Africa" tvg-logo="http://ru1.plist.link/plepg/img/channels/385.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", TRACE MZIKI East Africa
+#EXTGRP:8. Музыкальные
+https://channels.trace.plus/Traceprod/MZIKI.m3u8
+#EXTINF:0 tvg-id="chnl-442" tvg-name="История" tvg-logo="http://ru1.plist.link/plepg/img/channels/442.png?6ada7df81fb30" tvg-rec="3" timeshift="3" group-title="9. Образовательные", История
+#EXTGRP:9. Образовательные
+http://185.46.16.239:8000/Istoriya
+#EXTINF:0 tvg-id="chnl-438" tvg-name="Техно 24" tvg-logo="http://ru1.plist.link/plepg/img/channels/438.png?6ada7df81fb30" tvg-rec="3" timeshift="3" group-title="9. Образовательные", Техно 24
+#EXTGRP:9. Образовательные
+https://stream8.cinerama.uz/1037/index.m3u8
+#EXTINF:0 tvg-id="chnl-443" tvg-name="365 дней ТВ" tvg-logo="http://ru1.plist.link/plepg/img/channels/443.png?6ada7df81fb30" tvg-rec="0" timeshift="0" group-title="9. Образовательные", 365 дней ТВ
+#EXTGRP:9. Образовательные
+https://stream8.cinerama.uz/1242/index.m3u8
+#EXTINF:0 tvg-id="chnl-444" tvg-name="RTG HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/444.png?6ada7df81fb30" tvg-rec="3" timeshift="3" group-title="9. Образовательные", RTG HD
+#EXTGRP:9. Образовательные
+http://stream.mcquack.net/164/index.m3u8
+#EXTINF:0 tvg-id="chnl-446" tvg-name="Travel+Adventure HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/446.png?6ada7df81fb30" tvg-rec="3" timeshift="3" group-title="9. Образовательные", Travel+Adventure HD
+#EXTGRP:9. Образовательные
+http://stream.mcquack.net/206/index.m3u8
+#EXTINF:0 tvg-id="chnl-2078" tvg-name="CGTN Русский" tvg-logo="http://ru1.plist.link/plepg/img/channels/2078.png?6ada7df81fb30" tvg-rec="0" timeshift="0" group-title="9. Образовательные", CGTN Русский
+#EXTGRP:9. Образовательные
+https://russian-liveali.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802cd/playlist.m3u8
+#EXTINF:0 tvg-id="chnl-2796" tvg-name="Моя стихия" tvg-logo="http://ru1.plist.link/plepg/img/channels/2796.png?6ada7df81fb30" tvg-rec="0" timeshift="0" group-title="9. Образовательные", Моя стихия
+#EXTGRP:9. Образовательные
+http://stream.mcquack.net/141/index.m3u8
+#EXTINF:0 tvg-id="chnl-2801" tvg-name="Неизвестная Россия" tvg-logo="http://ru1.plist.link/plepg/img/channels/2801.png?6ada7df81fb30" tvg-rec="0" timeshift="0" group-title="9. Образовательные", Неизвестная Россия
+#EXTGRP:9. Образовательные
+https://cdn.ntv.ru/unknown_russia/playlist.m3u8
+#EXTINF:0 tvg-id="chnl-2454" tvg-name="Viju+ Planet HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/2454.png?6ada7df81fbea" tvg-rec="3" timeshift="3" group-title="10. Природа", Viju+ Planet HD
+#EXTGRP:10. Природа
+http://stream.mcquack.net/240/index.m3u8
+#EXTINF:0 tvg-id="chnl-448" tvg-name="Охота и рыбалка" tvg-logo="http://ru1.plist.link/plepg/img/channels/448.png?6ada7df81fbea" tvg-rec="3" timeshift="3" group-title="10. Природа", Охота и рыбалка
+#EXTGRP:10. Природа
+https://bl.rutube.ru/livestream/1da5d92af8c55b16241f1eb12a27f00c/index.m3u8?s=QzqPo5cuxaeOJDvPy-nBvg&e=2070623488&scheme=https
+#EXTINF:0 tvg-id="chnl-624" tvg-name="Загородный" tvg-logo="http://ru1.plist.link/plepg/img/channels/624.png?6ada7df81fbea" tvg-rec="0" timeshift="0" group-title="10. Природа", Загородный
+#EXTGRP:10. Природа
+https://stream8.cinerama.uz/1044/index.m3u8
+#EXTINF:0 tvg-id="chnl-2867" tvg-name="Загородная жизнь" tvg-logo="http://ru1.plist.link/plepg/img/channels/2867.png?6ada7df81fbea" tvg-rec="0" timeshift="0" group-title="10. Природа", Загородная жизнь
+#EXTGRP:10. Природа
+http://185.57.68.33/40/index.m3u8
+#EXTINF:0 tvg-id="chnl-2871" tvg-name="Светлое ТВ" tvg-logo="http://ru1.plist.link/plepg/img/channels/2871.png?6ada7df81fc9a" tvg-rec="0" timeshift="0" group-title="12. Разное", Светлое ТВ
+#EXTGRP:12. Разное
+https://stream.smotrim.ru/hls2/fasttv06/playlist_3.m3u8
+#EXTINF:0 tvg-id="chnl-106" tvg-name="Квн ТВ" tvg-logo="http://ru1.plist.link/plepg/img/channels/106.png?6ada7df81fc9a" tvg-rec="0" timeshift="0" group-title="12. Разное", Квн ТВ
+#EXTGRP:12. Разное
+http://178.124.179.122:8080/KVN-TV/index.m3u8
+#EXTINF:0 tvg-id="chnl-111" tvg-name="СТС Love" tvg-logo="http://ru1.plist.link/plepg/img/channels/111.png?6ada7df81fc9a" tvg-rec="3" timeshift="3" group-title="12. Разное", СТС Love
+#EXTGRP:12. Разное
+http://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE/variant.m3u8
+#EXTINF:0 tvg-id="chnl-538" tvg-name="Еда" tvg-logo="http://ru1.plist.link/plepg/img/channels/538.png?6ada7df81fc9a" tvg-rec="0" timeshift="0" group-title="12. Разное", Еда
+#EXTGRP:12. Разное
+http://185.57.68.33/40/mpegts
+#EXTINF:0 tvg-id="chnl-2844" tvg-name="Shopping Live" tvg-logo="http://ru1.plist.link/plepg/img/channels/2844.png?6ada7df81fc9a" tvg-rec="0" timeshift="0" group-title="12. Разное", Shopping Live
+#EXTGRP:12. Разное
+https://nonmirya7cc.a.trbcdn.net/livemaster/tzrz5_sazlypl5ot.smil/playlist.m3u8
+#EXTINF:0 tvg-id="chnl-405" tvg-name="ОТР" tvg-logo="http://ru1.plist.link/plepg/img/channels/405.png?6ada7df81fc9a" tvg-rec="0" timeshift="0" group-title="12. Разное", ОТР
+#EXTGRP:12. Разное
+https://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R01_OTR_KLNG_FILIAL/variant.m3u8
+#EXTINF:0 tvg-id="chnl-516" tvg-name="360 HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/516.png?6ada7df81fc9a" tvg-rec="0" timeshift="0" group-title="12. Разное", 360 HD
+#EXTGRP:12. Разное
+https://cdn-evacoder-tv.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/index.m3u8
+#EXTINF:0 tvg-id="chnl-3081" tvg-name="НТВ Стиль" tvg-logo="http://ru1.plist.link/plepg/img/channels/3081.png?6ada7df81fc9a" tvg-rec="0" timeshift="0" group-title="12. Разное", НТВ Стиль
+#EXTGRP:12. Разное
+http://cdn2.ntv.ru/th_style/tracks-v1a1/mono.m3u8
+#EXTINF:0 tvg-id="chnl-557" tvg-name="Star Cinema HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/557.png?6ada7df81fd61" tvg-rec="3" timeshift="3" group-title="13. Украина", Star Cinema HD
+#EXTGRP:13. Украина
+https://dash2.antik.sk/live/test_star_cinema_atktv/playlist.m3u8
+#EXTINF:0 tvg-id="chnl-213" tvg-name="Crime Investigation HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/213.png?6ada7df81feb9" tvg-rec="3" timeshift="3" group-title="14. Немецкие", Crime Investigation HD
+#EXTGRP:14. Немецкие
+http://23.237.104.106:8080/USA_CRIME_INVESTIGATION/index.m3u8
+#EXTINF:0 tvg-id="chnl-1925" tvg-name="One Music Television HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1925.png?6ada7df81feb9" tvg-rec="0" timeshift="0" group-title="14. Немецкие", One Music Television HD
+#EXTGRP:14. Немецкие
+https://oneapp.b-cdn.net/1080p/index.m3u8
+#EXTINF:0 tvg-id="chnl-2130" tvg-name="LV | TV Extra" tvg-logo="http://ru1.plist.link/plepg/img/channels/2130.png?6ada7df8203ba" tvg-rec="3" timeshift="3" group-title="18. Латвия", LV | TV Extra
+#EXTGRP:18. Латвия
+https://rst2.saiuzwebnetwork.it:8081/extratvlive/index.m3u8
+#EXTINF:0 tvg-id="chnl-1986" tvg-name="ОТВ Екатеринбург" tvg-logo="http://ru1.plist.link/plepg/img/channels/1986.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", ОТВ Екатеринбург
+#EXTGRP:36. Региональные
+https://vd.obltv.ru/watch/air_hd.m3u8
+#EXTINF:0 tvg-id="chnl-2711" tvg-name="12 канал Омск" tvg-logo="http://ru1.plist.link/plepg/img/channels/2711.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", 12 канал Омск
+#EXTGRP:36. Региональные
+http://12channel.bonus-tv.ru/cdn/12channel/playlist_hdhigh.m3u8
+#EXTINF:0 tvg-id="chnl-2714" tvg-name="Белгород 24" tvg-logo="http://ru1.plist.link/plepg/img/channels/2714.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Белгород 24
+#EXTGRP:36. Региональные
+http://rt-ct-belg-htlive.cdn.ngenix.net/hls/CH_R02_BELGOROD24/variant.m3u8
+#EXTINF:0 tvg-id="chnl-2720" tvg-name="Краснодар" tvg-logo="http://ru1.plist.link/plepg/img/channels/2720.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Краснодар
+#EXTGRP:36. Региональные
+http://live-tvkrasnodar.cdnvideo.ru/tvkrasnodar/tvkrasnodar.sdp/playlist.m3u8
+#EXTINF:0 tvg-id="chnl-2721" tvg-name="КРЫМ 24" tvg-logo="http://ru1.plist.link/plepg/img/channels/2721.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", КРЫМ 24
+#EXTGRP:36. Региональные
+http://80.245.112.27:8787/
+#EXTINF:0 tvg-id="chnl-2726" tvg-name="Арис 24" tvg-logo="http://ru1.plist.link/plepg/img/channels/2726.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Арис 24
+#EXTGRP:36. Региональные
+https://bl.rutube.ru/livestream/9b482361d6c845f7d70eafc98356d8bf/index.m3u8?s=92J55630qJZPz9iiIJZpVw&e=2076071194&scheme=https
+#EXTINF:0 tvg-id="chnl-2729" tvg-name="Сочи 24" tvg-logo="http://ru1.plist.link/plepg/img/channels/2729.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Сочи 24
+#EXTGRP:36. Региональные
+http://serv30.vintera.tv:8081/sochi/sochi24_tv/playlist.m3u8
+#EXTINF:0 tvg-id="chnl-2730" tvg-name="АТВ Ставрополь" tvg-logo="http://ru1.plist.link/plepg/img/channels/2730.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", АТВ Ставрополь
+#EXTGRP:36. Региональные
+https://rt-sth-stavr-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_STAVR_ATV/variant.m3u8
+#EXTINF:0 tvg-id="chnl-2731" tvg-name="Брянская Губерния" tvg-logo="http://ru1.plist.link/plepg/img/channels/2731.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Брянская Губерния
+#EXTGRP:36. Региональные
+https://online.guberniya.tv/hls/gub_3500K/Guberniya_HD_3500K.m3u8
+#EXTINF:0 tvg-id="chnl-2732" tvg-name="БСТ" tvg-logo="http://ru1.plist.link/plepg/img/channels/2732.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", БСТ
+#EXTGRP:36. Региональные
+http://bsttv.bonus-tv.ru/cdn/bst/playlist_sdhigh.m3u8
+#EXTINF:0 tvg-id="chnl-2735" tvg-name="Дзержинск ТВ" tvg-logo="http://ru1.plist.link/plepg/img/channels/2735.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Дзержинск ТВ
+#EXTGRP:36. Региональные
+http://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R01_DZERZHINSK/variant.m3u8
+#EXTINF:0 tvg-id="chnl-2739" tvg-name="Кавказ 24" tvg-logo="http://ru1.plist.link/plepg/img/channels/2739.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Кавказ 24
+#EXTGRP:36. Региональные
+https://rt-sth-stavr-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_STAVR_KAVKAZ24/variant.m3u8
+#EXTINF:0 tvg-id="chnl-2740" tvg-name="Миллет" tvg-logo="http://ru1.plist.link/plepg/img/channels/2740.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Миллет
+#EXTGRP:36. Региональные
+https://zabava-htlive.cdn.ngenix.net/hls/CH_MILLET/variant.m3u8
+#EXTINF:0 tvg-id="chnl-2743" tvg-name="МТВ Волгоград" tvg-logo="http://ru1.plist.link/plepg/img/channels/2743.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", МТВ Волгоград
+#EXTGRP:36. Региональные
+http://hls.volgograd1vtv.cdnvideo.ru/volgograd1vtv/volgograd1vtv.sdp/playlist.m3u8
+#EXTINF:0 tvg-id="chnl-2750" tvg-name="Ника ТВ" tvg-logo="http://ru1.plist.link/plepg/img/channels/2750.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Ника ТВ
+#EXTGRP:36. Региональные
+http://rt-ct-kaluga-htlive.cdn.ngenix.net/hls/CH_R01_NIKA/variant.m3u8
+#EXTINF:0 tvg-id="chnl-2761" tvg-name="Прима Красноярск" tvg-logo="http://ru1.plist.link/plepg/img/channels/2761.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Прима Красноярск
+#EXTGRP:36. Региональные
+https://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_Prima/hls/index.m3u8
+#EXTINF:0 tvg-id="chnl-2764" tvg-name="С1 Сургут" tvg-logo="http://ru1.plist.link/plepg/img/channels/2764.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", С1 Сургут
+#EXTGRP:36. Региональные
+https://sitv.ru/vgtrk/stv.m3u8
+#EXTINF:0 tvg-id="chnl-2768" tvg-name="Татарстан 24" tvg-logo="http://ru1.plist.link/plepg/img/channels/2768.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Татарстан 24
+#EXTGRP:36. Региональные
+http://rt-vlg-kzn-htlive.cdn.ngenix.net/hls/CH_R02_EFIR24/variant.m3u8
+#EXTINF:0 tvg-id="chnl-2772" tvg-name="ТКР Рязань" tvg-logo="http://ru1.plist.link/plepg/img/channels/2772.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", ТКР Рязань
+#EXTGRP:36. Региональные
+http://live.tkr.cdnvideo.ru/tkr/tkr.sdp/playlist.m3u8
+#EXTINF:0 tvg-id="chnl-2773" tvg-name="ТНВ Татарстан" tvg-logo="http://ru1.plist.link/plepg/img/channels/2773.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", ТНВ Татарстан
+#EXTGRP:36. Региональные
+http://user91229.clients-cdnnow.ru/hls/user91229_1_720/index.m3u8
+#EXTINF:0 tvg-id="chnl-2775" tvg-name="Томское время" tvg-logo="http://ru1.plist.link/plepg/img/channels/2775.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Томское время
+#EXTGRP:36. Региональные
+http://rt-sib-tomsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_TOMSK_TOMSKVREMIA/variant.m3u8
+#EXTINF:0 tvg-id="chnl-2777" tvg-name="Тюменское время" tvg-logo="http://ru1.plist.link/plepg/img/channels/2777.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Тюменское время
+#EXTGRP:36. Региональные
+https://hls-sibinformburo.cdnvideo.ru/sibinformburo-srt/sibinformburo001/playlist.m3u8
+#EXTINF:0 tvg-id="chnl-2780" tvg-name="Югра" tvg-logo="http://ru1.plist.link/plepg/img/channels/2780.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Югра
+#EXTGRP:36. Региональные
+https://live-ugratv.cdnvideo.ru/ugratv/ugratv/playlist.m3u8
+#EXTINF:0 tvg-id="chnl-2789" tvg-name="Якутия 24" tvg-logo="http://ru1.plist.link/plepg/img/channels/2789.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Якутия 24
+#EXTGRP:36. Региональные
+http://live-saha.cdnvideo.ru/saha/yak24rtmp/playlist.m3u8
