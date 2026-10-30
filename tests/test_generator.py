@@ -67,7 +67,7 @@ class GeneratorTests(unittest.TestCase):
         self.assertEqual(validate.call_count, 2)
         self.assertNotIn(g.target('unused'), checks)
 
-    def test_no_output_keeps_playlist_but_writes_diagnostics(self):
+    def test_no_verified_channels_clears_stale_output_and_writes_diagnostics(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             source, output, cache, report = [root / n for n in ('source', 'out', 'cache', 'report')]
@@ -75,8 +75,10 @@ class GeneratorTests(unittest.TestCase):
             output.write_text('previous playlist')
             cache.write_text('{}')
             with patch.multiple(g, SOURCE=source, OUT=output, CACHE=cache, REPORT=report, APPEND_NEW=False, KEEP_UNVERIFIED=False), patch.object(g, 'load_donors', return_value=[]), patch.object(g, 'validate', return_value=(False, 'http_403')):
-                self.assertEqual(g.main(), 2)
-            self.assertEqual(output.read_text(), 'previous playlist')
+                self.assertEqual(g.main(), 0)
+            self.assertEqual(g.parse_m3u(output.read_text()), [])
+            self.assertTrue(output.read_text().startswith('#EXTM3U'))
+            self.assertEqual(json.loads(cache.read_text()), {})
             self.assertEqual(json.loads(report.read_text())['checks']['http_403'], 1)
 
     def test_source_roster_and_header_are_preserved(self):
