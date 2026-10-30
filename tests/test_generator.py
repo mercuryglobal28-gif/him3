@@ -11,6 +11,43 @@ def row(name, cid='', url='https://example.com/live.m3u8'):
 
 
 class GeneratorTests(unittest.TestCase):
+    def test_spacing_quality_and_cyrillic_spelling(self):
+        variants = ['amedia1', 'Amedia 1 HD', 'AMEDIA1HD', 'amedia1hd',
+                    'Amedia_1', 'Amedia-1 (1080p)', 'A media 1', 'Амедиа 1 HD',
+                    'Amedia 1 FHD', 'Amedia 1 UHD', 'Amedia 1 Full HD']
+        for left in variants:
+            for right in variants:
+                with self.subTest(left=left, right=right):
+                    self.assertEqual(g.channel_match(row(left), row(right)), 100)
+
+    def test_do_not_merge_different_stations(self):
+        for left, right in [('Amedia1','Amedia2 HD'), ('Amedia','Amedia Premium'),
+                            ('Россия 1 +2','Россия 1'), ('1+1','11'),
+                            ('TV 1 2','TV 12'), ('НТВ','НТВ4')]:
+            with self.subTest(left=left, right=right):
+                self.assertLess(g.channel_match(row(left), row(right)), g.FUZZY_THRESHOLD)
+
+    def test_shift_guard_precedes_shared_id_and_aliases(self):
+        self.assertEqual(g.channel_match(row('НТВ +2','NTV.ru@SD'), row('НТВ +4','NTV.ru@HD')), 0)
+        self.assertNotEqual(g.cache_key(row('НТВ +2','NTV.ru')), g.cache_key(row('НТВ +4','NTV.ru')))
+
+    def test_minor_typo_with_same_channel_number(self):
+        self.assertGreaterEqual(g.channel_match(row('Amedia 1'), row('Amedya 1 HD')), g.FUZZY_THRESHOLD)
+
+    def test_normalized_names_reach_candidate_planning(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            source, output, cache, report = [root / n for n in ('source','out','cache','report')]
+            source.write_text('#EXTM3U\n#EXTINF:-1,amedia1\nhttps://example.com/dead\n')
+            donors = [row('Amedia 2 HD', url='https://example.com/wrong'),
+                      row('Амедиа 1 HD', url='https://example.com/good')]
+            with patch.multiple(g, SOURCE=source, OUT=output, CACHE=cache, REPORT=report, APPEND_NEW=False, KEEP_UNVERIFIED=False), patch.object(g, 'load_donors', return_value=[('fixture','https://example.com/list')]), patch.object(g, 'fetch_donor', return_value=donors), patch.object(g, 'validate', side_effect=lambda u, *args: ('good' in u, 'fixture')) as check:
+                self.assertEqual(g.main(), 0)
+            result = g.parse_m3u(output.read_text())
+            self.assertEqual(result[0]['name'], 'amedia1')
+            self.assertEqual(result[0]['url'], 'https://example.com/good')
+            self.assertNotIn('https://example.com/wrong', [call.args[0] for call in check.call_args_list])
+
     def test_removed_domain_ban(self):
         self.assertFalse(g.forbidden('https://ru1.plist.link/live'))
         self.assertTrue(g.forbidden('file:///etc/passwd'))
