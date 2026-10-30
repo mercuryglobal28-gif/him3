@@ -21,12 +21,14 @@ jobs:
         with:
           python-version: '3.11'
           cache: pip
+      - name: Install FFmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
       - run: pip install -r requirements.txt
       - name: Regression tests
         run: python -m unittest discover -s tests -v
       - name: Generate and publish safely
         env:
-          DEEP_VIDEO_CHECK: 'true'
+          PLAYBACK_TIMEOUT: '20'
           APPEND_NEW_CHANNELS: 'false'
           KEEP_UNVERIFIED_CHANNELS: 'true'
           MAX_NEW_CHANNELS: '200'
@@ -43,7 +45,7 @@ jobs:
             git fetch origin main
             git checkout -B main origin/main
             python iptv_generator.py
-            git add playlist.m3u working_links.json update_report.txt
+            git add playlist.m3u verified_playlist.m3u working_links.json update_report.txt
             if git diff --cached --quiet; then
               echo 'No changes'; exit 0
             fi
@@ -58,5 +60,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: playlist-diagnostics
-          path: update_report.txt
+          path: |
+            update_report.txt
+            verified_playlist.m3u
           retention-days: 7
