@@ -1,5 +1,0 @@
-[
-  {"name": "iptv-org-index", "url": "https://iptv-org.github.io/iptv/index.m3u", "enabled": true},
-  {"name": "free-tv", "url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8", "enabled": true},
-  {"name": "tdtchannels", "url": "https://www.tdtchannels.com/lists/tv.m3u8", "enabled": true}
-]
