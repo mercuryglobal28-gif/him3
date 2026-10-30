@@ -1,5 +1,10 @@
 [
   {
+    "name": "jekalich-smtk",
+    "url": "https://raw.githubusercontent.com/JekaLich/smtk/5132d1f5992e523b637b9e46f94707965aa0e37d/tv.smtk.m3u",
+    "enabled": true
+  },
+  {
     "name": "iptv-org-ru-alternatives",
     "url": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru.m3u",
     "enabled": true
