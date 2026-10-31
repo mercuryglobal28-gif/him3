@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T05:56:29+00:00",
+  "updated": "2026-10-31T23:42:22+00:00",
   "source_count": 1611,
   "validation_method": "ffmpeg_3_video_frames",
   "discovered_count": 0,
@@ -72,18 +72,17 @@
     "category-cooking": 56,
     "category-religious": 813
   },
-  "output_count": 420,
-  "verified_count": 420,
+  "output_count": 419,
+  "verified_count": 419,
   "stats": {
     "from_cache": 184,
-    "unverified": 1191,
-    "from_jekalich-smtk:100": 169,
-    "from_category-news:100": 1,
+    "unverified": 1192,
+    "from_jekalich-smtk:100": 168,
     "from_iptv-org-ru-alternatives:100": 6,
     "from_category-movies:100": 1,
+    "from_lang-eng:88": 2,
     "from_category-sports:100": 1,
     "from_lang-eng:94": 1,
-    "from_iptv-org-ru-alternatives:88": 1,
     "from_category-music:100": 1,
     "from_original": 19,
     "from_region-eur:92": 1,
@@ -91,9 +90,9 @@
     "from_category-general:94": 1,
     "from_free-tv:95": 1,
     "from_category-sports:93": 1,
-    "from_jekalich-smtk:93": 2,
-    "from_jekalich-smtk:91": 2,
     "from_category-science:92": 2,
+    "from_jekalich-smtk:94": 2,
+    "from_category-news:89": 1,
     "from_region-eur:90": 3,
     "from_region-eur:88": 3,
     "from_category-cooking:90": 1,
@@ -105,6 +104,7 @@
     "from_region-eur:89": 2,
     "from_category-series:88": 1,
     "from_category-documentary:89": 2,
+    "from_category-documentary:93": 1,
     "from_category-news:90": 1,
     "from_category-culture:90": 1,
     "from_category-series:90": 1,
@@ -169,7 +169,6 @@
     "Fan HD",
     "Scream HD",
     "Феникс+ Кино HD",
-    "Индия HD",
     "Болт HD",
     "Epic Drama",
     "Блокбастер HD",
@@ -324,7 +323,9 @@
     "Quadro 4K",
     "MM Flip UHD",
     "MS Magic 4K",
+    "Детский мир",
     "Карусель +6",
+    "Cartoon Network",
     "Nickelodeon HD",
     "Канал О",
     "Чижик",
@@ -837,6 +838,7 @@
     "DE | Nicktoons",
     "DE | KiKa HD",
     "DE | Cartoonito HD",
+    "DE | Cartoon Network HD",
     "DE | Toggo Plus HD",
     "DE | Jukebox",
     "DE | Mtv HD",
@@ -1124,7 +1126,6 @@
     "TR | Sinema Aksion 2 HD",
     "TR | Sinema Komedi HD",
     "TR | Sinema Komedi 2 HD",
-    "TR | Star TV HD",
     "TR | TRT 4K UHD",
     "TR | TRT 1 HD",
     "TR | TRT Haber HD",
@@ -1163,6 +1164,7 @@
     "PL | Cinemax HD",
     "PL | Cinemax 2 HD",
     "PL | Comedy Сentral HD",
+    "PL | Cartoon Network",
     "PL | TV6",
     "PL | Discovery HD",
     "PL | Discovery Life HD",
@@ -1229,7 +1231,6 @@
     "PL | Disney Junior",
     "PL | TVC Super",
     "PL | History Channel HD",
-    "PL | National Geographic Wild",
     "PL | Warner TV",
     "PL | WP",
     "PL | ZOOM TV",
@@ -2021,7 +2022,7 @@
     {
       "name": "CNN International",
       "status": "verified",
-      "source": "category-news:100",
+      "source": "cache",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -3041,29 +3042,10 @@
     },
     {
       "name": "Индия HD",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_reset",
-          "playback_attempts": 3
-        },
-        {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        },
-        {
-          "source": "cache",
-          "reason": "connection_reset",
-          "playback_attempts": 3
-        },
-        {
-          "source": "category-entertainment:100",
-          "reason": "http_403",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "jekalich-smtk:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Болт HD",
@@ -4939,7 +4921,7 @@
     {
       "name": "BCU Kids 4K",
       "status": "verified",
-      "source": "cache",
+      "source": "lang-eng:88",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -5051,10 +5033,24 @@
     },
     {
       "name": "Детский мир",
-      "status": "verified",
-      "source": "jekalich-smtk:100",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        },
+        {
+          "source": "cache",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        }
+      ]
     },
     {
       "name": "Мульт HD",
@@ -5132,10 +5128,29 @@
     },
     {
       "name": "Cartoon Network",
-      "status": "verified",
-      "source": "jekalich-smtk:100",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        },
+        {
+          "source": "jekalich-smtk:100",
+          "reason": "connection_refused",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        },
+        {
+          "source": "cache",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        }
+      ]
     },
     {
       "name": "Nickelodeon HD",
@@ -5404,7 +5419,7 @@
     {
       "name": "BCU Kids HD",
       "status": "verified",
-      "source": "cache",
+      "source": "lang-eng:88",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -8166,7 +8181,7 @@
     {
       "name": "Bridge TV Hits",
       "status": "verified",
-      "source": "iptv-org-ru-alternatives:88",
+      "source": "cache",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -12218,7 +12233,7 @@
     {
       "name": "DE | National Geographic",
       "status": "verified",
-      "source": "jekalich-smtk:93",
+      "source": "cache",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -12847,10 +12862,29 @@
     },
     {
       "name": "DE | Cartoon Network HD",
-      "status": "verified",
-      "source": "jekalich-smtk:91",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        },
+        {
+          "source": "cache",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        },
+        {
+          "source": "jekalich-smtk:91",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        },
+        {
+          "source": "jekalich-smtk:91",
+          "reason": "connection_refused",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "DE | Toggo Plus HD",
@@ -14339,7 +14373,7 @@
     {
       "name": "UK | Investigation Discovery",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:94",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -16321,24 +16355,10 @@
     },
     {
       "name": "TR | Star TV HD",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        },
-        {
-          "source": "cache",
-          "reason": "http_403",
-          "playback_attempts": 1
-        },
-        {
-          "source": "category-news:89",
-          "reason": "http_403",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "category-news:89",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "TR | TRT 4K UHD",
@@ -16727,8 +16747,8 @@
         },
         {
           "source": "category-sports:89",
-          "reason": "http_403",
-          "playback_attempts": 1
+          "reason": "dns_error",
+          "playback_attempts": 3
         }
       ]
     },
@@ -16839,10 +16859,29 @@
     },
     {
       "name": "PL | Cartoon Network",
-      "status": "verified",
-      "source": "jekalich-smtk:91",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        },
+        {
+          "source": "cache",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        },
+        {
+          "source": "jekalich-smtk:91",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        },
+        {
+          "source": "jekalich-smtk:91",
+          "reason": "connection_refused",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "PL | TV6",
@@ -17034,7 +17073,7 @@
     {
       "name": "PL | Investigation Discovery",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:94",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -17790,7 +17829,7 @@
     {
       "name": "PL | National Geographic",
       "status": "verified",
-      "source": "jekalich-smtk:93",
+      "source": "cache",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -17818,34 +17857,10 @@
     },
     {
       "name": "PL | National Geographic Wild",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        },
-        {
-          "source": "cache",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "iptv-org-ru-alternatives:94",
-          "reason": "http_403",
-          "playback_attempts": 1
-        },
-        {
-          "source": "iptv-org-ru-alternatives:94",
-          "reason": "connection_refused",
-          "playback_attempts": 1
-        },
-        {
-          "source": "category-documentary:93",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "category-documentary:93",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "PL | Warner TV",
@@ -18410,8 +18425,8 @@
         },
         {
           "source": "free-tv:100",
-          "reason": "tls_error",
-          "playback_attempts": 1
+          "reason": "connection_reset",
+          "playback_attempts": 3
         }
       ]
     },
@@ -18977,18 +18992,18 @@
     }
   ],
   "checks": {
-    "http_403": 1459,
-    "video_frames_decoded": 382,
-    "timeout": 43,
+    "http_403": 1455,
+    "video_frames_decoded": 383,
+    "timeout": 44,
     "video_decode_failed": 68,
-    "connection_reset": 72,
-    "connection_refused": 183,
-    "http_404": 52,
+    "connection_reset": 75,
+    "connection_refused": 184,
+    "http_404": 49,
     "blocked_variants": 14,
     "http_401": 1,
     "KeyError": 2,
-    "dns_error": 3,
+    "dns_error": 4,
     "no_video_track": 1,
-    "tls_error": 4
+    "tls_error": 3
   }
 }
