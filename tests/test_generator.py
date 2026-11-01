@@ -92,6 +92,45 @@ class GeneratorTests(unittest.TestCase):
             self.assertEqual(check.call_args.args[0],'https://example.com/good')
             self.assertEqual(g.parse_m3u(output.read_text())[0]['name'],'Amedia 1 HD')
 
+    def test_all_requested_sources_are_first_in_old_config(self):
+        with tempfile.TemporaryDirectory() as folder:
+            config = Path(folder) / 'sources.json'
+            config.write_text('[{"name":"old","url":"https://example.com/list"}]')
+            with patch.object(g, 'SOURCE_CONFIG', config):
+                sources = g.load_donors()
+            self.assertEqual(sources[:9], g.PRIORITY_DONORS)
+            self.assertEqual(len({url for _, url in sources}), len(sources))
+
+    def test_unlimited_discovery_and_spelling_dedup(self):
+        original = [row('Amedia1 HD')]
+        donors = [row('Амедиа 1'), row('Amedia 1 FHD')]
+        donors += [row(f'New channel {i}', f'New{i}.ru') for i in range(205)]
+        donors += [row('New channel 0 HD', 'New0.ru'), row('Blocked',url='http://stream.mcquack.net/live')]
+        with patch.multiple(g, APPEND_NEW=True, MAX_NEW=0):
+            result = g.extend_channels(original, donors)
+        self.assertEqual(len(result), 206)
+        self.assertEqual(result[0], original[0])
+
+    def test_deniss_priority_discovery_and_failed_channel_exclusion(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            source, output, cache, report = [root/n for n in ('source','out','cache','report')]
+            content = '#EXTM3U\n#EXTINF:-1,Amedia 1 HD\nhttps://example.com/original\n'
+            source.write_text(content)
+            donors = [dict(row('Amedia1',url='https://example.com/first'),donor='denisskashin-cinema'),
+                      dict(row('Amedia 1',url='https://example.com/second'),donor='jekalich-smtk'),
+                      dict(row('New channel',url='https://example.com/new'),donor='denisskashin-children'),
+                      dict(row('Dead channel',url='https://example.com/dead'),donor='denisskashin-index')]
+            with patch.multiple(g,SOURCE=source,OUT=output,CACHE=cache,REPORT=report,APPEND_NEW=True,MAX_NEW=0,KEEP_UNVERIFIED=False), patch.object(g,'load_donors',return_value=[('fixture','https://example.com/list')]), patch.object(g,'fetch_donor',return_value=donors), patch.object(g,'validate',side_effect=lambda u,*args: ('dead' not in u,'fixture')) as check:
+                self.assertEqual(g.main(),0)
+            result = g.parse_m3u(output.read_text())
+            self.assertEqual([r['name'] for r in result],['Amedia 1 HD','New channel'])
+            self.assertEqual(result[0]['url'],'https://example.com/first')
+            checked = [call.args[0] for call in check.call_args_list]
+            self.assertNotIn('https://example.com/second',checked)
+            self.assertNotIn('https://example.com/original',checked)
+            self.assertEqual(source.read_text(),content)
+
     def test_removed_domain_ban(self):
         self.assertFalse(g.forbidden('https://ru1.plist.link/live'))
         self.assertTrue(g.forbidden('file:///etc/passwd'))
