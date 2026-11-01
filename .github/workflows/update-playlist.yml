@@ -2,7 +2,7 @@ name: Smart IPTV Playlist Update
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 */20 * * *'
+    - cron: '17 */6 * * *'
 permissions:
   contents: write
 concurrency:
@@ -32,9 +32,9 @@ jobs:
           PLAYBACK_ATTEMPTS: '3'
           PLAYBACK_RETRY_DELAY: '2'
           STREAM_TIMEOUT: '20'
-          APPEND_NEW_CHANNELS: 'false'
+          APPEND_NEW_CHANNELS: 'true'
           KEEP_UNVERIFIED_CHANNELS: 'false'
-          MAX_NEW_CHANNELS: '200'
+          MAX_NEW_CHANNELS: '0'
           MAX_CANDIDATES: '30'
           FUZZY_THRESHOLD: '88'
           MATCH_POOL: '24'
