@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-31T23:42:22+00:00",
+  "updated": "2026-11-01T06:16:53+00:00",
   "source_count": 1611,
   "validation_method": "ffmpeg_3_video_frames",
   "discovered_count": 0,
-  "donor_count": 14304,
+  "donor_count": 14337,
   "sources": {
     "jekalich-smtk": 1020,
     "iptv-org-ru-alternatives": 550,
@@ -12,8 +12,8 @@
     "country-by": 27,
     "country-kz": 42,
     "country-ua": 123,
-    "iptv-org-index": 11124,
-    "iptv-org-raw": 12606,
+    "iptv-org-index": 11157,
+    "iptv-org-raw": 12673,
     "free-tv": 2019,
     "country-iq": 58,
     "country-sa": 53,
@@ -38,49 +38,48 @@
     "country-us": 1493,
     "country-gb": 0,
     "country-fr": 198,
-    "country-de": 285,
-    "country-in": 848,
+    "country-de": 286,
+    "country-in": 844,
     "country-pk": 104,
-    "region-arab": 472,
-    "region-asia": 3228,
-    "region-eur": 4225,
-    "region-amer": 4248,
+    "region-arab": 471,
+    "region-asia": 3225,
+    "region-eur": 4237,
+    "region-amer": 4262,
     "region-afr": 518,
     "lang-ara": 349,
-    "lang-eng": 3005,
+    "lang-eng": 3025,
     "lang-tur": 175,
     "lang-fra": 448,
-    "lang-spa": 2387,
-    "lang-hin": 376,
+    "lang-spa": 2401,
+    "lang-hin": 373,
     "lang-urd": 86,
     "lang-fas": 202,
-    "category-news": 1042,
-    "category-general": 2717,
+    "category-news": 1043,
+    "category-general": 2716,
     "category-education": 212,
-    "category-entertainment": 880,
-    "category-sports": 440,
-    "category-documentary": 244,
-    "category-music": 758,
-    "category-animation": 178,
-    "category-movies": 733,
+    "category-entertainment": 882,
+    "category-sports": 454,
+    "category-documentary": 247,
+    "category-music": 762,
+    "category-animation": 176,
+    "category-movies": 736,
     "category-series": 513,
-    "category-science": 20,
+    "category-science": 21,
     "category-culture": 191,
-    "category-business": 75,
+    "category-business": 76,
     "category-weather": 17,
     "category-travel": 58,
     "category-cooking": 56,
     "category-religious": 813
   },
-  "output_count": 419,
-  "verified_count": 419,
+  "output_count": 427,
+  "verified_count": 427,
   "stats": {
-    "from_cache": 184,
-    "unverified": 1192,
+    "from_cache": 188,
+    "unverified": 1184,
     "from_jekalich-smtk:100": 168,
     "from_iptv-org-ru-alternatives:100": 6,
     "from_category-movies:100": 1,
-    "from_lang-eng:88": 2,
     "from_category-sports:100": 1,
     "from_lang-eng:94": 1,
     "from_category-music:100": 1,
@@ -89,10 +88,10 @@
     "from_region-eur:100": 1,
     "from_category-general:94": 1,
     "from_free-tv:95": 1,
+    "from_category-sports:88": 7,
     "from_category-sports:93": 1,
+    "from_category-documentary:92": 1,
     "from_category-science:92": 2,
-    "from_jekalich-smtk:94": 2,
-    "from_category-news:89": 1,
     "from_region-eur:90": 3,
     "from_region-eur:88": 3,
     "from_category-cooking:90": 1,
@@ -106,6 +105,7 @@
     "from_category-documentary:89": 2,
     "from_category-documentary:93": 1,
     "from_category-news:90": 1,
+    "from_jekalich-smtk:90": 1,
     "from_category-culture:90": 1,
     "from_category-series:90": 1,
     "from_category-music:90": 1
@@ -709,23 +709,16 @@
     "DE | Sky Sport Bundesliga 9 HD (Backup)",
     "DE | Sky Sport Bundesliga 10 HD",
     "DE | Sky Sport Bundesliga 10 HD (Backup)",
-    "DE | Sky Sport 1 HD",
     "DE | Sky Sport 1 HD (Backup)",
-    "DE | Sky Sport 2 HD",
     "DE | Sky Sport 2 HD (Backup)",
-    "DE | Sky Sport 3 HD",
     "DE | Sky Sport 3 HD (Backup)",
-    "DE | Sky Sport 4 HD",
     "DE | Travelxp 4K",
     "DE | Sky Sport 4 HD (Backup)",
     "DE | Sky Sport 5 HD",
     "DE | Sky Sport 5 HD (Backup)",
     "DE | Sky Sport 6 HD",
     "DE | Sky Sport 6 HD (Backup)",
-    "DE | Sky Sport 7 HD",
     "DE | Sky Sport 7  HD (Backup)",
-    "DE | Sky Sport 8 HD",
-    "DE | Sky Sport 9 HD",
     "DE | Sky Sport 10 HD",
     "DE | Sky Sport Austria 1 HD",
     "DE | Sky Sport Austria 1 HD (Backup)",
@@ -945,7 +938,6 @@
     "UK | Animal Planet",
     "UK | Alibi HD",
     "UK | Boomerang HD",
-    "UK | Discovery History",
     "UK | Nickelodeon",
     "UK | Premiere Sports 1",
     "UK | National Geo HD",
@@ -4921,7 +4913,7 @@
     {
       "name": "BCU Kids 4K",
       "status": "verified",
-      "source": "lang-eng:88",
+      "source": "cache",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -5044,11 +5036,6 @@
           "source": "original",
           "reason": "http_403",
           "playback_attempts": 1
-        },
-        {
-          "source": "cache",
-          "reason": "connection_reset",
-          "playback_attempts": 3
         }
       ]
     },
@@ -5144,11 +5131,6 @@
           "source": "original",
           "reason": "http_403",
           "playback_attempts": 1
-        },
-        {
-          "source": "cache",
-          "reason": "connection_reset",
-          "playback_attempts": 3
         }
       ]
     },
@@ -5419,7 +5401,7 @@
     {
       "name": "BCU Kids HD",
       "status": "verified",
-      "source": "lang-eng:88",
+      "source": "cache",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -11333,19 +11315,10 @@
     },
     {
       "name": "DE | Sky Sport 1 HD",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        },
-        {
-          "source": "jekalich-smtk:93",
-          "reason": "connection_refused",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "category-sports:88",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "DE | Sky Sport 1 HD (Backup)",
@@ -11360,14 +11333,10 @@
     },
     {
       "name": "DE | Sky Sport 2 HD",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "category-sports:88",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "DE | Sky Sport 2 HD (Backup)",
@@ -11382,14 +11351,10 @@
     },
     {
       "name": "DE | Sky Sport 3 HD",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "category-sports:88",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "DE | Sky Sport 3 HD (Backup)",
@@ -11404,14 +11369,10 @@
     },
     {
       "name": "DE | Sky Sport 4 HD",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "category-sports:88",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "DE | Travelxp 4K",
@@ -11481,14 +11442,10 @@
     },
     {
       "name": "DE | Sky Sport 7 HD",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "category-sports:88",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "DE | Sky Sport 7  HD (Backup)",
@@ -11503,25 +11460,17 @@
     },
     {
       "name": "DE | Sky Sport 8 HD",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "category-sports:88",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "DE | Sky Sport 9 HD",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "category-sports:88",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "DE | Sky Sport 10 HD",
@@ -12870,11 +12819,6 @@
           "playback_attempts": 1
         },
         {
-          "source": "cache",
-          "reason": "connection_reset",
-          "playback_attempts": 3
-        },
-        {
           "source": "jekalich-smtk:91",
           "reason": "connection_reset",
           "playback_attempts": 3
@@ -14199,14 +14143,10 @@
     },
     {
       "name": "UK | Discovery History",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "category-documentary:92",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "UK | Discovery Science",
@@ -14373,7 +14313,7 @@
     {
       "name": "UK | Investigation Discovery",
       "status": "verified",
-      "source": "jekalich-smtk:94",
+      "source": "cache",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -16356,7 +16296,7 @@
     {
       "name": "TR | Star TV HD",
       "status": "verified",
-      "source": "category-news:89",
+      "source": "cache",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -16867,11 +16807,6 @@
           "playback_attempts": 1
         },
         {
-          "source": "cache",
-          "reason": "connection_reset",
-          "playback_attempts": 3
-        },
-        {
           "source": "jekalich-smtk:91",
           "reason": "connection_reset",
           "playback_attempts": 3
@@ -17073,7 +17008,7 @@
     {
       "name": "PL | Investigation Discovery",
       "status": "verified",
-      "source": "jekalich-smtk:94",
+      "source": "cache",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -17938,7 +17873,7 @@
     {
       "name": "PL | Travel Channel",
       "status": "verified",
-      "source": "cache",
+      "source": "jekalich-smtk:90",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -18993,12 +18928,12 @@
   ],
   "checks": {
     "http_403": 1455,
-    "video_frames_decoded": 383,
-    "timeout": 44,
+    "video_frames_decoded": 392,
+    "timeout": 43,
     "video_decode_failed": 68,
-    "connection_reset": 75,
+    "connection_reset": 73,
     "connection_refused": 184,
-    "http_404": 49,
+    "http_404": 50,
     "blocked_variants": 14,
     "http_401": 1,
     "KeyError": 2,
