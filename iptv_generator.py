@@ -1,7 +1,7 @@
 """Build source-ordered IPTV playlist from publicly available streams.
 
 Source entries are preserved, donors only supply matching channel alternatives unless
-APPEND_NEW_CHANNELS=true (opt-in). Network verification also runs in GitHub Actions.
+APPEND_NEW_CHANNELS=true (default). Network verification also runs in GitHub Actions.
 """
 import concurrent.futures as cf
 import json
@@ -36,15 +36,21 @@ ALIAS_FILE = Path(os.getenv('ALIASES_FILE', str(Path(__file__).with_name('channe
 ALIASES = json.loads(ALIAS_FILE.read_text(encoding='utf-8')) if ALIAS_FILE.exists() else {}
 BLOCKED = ('stream.mcquack.net',) + tuple(x.strip().lower().rstrip('.') for x in os.getenv('BLOCKED_DOMAINS', '').split(',') if x.strip())
 FILTER_ADULT = os.getenv('FILTER_ADULT', 'false').lower() == 'true'
-APPEND_NEW = os.getenv('APPEND_NEW_CHANNELS', 'false').lower() == 'true'
+APPEND_NEW = os.getenv('APPEND_NEW_CHANNELS', 'true').lower() == 'true'
 KEEP_UNVERIFIED = os.getenv('KEEP_UNVERIFIED_CHANNELS', 'false').lower() == 'true'
-MAX_NEW = max(0, int(os.getenv('MAX_NEW_CHANNELS', '200')))
+MAX_NEW = max(0, int(os.getenv('MAX_NEW_CHANNELS', '0')))
 SOURCE_CONFIG = Path(os.getenv('SOURCES_FILE', 'sources.json'))
 UA = {'User-Agent': 'Mozilla/5.0 (compatible; PublicStreamChecker/2.0)', 'Accept': '*/*'}
 # Preserve the existing search catalogs; sources.json prioritizes Russian catalogs.
 # Public availability does not, by itself, prove redistribution rights for each stream.
 SMTK_URL = 'https://raw.githubusercontent.com/JekaLich/smtk/5132d1f5992e523b637b9e46f94707965aa0e37d/tv.smtk.m3u'
+DENISS_BASE = 'https://raw.githubusercontent.com/denisskashin/iptv/7f3e4e01839a1c2ea519f301322cb196225dc829/tv/'
+PRIORITY_DONORS = [(f'denisskashin-{category}', DENISS_BASE + category + '.m3u')
+                   for category in ('children', 'cinema', 'discovery', 'foreign', 'hobby',
+                                    'index', 'music', 'sport', 'tv_series')]
+PRIORITY_RANK = {name: rank for rank, (name, _) in enumerate(PRIORITY_DONORS)}
 DONORS = [
+    *PRIORITY_DONORS,
     ('jekalich-smtk', 'https://raw.githubusercontent.com/JekaLich/smtk/5132d1f5992e523b637b9e46f94707965aa0e37d/tv.smtk.m3u'),
     # Main public catalog; specialized catalogs provide overlapping fallback streams.
     ('iptv-org-index', 'https://iptv-org.github.io/iptv/index.m3u'),
@@ -72,12 +78,17 @@ def load_donors():
     # An older sources.json must not silently hide the user's requested source.
     if not any(entry.get('url') == SMTK_URL for entry in data):
         data.insert(0, {'name': 'jekalich-smtk', 'url': SMTK_URL, 'enabled': True})
+    required = {url: name for name, url in PRIORITY_DONORS}
+    for name, url in reversed(PRIORITY_DONORS):
+        if not any(entry.get('url') == url for entry in data):
+            data.insert(0, {'name': name, 'url': url, 'enabled': True})
     result = []
     seen = set()
     for entry in data:
         if not entry.get('enabled', True):
             continue
         label, url = entry['name'], entry['url']
+        label = required.get(url, label)
         if url == SMTK_URL:
             label = 'jekalich-smtk'
         if not isinstance(label, str) or not label or forbidden(url):
@@ -85,6 +96,7 @@ def load_donors():
         if url not in seen:
             result.append((label, url))
             seen.add(url)
+    result.sort(key=lambda source: PRIORITY_RANK.get(source[0], len(PRIORITY_RANK)))
     return result
 
 
@@ -256,23 +268,33 @@ def cache_key(row):
     return 'name:' + name_key(row['name'])
 
 
+def discovery_keys(row):
+    # Ignore spacing/quality and use known aliases, but preserve channel numbers
+    # and time shifts so «TV 1 2» is not merged into «TV 12».
+    return {(key.replace(' ', ''), tuple(re.findall(r'\d+', name_key(name))), shift_key(row['name']))
+            for name in row_names(row) for key in spelling_keys(name)}
+
+
 def extend_channels(original, donors):
-    """Discover bounded, unique stations in catalog order, preserving original order."""
+    """Append all unique discovered stations by default; 0 means no new-channel cap."""
     result = list(original)
     if not APPEND_NEW:
         return result
-    known_ids = {channel_id(r['meta']) for r in result} - {''}
-    known_names = {name_key(r['name']) for r in result}
+    known_ids = {(channel_id(r['meta']), shift_key(r['name'])) for r in result if channel_id(r['meta'])}
+    known_names = set().union(*(discovery_keys(r) for r in result)) if result else set()
     for row in donors:
-        if len(result) - len(original) >= MAX_NEW:
+        if MAX_NEW and len(result) - len(original) >= MAX_NEW:
             break
-        key, cid = name_key(row['name']), channel_id(row['meta'])
-        if not key or key in known_names or (cid and cid in known_ids):
+        keys, cid = discovery_keys(row), channel_id(row['meta'])
+        identity = (cid, shift_key(row['name']))
+        if not name_key(row['name']) or keys & known_names or (cid and identity in known_ids):
+            continue
+        if forbidden(row['url'].partition('|')[0]) or not suitable(row['meta']):
             continue
         result.append(row)
-        known_names.add(key)
+        known_names.update(keys)
         if cid:
-            known_ids.add(cid)
+            known_ids.add(identity)
     return result
 
 
@@ -373,12 +395,15 @@ def main():
                                                           limit=MATCH_POOL):
                     for donor in index[candidate_key]:
                         consider(donor)
-        matched.sort(key=lambda entry: -entry[0])
+        matched.sort(key=lambda entry: (PRIORITY_RANK.get(entry[1]['donor'], len(PRIORITY_RANK)), -entry[0]))
         preferred = [(f"{d['donor']}:{score}", d['url'], d['extras'])
-                     for score, d in matched if d['donor'] == 'jekalich-smtk' and score == 100]
+                     for score, d in matched if d['donor'] in PRIORITY_RANK]
+        smtk = [(f"{d['donor']}:{score}", d['url'], d['extras'])
+                for score, d in matched if d['donor'] == 'jekalich-smtk' and score == 100]
         others = [(f"{d['donor']}:{score}", d['url'], d['extras'])
-                  for score, d in matched if not (d['donor'] == 'jekalich-smtk' and score == 100)]
-        candidates = preferred + candidates + others
+                  for score, d in matched if d['donor'] not in PRIORITY_RANK
+                  and not (d['donor'] == 'jekalich-smtk' and score == 100)]
+        candidates = preferred + smtk + candidates + others
         seen, unique = set(), []
         for label, url, extras in candidates:
             key = target(url, extras)
