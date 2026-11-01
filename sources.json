@@ -1,5 +1,50 @@
 [
   {
+    "name": "denisskashin-children",
+    "url": "https://raw.githubusercontent.com/denisskashin/iptv/7f3e4e01839a1c2ea519f301322cb196225dc829/tv/children.m3u",
+    "enabled": true
+  },
+  {
+    "name": "denisskashin-cinema",
+    "url": "https://raw.githubusercontent.com/denisskashin/iptv/7f3e4e01839a1c2ea519f301322cb196225dc829/tv/cinema.m3u",
+    "enabled": true
+  },
+  {
+    "name": "denisskashin-discovery",
+    "url": "https://raw.githubusercontent.com/denisskashin/iptv/7f3e4e01839a1c2ea519f301322cb196225dc829/tv/discovery.m3u",
+    "enabled": true
+  },
+  {
+    "name": "denisskashin-foreign",
+    "url": "https://raw.githubusercontent.com/denisskashin/iptv/7f3e4e01839a1c2ea519f301322cb196225dc829/tv/foreign.m3u",
+    "enabled": true
+  },
+  {
+    "name": "denisskashin-hobby",
+    "url": "https://raw.githubusercontent.com/denisskashin/iptv/7f3e4e01839a1c2ea519f301322cb196225dc829/tv/hobby.m3u",
+    "enabled": true
+  },
+  {
+    "name": "denisskashin-index",
+    "url": "https://raw.githubusercontent.com/denisskashin/iptv/7f3e4e01839a1c2ea519f301322cb196225dc829/tv/index.m3u",
+    "enabled": true
+  },
+  {
+    "name": "denisskashin-music",
+    "url": "https://raw.githubusercontent.com/denisskashin/iptv/7f3e4e01839a1c2ea519f301322cb196225dc829/tv/music.m3u",
+    "enabled": true
+  },
+  {
+    "name": "denisskashin-sport",
+    "url": "https://raw.githubusercontent.com/denisskashin/iptv/7f3e4e01839a1c2ea519f301322cb196225dc829/tv/sport.m3u",
+    "enabled": true
+  },
+  {
+    "name": "denisskashin-tv_series",
+    "url": "https://raw.githubusercontent.com/denisskashin/iptv/7f3e4e01839a1c2ea519f301322cb196225dc829/tv/tv_series.m3u",
+    "enabled": true
+  },
+  {
     "name": "jekalich-smtk",
     "url": "https://raw.githubusercontent.com/JekaLich/smtk/5132d1f5992e523b637b9e46f94707965aa0e37d/tv.smtk.m3u",
     "enabled": true
