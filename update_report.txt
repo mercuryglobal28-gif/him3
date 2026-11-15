@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T19:48:15+00:00",
+  "updated": "2026-11-15T00:05:10+00:00",
   "source_count": 1611,
   "validation_method": "ffmpeg_3_video_frames",
   "discovered_count": 11413,
@@ -81,48 +81,47 @@
     "category-cooking": 57,
     "category-religious": 822
   },
-  "output_count": 8173,
-  "verified_count": 8173,
+  "output_count": 8231,
+  "verified_count": 8231,
   "stats": {
-    "from_cache": 307,
-    "unverified": 4851,
-    "from_denisskashin-index:100": 47,
-    "from_jekalich-smtk:100": 340,
+    "from_cache": 313,
+    "unverified": 4793,
+    "from_denisskashin-index:100": 62,
+    "from_jekalich-smtk:100": 329,
     "from_denisskashin-foreign:100": 2,
     "from_denisskashin-index:88": 9,
-    "from_iptv-org-ru-alternatives:100": 3,
-    "from_denisskashin-cinema:100": 55,
-    "from_category-movies:100": 6,
-    "from_category-series:100": 5,
-    "from_region-eur:100": 5,
-    "from_category-entertainment:100": 4,
+    "from_denisskashin-cinema:100": 88,
+    "from_denisskashin-tv_series:100": 9,
+    "from_region-eur:100": 4,
+    "from_category-movies:100": 5,
+    "from_category-series:100": 4,
     "from_denisskashin-cinema:89": 1,
-    "from_denisskashin-tv_series:100": 5,
-    "from_denisskashin-cinema:90": 2,
+    "from_denisskashin-cinema:90": 1,
     "from_denisskashin-cinema:91": 1,
     "from_denisskashin-sport:89": 4,
-    "from_denisskashin-discovery:100": 12,
-    "from_denisskashin-hobby:100": 13,
+    "from_denisskashin-discovery:100": 19,
+    "from_denisskashin-hobby:100": 14,
     "from_category-sports:100": 3,
-    "from_denisskashin-children:100": 13,
+    "from_denisskashin-children:100": 21,
     "from_denisskashin-children:90": 1,
-    "from_denisskashin-sport:100": 73,
+    "from_denisskashin-sport:100": 96,
+    "from_denisskashin-sport:88": 7,
     "from_denisskashin-sport:93": 3,
-    "from_denisskashin-music:100": 14,
+    "from_denisskashin-music:100": 15,
     "from_category-music:100": 1,
     "from_denisskashin-hobby:89": 2,
     "from_category-documentary:100": 1,
     "from_category-general:94": 1,
-    "from_denisskashin-sport:92": 3,
-    "from_denisskashin-sport:94": 1,
-    "from_free-tv:95": 2,
-    "from_denisskashin-sport:90": 1,
-    "from_denisskashin-sport:88": 5,
+    "from_denisskashin-sport:92": 4,
+    "from_denisskashin-sport:94": 4,
+    "from_free-tv:95": 1,
+    "from_denisskashin-sport:90": 3,
     "from_denisskashin-discovery:88": 1,
     "from_free-tv:88": 3,
     "from_free-tv:89": 2,
-    "from_free-tv:91": 3,
-    "from_category-sports:91": 8,
+    "from_free-tv:91": 2,
+    "from_denisskashin-sport:91": 3,
+    "from_category-sports:91": 6,
     "from_category-movies:88": 1,
     "from_region-eur:90": 3,
     "from_category-music:89": 1,
@@ -134,15 +133,16 @@
     "from_category-series:90": 1,
     "from_category-music:90": 1,
     "from_denisskashin-children:88": 1,
-    "from_original": 7174,
+    "from_original": 7149,
+    "from_iptv-org-ru-alternatives:100": 1,
     "from_category-news:100": 1,
     "from_denisskashin-sport:97": 1,
-    "from_free-tv:100": 14,
+    "from_free-tv:100": 13,
     "from_denisskashin-index:90": 1,
     "from_category-general:100": 3,
-    "from_region-amer:100": 1,
-    "from_denisskashin-index:94": 1,
-    "from_lang-spa:89": 1
+    "from_category-entertainment:100": 1,
+    "from_free-tv:93": 1,
+    "from_denisskashin-index:94": 1
   },
   "unverified_names": [
     "Первый +1",
@@ -172,7 +172,6 @@
     "DW English",
     "US | FOX 5 LOCAL NY",
     "US | NBC 6 FL",
-    "Киноужас HD",
     "Amedia Hit HD",
     "Amedia 1 HD",
     "Amedia 2 HD",
@@ -186,27 +185,20 @@
     "Комедийное HD",
     "Криминальное HD",
     "Любимое Кино HD",
-    "Русский бестселлер",
     "Русский Детектив",
     "Русский Иллюзион",
-    "Fox HD",
     "Fox life HD",
-    "Наше HD",
     "Наше любимое HD",
     "Наше Мужское HD",
     "Plan B",
     ".Black",
     "Синема",
     "TV XXI Век HD",
-    "Fan HD",
     "Scream HD",
-    "Феникс+ Кино HD",
     "Болт HD",
     "Epic Drama",
     "Shot HD",
-    "Про Любовь HD",
     "Камеди HD",
-    "FlixSnip HD",
     "Trash HD",
     "KION Хит HD",
     "VHS-ка HD",
@@ -301,6 +293,7 @@
     "MM USSR Приключения HD",
     "MM USSR Комедия HD",
     "MM USSR Drama HD",
+    "MM Ужасы Classic HD",
     "MM Ужасы HD",
     "MM Celebrity HD",
     "MM Classic HD",
@@ -346,7 +339,6 @@
     "BCU Ultra 4K",
     "BCU Сваты 4K",
     "MyZen 4K",
-    "Quadro 4K",
     "MM Flip UHD",
     "MS Magic 4K",
     "Карусель +6",
@@ -419,7 +411,6 @@
     "Okko Спорт",
     "Хоккей HD",
     "KZ | Qazsport HD",
-    "KZ | Setanta Sports HD",
     "KZ | Setanta Sports 1 HD",
     "KZ | Setanta Sports 2 HD",
     "KZ | Q Sport League HD",
@@ -635,7 +626,6 @@
     "Аппетитный HD",
     "Hтв Cтиль",
     "Че! +6",
-    "Точка РФ HD",
     "Совершенно секретно",
     "Еда",
     "Центральное телевидение",
@@ -766,13 +756,11 @@
     "DE | Sky Sport Austria 7 HD",
     "DE | Sky Sport Austria 7 HD (Backup)",
     "DE | Sky Sport Austria 8 HD (Backup)",
-    "DE | Sky Sport Premier League HD",
     "DE | Sky Sport Premier League HD (Backup)",
     "DE | Sky Sport Top Event HD",
     "DE | Sky Sport Top Event HD (Backup)",
     "DE | Sky Sport Golf HD",
     "DE | Sky Sport Golf HD (Backup)",
-    "DE | Sky Sport Mix HD",
     "DE | Sky Sport Mix HD (Backup)",
     "DE | Sky Sport Tennis HD (Backup)",
     "DE | Sky Sport F1 HD",
@@ -931,7 +919,6 @@
     "UK | Sky Cinema Hits",
     "UK | TNT Sport 1 HD",
     "UK | TNT Sport 2 HD",
-    "UK | Sky Sports Premier League HD",
     "UK | TNT Sport 3 HD",
     "UK | Sky Sports Football HD",
     "UK | Sky Sports Mix HD",
@@ -1322,26 +1309,15 @@
     "ТРК Евразия Орск",
     "Экспресс Пенза",
     "Дон 24 Ростов-на-Дону",
-    "Тивиком Улан-Удэ",
     "Культ Медиа Астрахань",
     "Наш дом [ Пенза ]",
     "Детское Кино SD",
-    "JimJam",
-    "Kids",
-    "Liberty Disney",
-    "Мим",
-    "Пиксар FHD",
-    "Disney",
-    "Весёлая Карусель",
     "Ералаш HD",
     "Новогодние мультфильмы",
-    "ТВ XXI",
-    "AMC",
     "DetectiveJam",
     "Filmystic",
     "Premiere 2",
     "Premiere 3",
-    "Premium Kinozakaz+ 4K HDR",
     "Ultra 4K",
     "Cyber",
     "Fantasy",
@@ -1349,83 +1325,29 @@
     "Gangster",
     "Hybrid",
     "Memory",
-    "Relax 4K",
-    "Remast+ 4K",
     "Spy",
-    "Travel",
     "Western",
     "Thriller",
-    "Liberty Fan",
-    "Marvel",
-    "Netflix 4K",
-    "South Park",
-    "XX Век 4K",
-    "Короткометражный",
-    "Криминал 4K",
-    "Куб 4K",
-    "Мюзикл 4K",
-    "Русфильм 4K",
     "Симпсоны",
     "Союз 4K",
-    "Туркфильм 4K",
-    "Ужасы 4K",
-    "USSR Фантастика",
     "Вестерн",
+    "Ужасы Classic",
     "USSR HD",
-    "Comedy Woman",
     "Гарри Поттер",
-    "4K HDR",
     "C-Live",
     "C-Marvel",
     "Crime HD",
-    "Психология",
-    "Наша Сибирь",
-    "TravelXP 4K",
-    "Кухня",
     "Fashion & LifeStyle",
-    "РТР-Планета",
-    "OstWest",
-    "Афонтово",
-    "Курай ТВ (Уфа)",
-    "ТВ 7 (Абакан)",
-    "ТВК",
-    "ТелеДом (Санкт-Петербург)",
-    "ТЕО ТВ (Москва)",
-    "BOX Music 4K",
+    "НТВ Беларусь",
+    "Первый канал Европа",
     "Europa Plus Light",
     "Fresh Rock",
-    "Прайм Спорт",
-    "Eleven Sports 1",
-    "Prokop Sport Online 1",
-    "Prokop Sport Online 10",
-    "Prokop Sport Online 11",
-    "Prokop Sport Online 12",
-    "Prokop Sport Online 2",
-    "Prokop Sport Online 3",
-    "Prokop Sport Online 4",
-    "Prokop Sport Online 5",
-    "Prokop Sport Online 6",
-    "Prokop Sport Online 7",
-    "Prokop Sport Online 8",
-    "Prokop Sport Online 9",
-    "Q Sport Kyrgyzstan",
-    "Viaplay Sports",
-    "Q Arena",
-    "Setanta Qazaqstan",
-    "Sky Sport Mix",
-    "Sky Sport News",
-    "Setanta Sports+",
     "Sky Sports Football",
-    "Sky Sports Premier League",
-    "Русский Экстрим",
-    "Serial 4K",
     "Комедийные сериалы",
     "Однажды в России",
-    "Сериалы Турции",
     "Уральские пельмени",
     "Viasat Kino World",
     "Любимое",
-    "FX HD",
     "FX Life HD",
     "Comedy Central",
     "Kinojam 1",
@@ -1442,7 +1364,6 @@
     "Театр",
     "Министерство идей",
     "Big Planet",
-    "HD Life",
     "Top Secret",
     "RT Д Русский",
     "Кто есть кто",
@@ -1548,7 +1469,6 @@
     "Polsat Sport Premium 2 HD",
     "Dazn 1 Bar HD",
     "Dazn 2 Bar HD",
-    "SKY SPORTS PREMIER LEAGUE UK",
     "Sky Sports Arena",
     "Sky Sports Football [UK]",
     "Sky Sports Main Event [UK]",
@@ -1652,7 +1572,7 @@
     "Next TV (1080p) [Not 24/7]",
     "Osh Pirim (1080p) [Not 24/7]",
     "Qonaev Media",
-    "Sport (Kyrgyzstan) (480p) [Not 24/7]",
+    "TDK 42",
     "TV1.KG (1080p)",
     "TV15 (1080p) [Not 24/7]",
     "TVRUS+ (576p)",
@@ -1668,7 +1588,6 @@
     "Kokshe (720p) [Not 24/7]",
     "Novoe televidenie (576p)",
     "Ontustik (360p)",
-    "Qazaqstan (1080p)",
     "Qostanai (576p) [Not 24/7]",
     "Qyzyljar (720p)",
     "Qyzylorda (720p)",
@@ -1713,9 +1632,7 @@
     "Viasat Explore (Ukraine) (576p)",
     "Z (1080p)",
     "1-2-3.tv (270p)",
-    "1TV (720p)",
     "2GB (1080p)",
-    "2 TV (720p)",
     "3ABN TV Uganda (720p) [Not 24/7]",
     "3AW (1080p)",
     "3Cat Exclusiu 1 (1080p) [Geo-blocked]",
@@ -1748,7 +1665,6 @@
     "24 Horas Canarias (1080p)",
     "30A Lionel Nation",
     "30A Loomered TV",
-    "36 TV Huacho (720p)",
     "92 News HD (720p)",
     "100% Auto Moto TV (406p) [Not 24/7]",
     "101tv Cadiz (1080p)",
@@ -1806,6 +1722,7 @@
     "Afroculture TV",
     "Afroturk TV (1080p)",
     "AFV Espanol (720p) [Not 24/7]",
+    "AGR FM TV",
     "AgroBrasil TV (720p) [Not 24/7]",
     "AgroMais (720p)",
     "Ahasa TV (1080p)",
@@ -1820,7 +1737,6 @@
     "Al Resalah (1080p) [Geo-blocked]",
     "Al-Fady TV (1080p) [Not 24/7]",
     "Al-Iman TV (Indonesia) (720p)",
-    "Al-Manar (576p) [Not 24/7]",
     "Al-Naeem TV",
     "Al-Rafidain TV (720p) [Not 24/7]",
     "Alabama Weather Network (720p)",
@@ -1850,7 +1766,6 @@
     "AMC (United States) (1080p) [Geo-blocked]",
     "AMC en Espanol",
     "America Paraguay",
-    "American Crime Channel (720p)",
     "AMN TV (576p)",
     "AMusic Channel (720p)",
     "Anand Wari TV (576p)",
@@ -1880,6 +1795,7 @@
     "Antenne A",
     "Antenne Vorarlberg (720p) [Not 24/7]",
     "ANTV (Indonesia) (720p)",
+    "ANTV (Venezuela) (720p)",
     "Anzoategui TV (360p) [Not 24/7]",
     "Apna Channel (576p)",
     "Apostol TV (576p)",
@@ -1907,6 +1823,7 @@
     "ArubaTV +",
     "ARY Musik (1080p)",
     "ARY News",
+    "Aryan TV National (576p)",
     "Aryen TV (1080p) [Not 24/7]",
     "Ashiil TV (480p)",
     "Asi Sucede Guanajuato (720p) [Not 24/7]",
@@ -1916,17 +1833,14 @@
     "Asom Live 24 (576p)",
     "Assam Talks (576p)",
     "Atabal TV (1080p) [Not 24/7]",
-    "Atacama Noticias (720p) [Not 24/7]",
     "Atacama TV",
     "Atambua TV (720p)",
     "ATN Bangla (720p)",
     "ATN Bangla UK (576p)",
     "ATN Music (360p)",
-    "ATN Samachar (1080p)",
     "Atreseries (480p)",
     "Atrina TV",
     "ATV (Austria) HD (1080p)",
-    "ATV (Belgium) (1080p)",
     "ATV (Guinea) (400p) [Not 24/7]",
     "ATV (Pakistan) (1080p)",
     "ATV Avrupa (576p)",
@@ -1941,7 +1855,6 @@
     "Aviation TV (480p)",
     "Aviva TV (288p) [Not 24/7]",
     "AVT Khyber (1080p)",
-    "Awaaz India TV (720p) [Not 24/7]",
     "Awapa Sports TV (1080p) [Not 24/7]",
     "AXN (Portugal) (1080p)",
     "AXN Adria (576p)",
@@ -1951,7 +1864,7 @@
     "AXS TV (576p)",
     "AyM Sports (1080p)",
     "AYNI TV (1080p)",
-    "Az Cinema (1080p)",
+    "Az Corazon (720p)",
     "Az TV (1080p)",
     "Azan TV",
     "Aznews TV (720p) [Not 24/7]",
@@ -2011,7 +1924,6 @@
     "BBC Three (720p) [Geo-blocked]",
     "BBC Two HD (720p) [Geo-blocked]",
     "BBC UHD 4 (720p)",
-    "BCN Gospel TV HD (720p)",
     "BD Television (720p)",
     "Beb TV (720p)",
     "Bebeto TV (1080p) [Not 24/7]",
@@ -2061,6 +1973,7 @@
     "BN Channel (1080p)",
     "BNN Bloomberg",
     "BNT 2 (1080p)",
+    "Boas Novas (1080p)",
     "Boss Brothers TV (1080p)",
     "Bounce XL (1080p)",
     "BPTV (360p)",
@@ -2099,7 +2012,7 @@
     "Cabo Frio TV (720p)",
     "Cafe Trade TV",
     "Caillou",
-    "Can Tho TV 3 (1080p)",
+    "California Medios TV (720p)",
     "Canal 1 Mar Menor Torre Pacheco (1080p)",
     "Canal 2 (Costa Rica) (720p) [Not 24/7]",
     "Canal 2 (El Salvador) (720p)",
@@ -2117,6 +2030,7 @@
     "Canal 6 (Nicaragua) (480p) [Not 24/7]",
     "Canal 6 Panadish (720p)",
     "Canal 7 Boaco (1080p) [Not 24/7]",
+    "Canal 8 C&C Producciones",
     "Canal 8 San Juan (720p) [Not 24/7]",
     "Canal 9 (1080p)",
     "Canal 9 La Union (1080p)",
@@ -2227,6 +2141,7 @@
     "CBS News Philly (720p)",
     "CBS News Pittsburgh (720p)",
     "CCTV-5+ (1080p)",
+    "CCTV-13 (720p)",
     "CCTV-16 HD (1080p)",
     "CCV (480p)",
     "CCX1 (1080p)",
@@ -2299,6 +2214,7 @@
     "CMTv Kenya (576p) [Not 24/7]",
     "CNA (Algeria) (360p) [Not 24/7]",
     "CNBC (720p) [Geo-blocked]",
+    "CNC Medellin (1080p)",
     "CNC Tulua (1080p)",
     "CNC Valledupar (720p)",
     "CND Film Discovery Channel (576p)",
@@ -2328,9 +2244,9 @@
     "Congreso de los Diputados 4 (360p) [Not 24/7]",
     "Congreso de los Diputados 5 (360p) [Not 24/7]",
     "Contra Costa TV [Geo-blocked]",
-    "Cooperativa (720p)",
     "Cops (720p)",
     "Coptic TV (720p) [Not 24/7]",
+    "Corazon TV (720p)",
     "Corts Valencianes (480p) [Not 24/7]",
     "Cosmovision (720p)",
     "COStv",
@@ -2387,6 +2303,7 @@
     "DD Nagaland (576p)",
     "DD Punjabi (576p)",
     "DD Tripura (576p)",
+    "De Pelicula Plus (1080p)",
     "De unge modre",
     "Deal or No Deal (1080p)",
     "Deep House District (1080p)",
@@ -2410,6 +2327,7 @@
     "Detroit Channel 68",
     "Dhamaal (576p) [Geo-blocked]",
     "Dharsan TV (720p)",
+    "Dhoho TV (720p)",
     "Digi 4K (2160p) [Geo-blocked]",
     "Digital Congo TV",
     "Dion TV (1080p)",
@@ -2461,6 +2379,7 @@
     "Dunamis TV (576p) [Not 24/7]",
     "Dunhuang TV (1080p)",
     "Duran TV (480p) [Not 24/7]",
+    "Duta TV (360p) [Not 24/7]",
     "Dynamic Gospel TV (480p) [Not 24/7]",
     "E4 (360p)",
     "E! Keeping Up (1080p)",
@@ -2470,7 +2389,6 @@
     "EBC General Education (720p) [Not 24/7]",
     "EBC News (1080p) [Not 24/7]",
     "EBN TV (720p) [Not 24/7]",
-    "EbS+ (1080p)",
     "Ecclesia TV (Ivory Coast)",
     "Echo24 (720p)",
     "Eclipse TV (720p)",
@@ -2540,6 +2458,7 @@
     "ETV Telugu HD (1080p)",
     "Eureka (1080p) [Geo-blocked]",
     "Euro TV (Greece) (432p)",
+    "Eurochannel",
     "Eurocom (360p)",
     "Eurosport 1 Polska (1080p)",
     "Eurosport 2 Polska (1080p)",
@@ -2577,6 +2496,7 @@
     "Fengshang Shopping Channel (1080p)",
     "FEVA TV (1080p)",
     "Fibwi (1080p) [Not 24/7]",
+    "Ficom Channel (720p)",
     "Fieri Tv (720p)",
     "Fight Network (1080p)",
     "Filinfo TV (1080p)",
@@ -2609,6 +2529,7 @@
     "Franchs TV (720p)",
     "Francophonie24 (1080p)",
     "Frasier: Beruhmte Gaste",
+    "Frecuencia 7 TV (720p)",
     "Frecuencia Amazonica",
     "Frecuencia F TV (1080p)",
     "Freebie TV (720p) [Not 24/7]",
@@ -2618,11 +2539,10 @@
     "FTV One (720p) [Not 24/7]",
     "Fujairah TV (720p)",
     "Fujian Comprehensive Channel",
-    "Futbol TV (1080p)",
     "FX (Turkiye) [Geo-blocked]",
     "FX (United States) (720p)",
     "G10TV (1080p)",
-    "GalaxiATeVe (360p)",
+    "Galactica TV",
     "Galaxy TV (720p) [Not 24/7]",
     "Galveston County TV (720p) [Not 24/7]",
     "GAMTV.cr (720p)",
@@ -2659,6 +2579,7 @@
     "GEM Sport",
     "GEM TV +",
     "Gen",
+    "Genios TV (1080p)",
     "Gex TV (1080p)",
     "Ghost TV (712p) [Not 24/7]",
     "Giggle Mug (576p)",
@@ -2666,7 +2587,6 @@
     "Glendale TV (720p) [Geo-blocked]",
     "Global Buddhist Network (1080p)",
     "Global Social TV (720p) [Not 24/7]",
-    "Global TV (Dominican Republic) (720p) [Not 24/7]",
     "GlobalTV (480p) [Not 24/7]",
     "Globo TV (Honduras)",
     "Globo TV (Hungary) (720p) [Geo-blocked]",
@@ -2677,6 +2597,7 @@
     "GMTV (1080p)",
     "GNF TV (576p)",
     "GNT (1080p)",
+    "GO TV (720p)",
     "GO-TV Canale 163 (720p)",
     "Gold TV Sat (576p)",
     "Golden Eagle Cartoon (576p)",
@@ -2688,6 +2609,7 @@
     "Gospel TV India (576p)",
     "GoTraveler (720p) [Geo-blocked]",
     "Gran TV (720p)",
+    "Grande TV",
     "Great Commission TV",
     "GREAT! movies (1080p)",
     "GREAT! romance (1080p)",
@@ -2700,6 +2622,7 @@
     "GTV (Ghana) (540p)",
     "GTV (Guatemala) (768p) [Not 24/7]",
     "GTV (Indonesia) HD (1080p)",
+    "Guatevision (1080p)",
     "Gugudde TV (480p)",
     "Guide Love TV (720p)",
     "Guizhou TV (576p)",
@@ -2707,7 +2630,6 @@
     "GZT (1080p)",
     "H!t Music Channel (480p)",
     "Ha Tinh TV (720p)",
-    "Hala London (1080p)",
     "Hallmark Movies & More (1080p)",
     "Hamburg 1 (1080p)",
     "Hangulat TV (720p)",
@@ -2716,6 +2638,7 @@
     "Hard Knocks Fighting Championship (720p)",
     "HarPal Geo (360p)",
     "Harvest TV (1080p)",
+    "Harvest USA (576p)",
     "Hasbro Legends (1080p) [Geo-blocked]",
     "HBO (United States) (720p)",
     "HBO Family Asia HD (1080p)",
@@ -2750,7 +2673,6 @@
     "History TV18 HD (1080p) [Geo-blocked]",
     "Hits 360 TV (720p) [Not 24/7]",
     "HKTV (1080p) [Geo-blocked]",
-    "HLAJ-DTV (352p) [Not 24/7]",
     "HLAQ-DTV (1080p) [Not 24/7]",
     "HLAW-DTV (360p) [Not 24/7]",
     "HLC TV (480p) [Not 24/7]",
@@ -2758,8 +2680,6 @@
     "HLCX-DTV (450p)",
     "HLDE-DTV (540p)",
     "HLDG-DTV (1080p) [Not 24/7]",
-    "HLDQ-DTV (406p) [Not 24/7]",
-    "HLKJ-DTV (720p) [Not 24/7]",
     "HLKU-DTV (360p) [Not 24/7]",
     "HLQS-DTV (540p) [Not 24/7]",
     "HodHod Farsi TV (1080p)",
@@ -2816,7 +2736,7 @@
     "Impact Network (720p)",
     "Impact TV (Burkina Faso)",
     "Imperio TV Canal 6 (720p)",
-    "INC TV (1080p)",
+    "India News Gujarati (576p)",
     "Indigenous Television (720p)",
     "Indigenous TV (720p)",
     "Indosiar HD (1080p)",
@@ -2834,10 +2754,10 @@
     "Iqra TV",
     "Iran Nama",
     "Iran Press",
-    "IRIB 3",
     "Iris [Geo-blocked]",
     "Iron Chef",
     "Islam Channel (576p) [Not 24/7]",
+    "Itage TV (480p)",
     "Italia 7 (576p)",
     "Italianissimo (360p) [Not 24/7]",
     "ITV2 (360p)",
@@ -2850,6 +2770,7 @@
     "Jalwa TV",
     "Jamaica Online TV (1080p) [Not 24/7]",
     "Jamaica Travel Channel (720p)",
+    "Jambi TV",
     "Janam TV (576p)",
     "Jaszsagi Tersegi TV (440p)",
     "Jaya Plus (576p)",
@@ -2858,7 +2779,6 @@
     "JCM TV (720p) [Not 24/7]",
     "Jehova Nissi (720p)",
     "Jehova TV",
-    "Jek TV (720p) [Not 24/7]",
     "Jiangsu City Channel (576p)",
     "Jiangsu Educational Channel (576p)",
     "Jiangsu Movie Channel (576p)",
@@ -2911,10 +2831,10 @@
     "Kanal 35 (720p)",
     "Kanal A",
     "Kanal Hayat (1080p)",
-    "KandelaTV (480p)",
     "Kantipur Max [Geo-blocked]",
     "Karcag TV (720p)",
     "Kass TV (720p) [Not 24/7]",
+    "KassouaTV (720p)",
     "Kay2 HD (1080p)",
     "KBEV (1080p)",
     "KBRI-8 (720p)",
@@ -2948,11 +2868,13 @@
     "KTO (404p) [Not 24/7]",
     "KTV (Indonesia) (720p)",
     "Kunskapskanalen HD (1080p) [Geo-blocked]",
-    "Kurdistan TV (720p) [Not 24/7]",
     "L1 (1080p)",
     "La 1 (1086p)",
     "La 1 Canarias (720p)",
     "La 1 Catalunya (720p)",
+    "La 2 (1080p)",
+    "La 2 Canarias (720p)",
+    "La 2 Catalunya (720p)",
     "La5 [Geo-blocked]",
     "LA7d (720p)",
     "LA36 (1080p)",
@@ -2966,9 +2888,11 @@
     "La Rosa de Guadalupe (360p)",
     "La Sexta (1080p)",
     "La Sultana del Este TV (720p) [Not 24/7]",
+    "La Tele Tuya (576p)",
     "La Top 102.9 (720p)",
     "La Urban TV (1080p) [Not 24/7]",
     "La Voz del Tropico (480p) [Geo-blocked]",
+    "labor14 (720p)",
     "Laboral TV (360p)",
     "Laff (576p)",
     "Lahore Rang (1080p)",
@@ -2976,7 +2900,6 @@
     "Lakewood Channel 8 (720p)",
     "Lancelot TV (404p)",
     "LaPuraCrema Television",
-    "Larivision TV (720p) [Not 24/7]",
     "Las Estrellas (1080p)",
     "LATV (1080p) [Geo-blocked]",
     "LaXitosa Panama (360p) [Not 24/7]",
@@ -3034,13 +2957,13 @@
     "M-Net Sport (720p)",
     "Maasranga TV (720p)",
     "Madani Channel English (720p)",
+    "Madu TV (1080p) [Not 24/7]",
     "Maestrat TV (1080p)",
     "MagellanTV Now (1080p)",
     "MagentaMusik 360 (1080p)",
     "Magna Channel (1080p)",
     "Mahimai TV (576p)",
     "Majestad Television (720p)",
-    "Makan 33 (1080p)",
     "Maldives TV (720p)",
     "Manas TV (1080p)",
     "Manavision (480p)",
@@ -3090,12 +3013,15 @@
     "Mel Radio TV (360p)",
     "Melody FM (720p) [Not 24/7]",
     "Mereja TV",
+    "Meridiano TV (576p)",
     "Mesogeios TV (720p)",
+    "Metaleitor TV",
     "Metro1 News (576p)",
     "Metropola TV (1080p) [Not 24/7]",
     "Mezokovesdi Televizio (360p)",
     "MGI TV (720p) [Geo-blocked]",
     "Mi Extrana Obsesion",
+    "Mi Musica Hits (720p)",
     "Mi Musica Romantica (1080p)",
     "Mikuba TV (480p) [Not 24/7]",
     "MiMi TV (720p)",
@@ -3103,6 +3029,7 @@
     "Mirame TV (360p) [Not 24/7]",
     "MIS Televizija (720p) [Not 24/7]",
     "Mithila Nepal TV (1080p)",
+    "Mixkurdy (1080p)",
     "Mizpa TV (1080p)",
     "MKK Web TV (720p) [Not 24/7]",
     "ML5 TV (480p)",
@@ -3186,7 +3113,6 @@
     "Nagaland TV (576p)",
     "NAN TV (720p)",
     "Nanchang News & Generalist Channel",
-    "Naranja TV (720p)",
     "Narodna TV (720p)",
     "National Assembly TV (720p)",
     "National Geographic (Croatia) (1080p)",
@@ -3221,19 +3147,16 @@
     "New Vision TV (360p)",
     "NewFlix",
     "News9Live (1080p)",
-    "News12+ Connecticut (1080p) [Geo-blocked]",
-    "News12+ Hudson Valley (1080p) [Geo-blocked]",
     "News12+ New Jersey (1080p) [Geo-blocked]",
-    "News12+ New York (1080p) [Geo-blocked]",
     "News12 Bronx (1080p) [Geo-blocked]",
     "News12 Brooklyn (720p) [Geo-blocked]",
-    "News12 Long Island (1080p) [Geo-blocked]",
+    "News12 Conneticut [Geo-blocked]",
     "News12 New Jersey (1080p) [Geo-blocked]",
     "News12 New York (1080p)",
-    "News12 Westchester (1080p) [Geo-blocked]",
     "News 24 (India) (720p)",
     "NewsWorld (1080p)",
     "NewsX (720p)",
+    "NewsX World (576p)",
     "NewTV (1080p)",
     "Nexo TV",
     "NFL Network (720p)",
@@ -3255,6 +3178,7 @@
     "Nicktoons (Germany)",
     "Nicktoons (Romania)",
     "Nicktoons Adria (528p)",
+    "NicoyaTV (720p) [Not 24/7]",
     "Ningxia Satellite Channel (576p)",
     "Njata TV (576p) [Not 24/7]",
     "NK TV 24x7 (1080p)",
@@ -3268,6 +3192,7 @@
     "Nos Isla TV (1080p) [Not 24/7]",
     "Nos Pais (720p) [Not 24/7]",
     "NosTV Bonaire (1080p)",
+    "Noticias 16 (720p) [Not 24/7]",
     "Nour El Shabeb (720p)",
     "Nour Mariam (576p)",
     "Nova (Serbia) (1080p)",
@@ -3293,6 +3218,7 @@
     "NTV (Cambodia)",
     "Nueva Vision 14 (1080p) [Not 24/7]",
     "Nuevo Tiempo (720p) [Not 24/7]",
+    "Nusantara TV (1080p)",
     "Nuta Gold",
     "NW Economie (576p)",
     "NW Info 2 (576p)",
@@ -3317,7 +3243,6 @@
     "OK Trier (720p) [Geo-blocked]",
     "OK Weinstrasse Neustadt (432p) [Geo-blocked]",
     "OK-TV Ludwigshafen (720p) [Geo-blocked]",
-    "Oli TV (Chile) (1080p)",
     "Olot TV (1080p)",
     "Olympic Channel (1080p) [Geo-blocked]",
     "Omroep Centraal TV (480p) [Not 24/7]",
@@ -3343,7 +3268,6 @@
     "OSN Movies Action (1080p)",
     "Otto Channel (480p)",
     "OTV (Croatia) (720p) [Not 24/7]",
-    "OTV (Ghana) (720p)",
     "Overcomers TV (720p)",
     "Oxigeno TV (360p) [Not 24/7]",
     "OxiTV (720p) [Not 24/7]",
@@ -3366,7 +3290,6 @@
     "Pashto 1 (1080p)",
     "Passione Lotto (300p)",
     "PAT (1080p)",
-    "PBC Tapesh TV (720p)",
     "PBS Kids Eastern/Central (720p)",
     "Pequeradio (720p) [Not 24/7]",
     "Persiana Latino",
@@ -3411,8 +3334,6 @@
     "Pluto TV Reportagen",
     "Pluto TV Weihnachten im Sommer",
     "Pluto TV Worst of Bundy",
-    "PMI TV (720p) [Not 24/7]",
-    "Pocket Films",
     "Poder de Dios TV (1080p)",
     "Pogo (576p)",
     "Police TV (1080p)",
@@ -3500,23 +3421,28 @@
     "RACER International (1080p)",
     "Racer Network (1080p)",
     "Racing.com (720p)",
+    "Radar Lampung TV (480p)",
+    "Radar Tasikmalaya TV (720p) [Not 24/7]",
     "Radio 21 TV (720p)",
     "Radio Bremen Fernsehen (1080p) [Geo-blocked]",
     "Radio Chalaca",
     "Radio Chiloe (720p)",
     "Radio Contact (1080p)",
     "Radio Edelweiss (720p)",
-    "Radio Iglesias Sardegna (576p) [Geo-blocked]",
     "Radio Impacto 2 (288p) [Not 24/7]",
     "Radio Isla TV (720p)",
     "Radio Kollasuyo (720p)",
     "Radio Maria TV (1080p)",
+    "Radio Moldova",
+    "Radio Moldova Muzical",
+    "Radio Moldova Tineret (1080p)",
     "Radio RAM (1080p)",
     "Radio Romania Antena Satelor (720p) [Not 24/7]",
     "Radio Romania Resita (576p) [Not 24/7]",
     "Radio San Borja TV (1080p)",
     "Radio Stad den Haag (720p)",
     "Radio Sublime Gracia TV (720p)",
+    "Radio Tele 4VEH (720p)",
     "Radio Tele Amen FM (360p) [Not 24/7]",
     "Radio Tele Ginen (1080p)",
     "Radio Tele Hit (480p)",
@@ -3530,6 +3456,7 @@
     "Radio Weser TV Bremen (576p)",
     "Radio y Television Crisol de la Alegria (1080p) [Not 24/7]",
     "RadioMensaje TV (720p)",
+    "Radiotele (352p)",
     "Raia TV (720p) [Not 24/7]",
     "Rainbow Ruby (720p)",
     "Raizal TV (1080p)",
@@ -3542,7 +3469,6 @@
     "Raly TV (720p)",
     "Rararadio (720p)",
     "Rashid AlMajed (1080p)",
-    "RasoulallahTv (1080p)",
     "Ray TV HD",
     "RB TV (1080p)",
     "RBTV Jogja (1080p) [Not 24/7]",
@@ -3576,6 +3502,7 @@
     "Report TV (720p)",
     "Republic Bharat (1080p)",
     "Republic TV (1080p)",
+    "Resurrection TV (720p)",
     "Reteveneta (480p)",
     "Retrox TV (720p) [Not 24/7]",
     "Reuters TV (1080p)",
@@ -3585,16 +3512,17 @@
     "RFD-TV",
     "RFO (1080p)",
     "Rhone TV (1080p) [Geo-blocked]",
-    "Ribera TV (576p)",
     "RIK 1",
     "RIK 2",
     "RIK HD",
     "Riku TV (1080p)",
+    "Rinjani TV",
     "Rioni TV (720p) [Not 24/7]",
     "Ritmu TV",
     "RL PRO TV",
     "RLW TV (576p) [Not 24/7]",
-    "RMC Story (1080p)",
+    "RMC Decouverte (1080p)",
+    "RMC Life (1080p)",
     "Rocavision TV [Not 24/7]",
     "Rock Antenne [Not 24/7]",
     "Rockland TV (480p) [Not 24/7]",
@@ -3615,7 +3543,6 @@
     "RTEjr [Not 24/7]",
     "RTH-TV1 (1080p)",
     "RTH-TV2 Gospel (720p)",
-    "RTHK TV 31",
     "RTHK TV 32 (1080p) [Geo-blocked]",
     "RTHK TV 33 (1080p) [Geo-blocked]",
     "RTHK TV 34 (1080p) [Geo-blocked]",
@@ -3625,7 +3552,11 @@
     "RTM+ (720p) [Not 24/7]",
     "RTNC 3",
     "RTNC (1080p)",
+    "RTP 1 (720p) [Not 24/7]",
+    "RTP 2 (720p) [Not 24/7]",
+    "RTP Acores (720p) [Not 24/7]",
     "RTP Memoria (504p) [Not 24/7]",
+    "RTP Mundo (504p) [Not 24/7]",
     "RTS 1",
     "RTS 3 (720p)",
     "RTS (1080p)",
@@ -3652,7 +3583,6 @@
     "RTV GO! (1080p) [Not 24/7]",
     "RTV NOF Achtkarspelen & Tytsjerksteradiel (720p)",
     "RTV Noordoost Friesland (720p) [Not 24/7]",
-    "RTV Novi Pazar",
     "RTV Parkstad (1080p)",
     "RTV Zenica (720p)",
     "RTVC Cardedeu (1080p)",
@@ -3678,7 +3608,6 @@
     "Samaa TV (576p)",
     "Samarra TV",
     "Samay Kolkata (1080p)",
-    "Sampit TV (720p) [Not 24/7]",
     "San Ignacio TV (720p)",
     "San Luis +",
     "San Marino RTV (720p)",
@@ -3746,6 +3675,7 @@
     "SIC Radical",
     "Sichuan Satellite TV (576p)",
     "Sichuan TV Women and Children Channel (720p) [Not 24/7]",
+    "Siembra TV (Venezuela) [Not 24/7]",
     "Silver Screen (576p)",
     "Silverbird News 24 (576p)",
     "Simavision Canal 18 (720p)",
@@ -3772,6 +3702,7 @@
     "Sky Sport Select",
     "Sky Sport Tennis",
     "Sky Sport Top Event",
+    "Sky Sports 2 (1080p)",
     "Slager Muzika",
     "Slager Original",
     "Slotstad TV (720p)",
@@ -3788,7 +3719,6 @@
     "Sonus FM (1080p) [Not 24/7]",
     "Sony Canal Novelas",
     "Sony Movies (Brazil) (720p)",
-    "Sony One Blacklist (1080p)",
     "Sony Pal (576p)",
     "Sony Yay! (576p)",
     "Sooriyan TV (1080p)",
@@ -3805,6 +3735,7 @@
     "Sport TV+",
     "Sportitalia 24 (720p) [Geo-blocked]",
     "Sportitalia Motori (720p) [Geo-blocked]",
+    "SportsMax News (1080p)",
     "SporTV 2 (1080p)",
     "SporTV 3 (1080p)",
     "Sporty TV",
@@ -3822,6 +3753,7 @@
     "Star Comedy",
     "Star Crime (Portugal)",
     "Star Crime (Slovenia)",
+    "Star Jalsha (1080p) [Geo-blocked]",
     "Star Life (Portugal)",
     "Star Life (Slovenia)",
     "Star Movies (Portugal)",
@@ -3835,6 +3767,7 @@
     "Start TV (480p)",
     "Starz Cinema (720p)",
     "Starz Encore Spanish (720p)",
+    "Steelbird Music (720p) [Not 24/7]",
     "Stockton Gov TV (720p)",
     "StreamForce 360 (1080p)",
     "Studio + TV (1080p)",
@@ -3853,7 +3786,6 @@
     "Super9 TV (480p) [Not 24/7]",
     "Super Channel 12 (1080p)",
     "Super J TV Teramo (720p)",
-    "Super TV 55 (720p) [Geo-blocked]",
     "Super TV (Bosnia and Herzegovina) (720p)",
     "Super TV Oristano (720p) [Not 24/7]",
     "Superscreen TV (412p)",
@@ -3886,6 +3818,7 @@
     "Tanzania Safari Channel (576p)",
     "TAP Sports (1080p) [Geo-blocked]",
     "Tapesh 2",
+    "TATV (720p) [Not 24/7]",
     "TBC1",
     "TBCN (480p)",
     "TBN (1080p)",
@@ -3905,6 +3838,7 @@
     "Tegar TV Lampung (480p)",
     "Tekyemadahi",
     "Telavision (720p)",
+    "Tele 1 (1080p)",
     "TELE 4 Ojocaliente (720p)",
     "TELE 6 (720p)",
     "Tele Congo (720p)",
@@ -3922,12 +3856,12 @@
     "Tele Tchad (1080p)",
     "Tele UV [Not 24/7]",
     "Tele Vid (1080p)",
-    "Tele Yucatan (1080p) [Geo-blocked]",
     "Teleamazonas (1080p)",
     "Teleantioquia Plus (1080p)",
     "Telearuba (1080p) [Not 24/7]",
     "TeleBilbao (384p)",
     "Telebocono (720p) [Not 24/7]",
+    "TeleBrunca (720p) [Not 24/7]",
     "Telecadena 7 y 4 (576p)",
     "Telecanal (720p)",
     "TeleCauquenes (720p)",
@@ -3940,6 +3874,7 @@
     "Telecosta (Ecuador)",
     "TeleDanli (720p) [Not 24/7]",
     "Teledeporte",
+    "Telefe Internacional (1080p)",
     "Telefe Rosario (720p) [Geo-blocked]",
     "Telefe Tucuman (1080p)",
     "TeleGohelle",
@@ -3971,11 +3906,10 @@
     "Telesud Trapani (720p) [Not 24/7]",
     "Teletubbies (720p)",
     "Televallo (576p)",
-    "Televen (1080p)",
     "TeleVenezia (576p)",
-    "Telever (1080p) [Not 24/7]",
     "Televiaducto Canal 3 (720p) [Not 24/7]",
     "Televiaducto Canal 14 (720p) [Not 24/7]",
+    "TeleVigo (1080p) [Not 24/7]",
     "Television Comayagua Canal 40 (720p) [Not 24/7]",
     "Television de San Vicente (1080p)",
     "Television Metropolis 19.1 (1080p) [Not 24/7]",
@@ -4029,8 +3963,10 @@
     "TLC Southeast Asia",
     "TM1 TV (360p) [Not 24/7]",
     "TM TV (United States) (720p)",
+    "TMC HD (1080p) [Geo-blocked]",
     "TMT (1080p)",
     "TN23 (720p)",
+    "TN (1080p)",
     "TNE Canal 58 (720p) [Not 24/7]",
     "TNH (720p)",
     "TNN16 (720p)",
@@ -4048,12 +3984,15 @@
     "ToonGoggles (720p)",
     "TOP Barca (1080p)",
     "Top Crime [Geo-blocked]",
+    "Top Latino TV",
     "Top TV (Serbia) (1080p)",
+    "TopEstrada TV (720p)",
     "Topical Moon RD (720p) [Not 24/7]",
     "Tora Canal 69",
     "Torococo TV (720p) [Not 24/7]",
     "Totovision",
     "Tour Spot TV (1280p) [Not 24/7]",
+    "Town TV",
     "TR24 Television (720p)",
     "Trace Africa (1080p)",
     "Trace Afrikora (1080p)",
@@ -4076,7 +4015,6 @@
     "Transformers TV (720p)",
     "TransMedia (720p)",
     "Transmedia Television Morelia (614p) [Geo-blocked]",
-    "TRC TV (720p)",
     "Trece (Paraguay)",
     "Trend TV (480p)",
     "Trentino TV (720p) [Not 24/7]",
@@ -4084,11 +4022,12 @@
     "Trigger",
     "Trimedio TV (1080p) [Geo-blocked]",
     "Trinity TV (480p) [Not 24/7]",
-    "Triunfo 96.9 FM (360p)",
+    "Trivision 36 (720p)",
     "Tropical Moon Cumbia TV (720p)",
     "Tropical Moon Eventos TV (720p)",
     "Tropical Moon Urban TV [Not 24/7]",
     "Tropicalia 93.9 FM",
+    "TRT 1 (1440p)",
     "TRT 2 (1440p) [Geo-blocked]",
     "TRT 3 (720p)",
     "TRT Belgesel (720p)",
@@ -4101,6 +4040,7 @@
     "Trzic TV (1080p) [Not 24/7]",
     "TSi",
     "TSN4 (720p)",
+    "TSN TeleSondrio News (480p) [Not 24/7]",
     "TSTV (720p)",
     "TTV (720p)",
     "TUDN (Mexico) (1080p)",
@@ -4149,7 +4089,6 @@
     "TV Bergueda (1080p)",
     "TV Birigui (640p)",
     "TV Brasil (720p)",
-    "TV Brasil Oeste (720p)",
     "TV Brezova (540p)",
     "TV Brusque (720p)",
     "TV BUAP (1080p)",
@@ -4215,6 +4154,7 @@
     "TV Pirot (240p) [Not 24/7]",
     "TV Poprad (1080p) [Not 24/7]",
     "TV Profissao",
+    "TV Quisqueya (720p)",
     "TV Ra Tim Bum (720p)",
     "TV Raj (720p) [Not 24/7]",
     "TV Ripolles (1080p)",
@@ -4270,7 +4210,7 @@
     "TVcom (1080p)",
     "TVE Internacional Asia-Oceania",
     "TVE Internacional Europe",
-    "TVes (1080p)",
+    "TVenLinea (1080p)",
     "TVGE",
     "TVGracia",
     "TVKU (720p)",
@@ -4302,7 +4242,6 @@
     "TVRI Sport (1080p)",
     "TVRS (576p) [Not 24/7]",
     "TVS (Poland)",
-    "TVS (Venezuela) (720p)",
     "TVS Film Noir Network (720p)",
     "TVS Pinball Network (480p)",
     "TVSN Beauty (1080p)",
@@ -4336,8 +4275,10 @@
     "UNews (1080p)",
     "Unica TV (720p) [Not 24/7]",
     "Unicanal",
+    "UniRadio TV (1080p)",
     "Unison TV (1080p) [Not 24/7]",
     "UniTV Porto Alegre (480p)",
+    "Univalle Television (1080p)",
     "Universal Comedy (1080p)",
     "Universal Crime (1080p)",
     "Universitaria TV (720p)",
@@ -4351,6 +4292,7 @@
     "UTV (Kenya) (240p) [Not 24/7]",
     "UTV (Romania) HD (1080i)",
     "UTV Africa (720p)",
+    "UVA TV (720p) [Not 24/7]",
     "Uvagut TV (1080p)",
     "Valam TV Dayro (576p)",
     "Vallenato Internacional (720p) [Not 24/7]",
@@ -4358,7 +4300,6 @@
     "Vanitha TV (576p)",
     "Vantage Classic (720p)",
     "Vantage Dance (720p)",
-    "Varzesh TV",
     "Vasarhelyi Televizio (576p)",
     "VCAT (480p)",
     "VCV (720p) [Not 24/7]",
@@ -4466,7 +4407,6 @@
     "WPS-TV (360p)",
     "WSOC Now (1080p) [Geo-blocked]",
     "WTV Canal 20 (1080p)",
-    "Wu Tang Collection (720p)",
     "WWON-TV Channel 48",
     "Xama TV",
     "XEJ-TDT (614p)",
@@ -4475,13 +4415,14 @@
     "Xi'an Business Information Channel (180p) [Not 24/7]",
     "Xi'an Silk Road Channel (404p) [Not 24/7]",
     "Xinjiang TV 1",
-    "XITE Siempre Latino (1080p)",
+    "XITE Nuevo Latino (1080p)",
     "XON (480p) [Not 24/7]",
     "Xplore TV (1080p)",
     "XTOTV (720p)",
     "Xuzhou Economic Life Channel (1080p)",
     "YAAAS! (720p) [Geo-blocked]",
     "Yanbian Satellite TV (576p)",
+    "Yerkir Media (1080p)",
     "YES",
     "YleX (720p)",
     "Yobe TV (720p)",
@@ -4496,6 +4437,8 @@
     "Zarin TV (1080p)",
     "ZAS TV",
     "ZAZ (1080p)",
+    "ZB Cartoon (1080p)",
+    "ZB Music (720p)",
     "ZDFinfo (720p) [Geo-blocked]",
     "ZDFneo (720p)",
     "Zee 24 Ghanta (576p)",
@@ -4534,7 +4477,6 @@
     "10 HD",
     "SBS Ⓖ",
     "Nine",
-    "10 Peach",
     "10 Shake",
     "M4TV",
     "SBS Viceland Ⓖ",
@@ -4637,7 +4579,7 @@
     "RBB Brandenburg Ⓖ",
     "ERT 1 Ⓖ",
     "ERT 2 Ⓖ",
-    "ERT Sports 1",
+    "ERT Sports 3",
     "MAK TV",
     "Blue Sky",
     "Mad Ⓨ",
@@ -4651,6 +4593,7 @@
     "TVB News Channel",
     "TVB Finance (Sports & Information Channel)",
     "ErdélyTV Ⓨ",
+    "EWTN TV",
     "DikhTv Ⓨ",
     "Parlamenti közvetítés",
     "Parlamenti TAB közvetítés",
@@ -4723,6 +4666,7 @@
     "Canale 74 Sicilia",
     "Canale Italia",
     "Carina Tv",
+    "Castrovillari Tv",
     "Cusano News 7",
     "Donna Shopping Tv",
     "EQUtv",
@@ -4742,11 +4686,11 @@
     "Medjugorje Tv Puglia",
     "News24 City",
     "Nuova TV Nazionale",
+    "Nuova Tv 1",
     "Nuova Tv 2",
     "Pop Tv",
     "Prima Tv Sicilia",
     "Primantenna Torino",
-    "Radio Iglesias Visual Radio",
     "Radio Immagine Tv",
     "Radio Roma",
     "Radio Roma Television",
@@ -4831,7 +4775,6 @@
     "KNN TV",
     "TJB TV",
     "JTV TV",
-    "JIBS TV",
     "OBS TV",
     "KBS Korea Ⓨ",
     "All the K-Pop Ⓨ",
@@ -4942,7 +4885,6 @@
     "BBC Radio 5 Sports Extra",
     "BBC Asian Network",
     "BBC World Service",
-    "Піксель TV",
     "Суспільне Луцьк",
     "MBC 2 Ⓢ",
     "MBC Action Ⓢ",
@@ -5817,14 +5759,14 @@
     {
       "name": "Киносемья HD",
       "status": "verified",
-      "source": "jekalich-smtk:100",
+      "source": "denisskashin-cinema:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Кинопремьера HD",
       "status": "verified",
-      "source": "iptv-org-ru-alternatives:100",
+      "source": "denisskashin-cinema:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -5845,7 +5787,7 @@
     {
       "name": "Киносерия HD",
       "status": "verified",
-      "source": "category-movies:100",
+      "source": "cache",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -5858,39 +5800,10 @@
     },
     {
       "name": "Киноужас HD",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-cinema:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "jekalich-smtk:100",
-          "reason": "video_decode_failed",
-          "playback_attempts": 1
-        },
-        {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
-          "playback_attempts": 1
-        },
-        {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        },
-        {
-          "source": "iptv-org-ru-alternatives:100",
-          "reason": "http_403",
-          "playback_attempts": 1
-        },
-        {
-          "source": "category-movies:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-cinema:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Мужское кино HD",
@@ -5923,7 +5836,7 @@
     {
       "name": "Мир сериала HD",
       "status": "verified",
-      "source": "category-series:100",
+      "source": "denisskashin-tv_series:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -6354,29 +6267,10 @@
     },
     {
       "name": "Русский бестселлер",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-tv_series:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "jekalich-smtk:100",
-          "reason": "timeout",
-          "playback_attempts": 3
-        },
-        {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
-          "playback_attempts": 1
-        },
-        {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-tv_series:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Русский Детектив",
@@ -6453,24 +6347,10 @@
     },
     {
       "name": "Fox HD",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-cinema:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
-          "playback_attempts": 1
-        },
-        {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-cinema:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Fox life HD",
@@ -6496,7 +6376,7 @@
     {
       "name": "Комедия",
       "status": "verified",
-      "source": "cache",
+      "source": "denisskashin-cinema:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -6509,24 +6389,10 @@
     },
     {
       "name": "Наше HD",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-cinema:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "jekalich-smtk:100",
-          "reason": "timeout",
-          "playback_attempts": 3
-        },
-        {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-cinema:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Наше любимое HD",
@@ -6596,7 +6462,7 @@
     {
       "name": ".Sci-Fi HD",
       "status": "verified",
-      "source": "category-entertainment:100",
+      "source": "cache",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -6664,34 +6530,10 @@
     },
     {
       "name": "Fan HD",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-cinema:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "jekalich-smtk:100",
-          "reason": "blocked_variants",
-          "playback_attempts": 1
-        },
-        {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
-          "playback_attempts": 1
-        },
-        {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        },
-        {
-          "source": "category-movies:100",
-          "reason": "connection_reset",
-          "playback_attempts": 3
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-cinema:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Scream HD",
@@ -6706,34 +6548,15 @@
     },
     {
       "name": "Феникс+ Кино HD",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-cinema:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "jekalich-smtk:100",
-          "reason": "video_decode_failed",
-          "playback_attempts": 1
-        },
-        {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        },
-        {
-          "source": "category-movies:100",
-          "reason": "connection_reset",
-          "playback_attempts": 3
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-cinema:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Ретро",
       "status": "verified",
-      "source": "jekalich-smtk:100",
+      "source": "denisskashin-cinema:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -6768,7 +6591,7 @@
     {
       "name": "Индия HD",
       "status": "verified",
-      "source": "jekalich-smtk:100",
+      "source": "denisskashin-cinema:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -6819,34 +6642,10 @@
     },
     {
       "name": "Про Любовь HD",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-cinema:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "jekalich-smtk:100",
-          "reason": "video_decode_failed",
-          "playback_attempts": 1
-        },
-        {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
-          "playback_attempts": 1
-        },
-        {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        },
-        {
-          "source": "region-eur:100",
-          "reason": "video_decode_failed",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-cinema:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Хит HD",
@@ -6878,19 +6677,10 @@
     },
     {
       "name": "FlixSnip HD",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-cinema:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-cinema:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Trash HD",
@@ -8120,10 +7910,19 @@
     },
     {
       "name": "MM Ужасы Classic HD",
-      "status": "verified",
-      "source": "denisskashin-cinema:90",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "denisskashin-cinema:90",
+          "reason": "http_404",
+          "playback_attempts": 1
+        },
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "MM Ужасы HD",
@@ -8665,19 +8464,10 @@
     },
     {
       "name": "Quadro 4K",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-discovery:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-discovery:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Fashion TV UHD",
@@ -10221,19 +10011,10 @@
     },
     {
       "name": "KZ | Setanta Sports HD",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-sport:88",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-sport:88",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "KZ | Setanta Sports 1 HD",
@@ -11381,8 +11162,8 @@
         },
         {
           "source": "category-sports:89",
-          "reason": "video_decode_failed",
-          "playback_attempts": 1
+          "reason": "connection_reset",
+          "playback_attempts": 3
         }
       ]
     },
@@ -12572,7 +12353,7 @@
     {
       "name": "History2 HD",
       "status": "verified",
-      "source": "region-eur:100",
+      "source": "denisskashin-discovery:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -13570,24 +13351,10 @@
     },
     {
       "name": "Точка РФ HD",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-discovery:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
-          "playback_attempts": 1
-        },
-        {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-discovery:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "СТС Love",
@@ -14653,7 +14420,7 @@
     {
       "name": "DE | Sky Sport News HD",
       "status": "verified",
-      "source": "cache",
+      "source": "denisskashin-sport:90",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -15309,19 +15076,10 @@
     },
     {
       "name": "DE | Sky Sport Premier League HD",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-sport:92",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-sport:92",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "DE | Sky Sport Premier League HD (Backup)",
@@ -15390,24 +15148,10 @@
     },
     {
       "name": "DE | Sky Sport Mix HD",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-sport:90",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        },
-        {
-          "source": "category-sports:90",
-          "reason": "http_403",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-sport:90",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "DE | Sky Sport Mix HD (Backup)",
@@ -16543,7 +16287,7 @@
         },
         {
           "source": "free-tv:100",
-          "reason": "video_decode_failed",
+          "reason": "http_404",
           "playback_attempts": 1
         }
       ]
@@ -17380,24 +17124,10 @@
     },
     {
       "name": "UK | Sky Sports Premier League HD",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-sport:94",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
-          "playback_attempts": 1
-        },
-        {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-sport:94",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "UK | TNT Sport 3 HD",
@@ -17484,7 +17214,7 @@
     {
       "name": "UK | Sky Sports News HD",
       "status": "verified",
-      "source": "cache",
+      "source": "denisskashin-sport:88",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -20179,13 +19909,8 @@
           "playback_attempts": 1
         },
         {
-          "source": "cache",
-          "reason": "connection_refused",
-          "playback_attempts": 1
-        },
-        {
           "source": "region-eur:90",
-          "reason": "connection_refused",
+          "reason": "http_404",
           "playback_attempts": 1
         }
       ]
@@ -20610,14 +20335,14 @@
     {
       "name": "PL | Eleven Sports 1 4K",
       "status": "verified",
-      "source": "category-sports:91",
+      "source": "denisskashin-sport:91",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "PL | Eleven Sports 1 HD",
       "status": "verified",
-      "source": "category-sports:91",
+      "source": "denisskashin-sport:91",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -22166,7 +21891,7 @@
     {
       "name": "Арис 24",
       "status": "verified",
-      "source": "jekalich-smtk:100",
+      "source": "denisskashin-index:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -22544,7 +22269,7 @@
     {
       "name": "Север Нарьян-Мар",
       "status": "verified",
-      "source": "iptv-org-ru-alternatives:100",
+      "source": "denisskashin-index:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -22664,19 +22389,10 @@
     },
     {
       "name": "Тивиком Улан-Удэ",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-index:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-index:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Культ Медиа Астрахань",
@@ -22756,42 +22472,30 @@
     {
       "name": "Смайлик ТВ",
       "status": "verified",
-      "source": "jekalich-smtk:100",
+      "source": "denisskashin-children:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "JimJam",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-children:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-children:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Kids",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-children:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-children:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Liberty Disney",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-children:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-children:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Dreamworks 4K",
@@ -22802,25 +22506,17 @@
     },
     {
       "name": "Мим",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-children:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-children:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Пиксар FHD",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-children:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-children:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Liberty Сказки",
@@ -22831,14 +22527,10 @@
     },
     {
       "name": "Disney",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-children:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-children:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "USSR Мультфильм",
@@ -22849,14 +22541,10 @@
     },
     {
       "name": "Весёлая Карусель",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-children:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-children:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Ералаш HD",
@@ -22896,35 +22584,17 @@
     },
     {
       "name": "ТВ XXI",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-cinema:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "jekalich-smtk:100",
-          "reason": "video_decode_failed",
-          "playback_attempts": 1
-        },
-        {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-cinema:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "AMC",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-cinema:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-cinema:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Kino 24",
@@ -23068,14 +22738,10 @@
     },
     {
       "name": "Premium Kinozakaz+ 4K HDR",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-cinema:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-cinema:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Romantic",
@@ -23177,25 +22843,17 @@
     },
     {
       "name": "Relax 4K",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-cinema:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-cinema:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Remast+ 4K",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-cinema:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-cinema:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Spy",
@@ -23210,14 +22868,10 @@
     },
     {
       "name": "Travel",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-cinema:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-cinema:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Western",
@@ -23250,58 +22904,38 @@
     },
     {
       "name": "Liberty Fan",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-cinema:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-cinema:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Marvel",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-cinema:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-cinema:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Netflix 4K",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-cinema:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-cinema:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "South Park",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-cinema:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-cinema:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "XX Век 4K",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-cinema:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-cinema:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Аванпост 4K",
@@ -23312,58 +22946,38 @@
     },
     {
       "name": "Короткометражный",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-cinema:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-cinema:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Криминал 4K",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-cinema:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-cinema:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Куб 4K",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-cinema:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-cinema:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Мюзикл 4K",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-cinema:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-cinema:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Русфильм 4K",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-cinema:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-cinema:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Семейный 4K",
@@ -23389,7 +23003,7 @@
       "attempts": [
         {
           "source": "denisskashin-cinema:100",
-          "reason": "http_404",
+          "reason": "no_video_track",
           "playback_attempts": 1
         }
       ]
@@ -23403,25 +23017,17 @@
     },
     {
       "name": "Туркфильм 4K",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-cinema:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-cinema:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Ужасы 4K",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-cinema:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-cinema:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Flip UHD",
@@ -23432,14 +23038,10 @@
     },
     {
       "name": "USSR Фантастика",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-cinema:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-cinema:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Боевик Classic",
@@ -23468,10 +23070,14 @@
     },
     {
       "name": "Ужасы Classic",
-      "status": "verified",
-      "source": "denisskashin-cinema:100",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "denisskashin-cinema:100",
+          "reason": "http_404",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Magic",
@@ -23507,14 +23113,10 @@
     },
     {
       "name": "Comedy Woman",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-cinema:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-cinema:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "VHS",
@@ -23585,14 +23187,10 @@
     },
     {
       "name": "4K HDR",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-cinema:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-cinema:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "C-Live",
@@ -23669,19 +23267,10 @@
     },
     {
       "name": "Психология",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-discovery:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "jekalich-smtk:100",
-          "reason": "blocked_variants",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-discovery:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Univer TV",
@@ -23706,24 +23295,10 @@
     },
     {
       "name": "Наша Сибирь",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-discovery:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
-          "playback_attempts": 1
-        },
-        {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-discovery:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Love Nature",
@@ -23748,14 +23323,10 @@
     },
     {
       "name": "TravelXP 4K",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-discovery:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-discovery:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "ETV",
@@ -23773,19 +23344,10 @@
     },
     {
       "name": "Кухня",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-hobby:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_reset",
-          "playback_attempts": 3
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-hobby:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Food Network",
@@ -23836,7 +23398,7 @@
     {
       "name": "8 канал Беларусь",
       "status": "verified",
-      "source": "jekalich-smtk:100",
+      "source": "denisskashin-index:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -23891,10 +23453,14 @@
     },
     {
       "name": "НТВ Беларусь",
-      "status": "verified",
-      "source": "denisskashin-index:100",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "denisskashin-index:100",
+          "reason": "http_404",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "СТВ",
@@ -23905,13 +23471,6 @@
     },
     {
       "name": "Первый канал Европа",
-      "status": "verified",
-      "source": "denisskashin-index:100",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
-    },
-    {
-      "name": "РТР-Планета",
       "status": "unverified",
       "attempts": [
         {
@@ -23920,6 +23479,13 @@
           "playback_attempts": 1
         }
       ]
+    },
+    {
+      "name": "РТР-Планета",
+      "status": "verified",
+      "source": "denisskashin-index:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "360.RU Новости",
@@ -23958,14 +23524,10 @@
     },
     {
       "name": "OstWest",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-index:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-index:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "10 канал",
@@ -23997,19 +23559,10 @@
     },
     {
       "name": "Афонтово",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-index:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "jekalich-smtk:100",
-          "reason": "dns_error",
-          "playback_attempts": 3
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-index:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Вариант V (Владимир)",
@@ -24021,21 +23574,21 @@
     {
       "name": "Волга 24",
       "status": "verified",
-      "source": "jekalich-smtk:100",
+      "source": "denisskashin-index:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Восток 24",
       "status": "verified",
-      "source": "jekalich-smtk:100",
+      "source": "denisskashin-index:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Доверие",
       "status": "verified",
-      "source": "jekalich-smtk:100",
+      "source": "denisskashin-index:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -24062,14 +23615,10 @@
     },
     {
       "name": "Курай ТВ (Уфа)",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-index:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-index:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Муром ТВ (Владимир)",
@@ -24088,7 +23637,7 @@
     {
       "name": "НВК Саха",
       "status": "verified",
-      "source": "jekalich-smtk:100",
+      "source": "denisskashin-index:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -24108,47 +23657,31 @@
     },
     {
       "name": "ТВ 7 (Абакан)",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-index:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-index:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "ТВК",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-index:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-index:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "ТелеДом (Санкт-Петербург)",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-index:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-index:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "ТЕО ТВ (Москва)",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-index:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-index:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "PRO100 TV",
@@ -24215,14 +23748,10 @@
     },
     {
       "name": "BOX Music 4K",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-music:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-music:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Europa Plus Light",
@@ -24388,14 +23917,10 @@
     },
     {
       "name": "Прайм Спорт",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-sport:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-sport:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "БНТ 3",
@@ -24476,24 +24001,10 @@
     },
     {
       "name": "Eleven Sports 1",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-sport:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "jekalich-smtk:91",
-          "reason": "connection_refused",
-          "playback_attempts": 1
-        },
-        {
-          "source": "jekalich-smtk:91",
-          "reason": "connection_refused",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-sport:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Megogo Спорт HD",
@@ -24532,151 +24043,94 @@
     },
     {
       "name": "Prokop Sport Online 1",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-sport:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-sport:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Prokop Sport Online 10",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-sport:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-sport:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Prokop Sport Online 11",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-sport:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-sport:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Prokop Sport Online 12",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-sport:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-sport:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Prokop Sport Online 2",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-sport:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-sport:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Prokop Sport Online 3",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-sport:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-sport:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Prokop Sport Online 4",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-sport:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-sport:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Prokop Sport Online 5",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-sport:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-sport:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Prokop Sport Online 6",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-sport:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-sport:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Prokop Sport Online 7",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-sport:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-sport:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Prokop Sport Online 8",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-sport:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-sport:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Prokop Sport Online 9",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-sport:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-sport:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Q Sport Kyrgyzstan",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-sport:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "category-sports:94",
-          "reason": "http_403",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-sport:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Realitatea Sportiva",
@@ -24701,14 +24155,10 @@
     },
     {
       "name": "Viaplay Sports",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-sport:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-sport:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Астрахань.Ru Sport",
@@ -24733,19 +24183,10 @@
     },
     {
       "name": "Q Arena",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-sport:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_reset",
-          "playback_attempts": 3
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-sport:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Qazsport",
@@ -24756,36 +24197,24 @@
     },
     {
       "name": "Setanta Qazaqstan",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-sport:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-sport:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Sky Sport Mix",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-sport:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-sport:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Sky Sport News",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-sport:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-sport:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Sport Plus Qazaqstan",
@@ -24831,19 +24260,10 @@
     },
     {
       "name": "Setanta Sports+",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-sport:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "jekalich-smtk:100",
-          "reason": "video_decode_failed",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-sport:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Setanta Sports+ Ukraine",
@@ -24870,19 +24290,10 @@
     },
     {
       "name": "Sky Sports Premier League",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-sport:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "jekalich-smtk:94",
-          "reason": "connection_refused",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-sport:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Хоккей ТВ",
@@ -24907,40 +24318,17 @@
     },
     {
       "name": "Русский Экстрим",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-sport:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "jekalich-smtk:100",
-          "reason": "timeout",
-          "playback_attempts": 3
-        },
-        {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-sport:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Serial 4K",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-tv_series:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-tv_series:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Комедийные сериалы",
@@ -24987,14 +24375,10 @@
     },
     {
       "name": "Сериалы Турции",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-tv_series:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-tv_series:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Уральские пельмени",
@@ -25041,19 +24425,10 @@
     },
     {
       "name": "FX HD",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-cinema:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "jekalich-smtk:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-cinema:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "FX Life HD",
@@ -25295,19 +24670,10 @@
     },
     {
       "name": "HD Life",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-discovery:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_reset",
-          "playback_attempts": 3
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-discovery:100",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Top Secret",
@@ -26766,7 +26132,7 @@
     {
       "name": "Тивиком HD",
       "status": "verified",
-      "source": "jekalich-smtk:100",
+      "source": "denisskashin-index:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -27939,7 +27305,7 @@
     {
       "name": "Eleven Sports 1 HD [PL]",
       "status": "verified",
-      "source": "free-tv:91",
+      "source": "denisskashin-sport:91",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -28086,8 +27452,8 @@
         },
         {
           "source": "category-sports:100",
-          "reason": "video_decode_failed",
-          "playback_attempts": 1
+          "reason": "connection_reset",
+          "playback_attempts": 3
         }
       ]
     },
@@ -28188,19 +27554,10 @@
     },
     {
       "name": "SKY SPORTS PREMIER LEAGUE UK",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-sport:94",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "jekalich-smtk:100",
-          "reason": "connection_refused",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-sport:94",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Sky Sports Arena",
@@ -28715,7 +28072,7 @@
     {
       "name": "Kongress TV (1080p)",
       "status": "verified",
-      "source": "original",
+      "source": "iptv-org-ru-alternatives:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -28799,8 +28156,8 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "connection_reset",
-          "playback_attempts": 3
+          "reason": "http_404",
+          "playback_attempts": 1
         }
       ]
     },
@@ -28902,7 +28259,7 @@
     {
       "name": "RT en Espanol (1080p)",
       "status": "verified",
-      "source": "iptv-org-ru-alternatives:100",
+      "source": "cache",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -30736,19 +30093,10 @@
     },
     {
       "name": "Sport (Kyrgyzstan) (480p) [Not 24/7]",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "denisskashin-sport:94",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "denisskashin-sport:94",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "STV (Belarus) HD (720p)",
@@ -30773,10 +30121,19 @@
     },
     {
       "name": "TDK 42",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "video_decode_failed",
+          "playback_attempts": 1
+        },
+        {
+          "source": "cache",
+          "reason": "video_decode_failed",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "TSV (1080p)",
@@ -31050,14 +30407,10 @@
     },
     {
       "name": "Qazaqstan (1080p)",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Qostanai (576p) [Not 24/7]",
@@ -31905,8 +31258,8 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "tls_error",
-          "playback_attempts": 1
+          "reason": "connection_reset",
+          "playback_attempts": 3
         }
       ]
     },
@@ -31951,19 +31304,10 @@
     },
     {
       "name": "1TV (720p)",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        },
-        {
-          "source": "cache",
-          "reason": "http_403",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "1Twente TV (1080p)",
@@ -32006,19 +31350,10 @@
     },
     {
       "name": "2 TV (720p)",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        },
-        {
-          "source": "cache",
-          "reason": "http_403",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "3ABN Canada (720p)",
@@ -32628,7 +31963,7 @@
       "status": "verified",
       "source": "original",
       "reason": "video_frames_decoded",
-      "playback_attempts": 2
+      "playback_attempts": 1
     },
     {
       "name": "13 Humor (1080p)",
@@ -32910,19 +32245,10 @@
     },
     {
       "name": "36 TV Huacho (720p)",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "cache",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "48 Hours (1080p)",
@@ -33062,7 +32388,7 @@
         {
           "source": "original",
           "reason": "http_404",
-          "playback_attempts": 2
+          "playback_attempts": 1
         }
       ]
     },
@@ -34027,12 +33353,7 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "connection_refused",
-          "playback_attempts": 1
-        },
-        {
-          "source": "cache",
-          "reason": "connection_refused",
+          "reason": "http_404",
           "playback_attempts": 1
         }
       ]
@@ -34510,10 +33831,19 @@
     },
     {
       "name": "AGR FM TV",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_404",
+          "playback_attempts": 1
+        },
+        {
+          "source": "cache",
+          "reason": "http_404",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Agricultura TV (1080p)",
@@ -34912,11 +34242,6 @@
           "source": "original",
           "reason": "connection_refused",
           "playback_attempts": 1
-        },
-        {
-          "source": "cache",
-          "reason": "connection_refused",
-          "playback_attempts": 1
         }
       ]
     },
@@ -35248,19 +34573,10 @@
     },
     {
       "name": "Al-Manar (576p) [Not 24/7]",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "tls_error",
-          "playback_attempts": 1
-        },
-        {
-          "source": "cache",
-          "reason": "tls_error",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Al-Naeem TV",
@@ -36190,14 +35506,10 @@
     },
     {
       "name": "American Crime Channel (720p)",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "video_decode_failed",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "American Heroes Channel (720p)",
@@ -36811,7 +36123,7 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "connection_refused",
+          "reason": "http_404",
           "playback_attempts": 1
         }
       ]
@@ -36829,11 +36141,6 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "cache",
           "reason": "http_404",
           "playback_attempts": 1
         }
@@ -36907,7 +36214,7 @@
       "status": "verified",
       "source": "cache",
       "reason": "video_frames_decoded",
-      "playback_attempts": 2
+      "playback_attempts": 1
     },
     {
       "name": "Antenna Tre (480p) [Geo-blocked]",
@@ -36915,8 +36222,8 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
+          "reason": "connection_reset",
+          "playback_attempts": 3
         }
       ]
     },
@@ -37011,10 +36318,19 @@
     },
     {
       "name": "ANTV (Venezuela) (720p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_404",
+          "playback_attempts": 1
+        },
+        {
+          "source": "cache",
+          "reason": "http_404",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Anwar TV2 (720p)",
@@ -37567,10 +36883,14 @@
     },
     {
       "name": "Aryan TV National (576p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_404",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Aryen TV (1080p) [Not 24/7]",
@@ -37897,19 +37217,10 @@
     },
     {
       "name": "Atacama Noticias (720p) [Not 24/7]",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "cache",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Atacama TV",
@@ -38015,19 +37326,10 @@
     },
     {
       "name": "ATN Samachar (1080p)",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "timeout",
-          "playback_attempts": 3
-        },
-        {
-          "source": "cache",
-          "reason": "timeout",
-          "playback_attempts": 3
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Atomic Academy TV (480p)",
@@ -38095,14 +37397,10 @@
     },
     {
       "name": "ATV (Belgium) (1080p)",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "ATV (Guinea) (400p) [Not 24/7]",
@@ -38482,14 +37780,10 @@
     },
     {
       "name": "Awaaz India TV (720p) [Not 24/7]",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Awakening TV (576p)",
@@ -38676,7 +37970,7 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "connection_refused",
+          "reason": "http_404",
           "playback_attempts": 1
         }
       ]
@@ -38698,7 +37992,7 @@
     {
       "name": "AXN White (United States) Bulgaria",
       "status": "verified",
-      "source": "category-entertainment:100",
+      "source": "original",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -38758,21 +38052,26 @@
     },
     {
       "name": "Az Cinema (1080p)",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
-    },
-    {
-      "name": "Az Corazon (720p)",
       "status": "verified",
       "source": "original",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
+    },
+    {
+      "name": "Az Corazon (720p)",
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        },
+        {
+          "source": "cache",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        }
+      ]
     },
     {
       "name": "Az Mundo (1080p)",
@@ -39368,11 +38667,6 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "cache",
           "reason": "http_404",
           "playback_attempts": 1
         }
@@ -40097,14 +39391,10 @@
     },
     {
       "name": "BCN Gospel TV HD (720p)",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "BCS StarCross TV (576p)",
@@ -40233,7 +39523,7 @@
           "playback_attempts": 3
         },
         {
-          "source": "cache",
+          "source": "category-general:100",
           "reason": "http_403",
           "playback_attempts": 1
         }
@@ -41447,10 +40737,19 @@
     },
     {
       "name": "Boas Novas (1080p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_404",
+          "playback_attempts": 1
+        },
+        {
+          "source": "cache",
+          "reason": "http_404",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Bob Esponja (720p)",
@@ -42323,11 +41622,6 @@
           "source": "original",
           "reason": "http_404",
           "playback_attempts": 1
-        },
-        {
-          "source": "cache",
-          "reason": "http_404",
-          "playback_attempts": 1
         }
       ]
     },
@@ -42652,10 +41946,19 @@
     },
     {
       "name": "California Medios TV (720p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_404",
+          "playback_attempts": 1
+        },
+        {
+          "source": "cache",
+          "reason": "http_404",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "California Music Channel (1080p)",
@@ -42729,19 +42032,10 @@
     },
     {
       "name": "Can Tho TV 3 (1080p)",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "cache",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Can Tho TV (1080p)",
@@ -43279,7 +42573,7 @@
     {
       "name": "Canal 7 TeleValencia (576p)",
       "status": "verified",
-      "source": "cache",
+      "source": "original",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -43299,10 +42593,14 @@
     },
     {
       "name": "Canal 8 C&C Producciones",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_404",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Canal 8 Catacaos (720p) [Not 24/7]",
@@ -43584,11 +42882,6 @@
           "source": "original",
           "reason": "connection_reset",
           "playback_attempts": 3
-        },
-        {
-          "source": "cache",
-          "reason": "connection_reset",
-          "playback_attempts": 3
         }
       ]
     },
@@ -43759,8 +43052,8 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
+          "reason": "connection_reset",
+          "playback_attempts": 3
         }
       ]
     },
@@ -44590,7 +43883,7 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "http_404",
+          "reason": "http_403",
           "playback_attempts": 1
         }
       ]
@@ -45543,11 +44836,6 @@
           "source": "original",
           "reason": "http_403",
           "playback_attempts": 1
-        },
-        {
-          "source": "cache",
-          "reason": "http_403",
-          "playback_attempts": 1
         }
       ]
     },
@@ -46120,10 +45408,19 @@
     },
     {
       "name": "CCTV-13 (720p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "video_decode_failed",
+          "playback_attempts": 1
+        },
+        {
+          "source": "category-news:100",
+          "reason": "http_403",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "CCTV-14 HD (1080p)",
@@ -46226,11 +45523,6 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "cache",
           "reason": "http_404",
           "playback_attempts": 1
         }
@@ -47126,11 +46418,6 @@
           "source": "original",
           "reason": "http_404",
           "playback_attempts": 1
-        },
-        {
-          "source": "cache",
-          "reason": "http_404",
-          "playback_attempts": 1
         }
       ]
     },
@@ -47533,11 +46820,6 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "connection_reset",
-          "playback_attempts": 3
-        },
-        {
-          "source": "cache",
           "reason": "connection_reset",
           "playback_attempts": 3
         }
@@ -48386,10 +47668,19 @@
     },
     {
       "name": "CNC Medellin (1080p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_404",
+          "playback_attempts": 1
+        },
+        {
+          "source": "cache",
+          "reason": "http_404",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "CNC Pereira (720p)",
@@ -49181,14 +48472,10 @@
     },
     {
       "name": "Cooperativa (720p)",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Cops (720p)",
@@ -49228,10 +48515,19 @@
     },
     {
       "name": "Corazon TV (720p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        },
+        {
+          "source": "cache",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        }
+      ]
     },
     {
       "name": "Corfu Channel (720p)",
@@ -49929,7 +49225,7 @@
         {
           "source": "original",
           "reason": "http_404",
-          "playback_attempts": 1
+          "playback_attempts": 2
         }
       ]
     },
@@ -50864,10 +50160,19 @@
     },
     {
       "name": "De Pelicula Plus (1080p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        },
+        {
+          "source": "cache",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        }
+      ]
     },
     {
       "name": "De Pelicula US (720p)",
@@ -51425,10 +50730,14 @@
     },
     {
       "name": "Dhoho TV (720p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        }
+      ]
     },
     {
       "name": "Dhool TV (576p)",
@@ -51860,7 +51169,7 @@
     {
       "name": "Discovery World (1080p)",
       "status": "verified",
-      "source": "category-entertainment:100",
+      "source": "cache",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -52476,7 +51785,7 @@
         {
           "source": "original",
           "reason": "http_404",
-          "playback_attempts": 1
+          "playback_attempts": 2
         }
       ]
     },
@@ -52550,11 +51859,6 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        },
-        {
-          "source": "cache",
           "reason": "http_403",
           "playback_attempts": 1
         },
@@ -53022,10 +52326,14 @@
     },
     {
       "name": "Duta TV (360p) [Not 24/7]",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        }
+      ]
     },
     {
       "name": "DVB TV (720p) [Geo-blocked]",
@@ -53250,7 +52558,7 @@
       "status": "verified",
       "source": "original",
       "reason": "video_frames_decoded",
-      "playback_attempts": 2
+      "playback_attempts": 1
     },
     {
       "name": "EBS Cinema (720p)",
@@ -53296,14 +52604,10 @@
     },
     {
       "name": "EbS+ (1080p)",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "timeout",
-          "playback_attempts": 3
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Ecclesia TV (Greece) (1080p)",
@@ -53601,7 +52905,7 @@
           "playback_attempts": 1
         },
         {
-          "source": "cache",
+          "source": "category-culture:100",
           "reason": "timeout",
           "playback_attempts": 3
         },
@@ -54126,7 +53430,7 @@
       "status": "verified",
       "source": "original",
       "reason": "video_frames_decoded",
-      "playback_attempts": 2
+      "playback_attempts": 1
     },
     {
       "name": "Energia TV (720p) [Not 24/7]",
@@ -54497,11 +53801,6 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "connection_reset",
-          "playback_attempts": 3
-        },
-        {
-          "source": "cache",
           "reason": "connection_reset",
           "playback_attempts": 3
         }
@@ -55128,10 +54427,14 @@
     },
     {
       "name": "Eurochannel",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_404",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Eurocom (360p)",
@@ -55726,11 +55029,6 @@
           "source": "original",
           "reason": "http_404",
           "playback_attempts": 1
-        },
-        {
-          "source": "cache",
-          "reason": "http_404",
-          "playback_attempts": 1
         }
       ]
     },
@@ -55772,11 +55070,6 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        },
-        {
-          "source": "cache",
           "reason": "http_403",
           "playback_attempts": 1
         }
@@ -56108,10 +55401,14 @@
     },
     {
       "name": "Ficom Channel (720p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        }
+      ]
     },
     {
       "name": "Fieri Tv (720p)",
@@ -56344,7 +55641,7 @@
       "status": "verified",
       "source": "original",
       "reason": "video_frames_decoded",
-      "playback_attempts": 2
+      "playback_attempts": 1
     },
     {
       "name": "Filmes Suspense",
@@ -56658,11 +55955,6 @@
           "source": "original",
           "reason": "connection_reset",
           "playback_attempts": 3
-        },
-        {
-          "source": "cache",
-          "reason": "connection_reset",
-          "playback_attempts": 3
         }
       ]
     },
@@ -56782,11 +56074,6 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "cache",
           "reason": "http_404",
           "playback_attempts": 1
         }
@@ -57031,10 +56318,19 @@
     },
     {
       "name": "Frecuencia 7 TV (720p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_404",
+          "playback_attempts": 1
+        },
+        {
+          "source": "cache",
+          "reason": "http_404",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Frecuencia Amazonica",
@@ -57270,14 +56566,10 @@
     },
     {
       "name": "Futbol TV (1080p)",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "timeout",
-          "playback_attempts": 3
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Futura (720p)",
@@ -57356,10 +56648,19 @@
     },
     {
       "name": "Galactica TV",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_404",
+          "playback_attempts": 1
+        },
+        {
+          "source": "cache",
+          "reason": "http_404",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Galavision East HD (1080p) [Geo-blocked]",
@@ -57370,14 +56671,10 @@
     },
     {
       "name": "GalaxiATeVe (360p)",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Galaxy4",
@@ -57742,7 +57039,7 @@
         {
           "source": "original",
           "reason": "http_403",
-          "playback_attempts": 2
+          "playback_attempts": 1
         }
       ]
     },
@@ -57966,10 +57263,19 @@
     },
     {
       "name": "Genios TV (1080p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "video_decode_failed",
+          "playback_attempts": 1
+        },
+        {
+          "source": "cache",
+          "reason": "video_decode_failed",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Geordie Shore (Germany)",
@@ -58211,14 +57517,10 @@
     },
     {
       "name": "Global TV (Dominican Republic) (720p) [Not 24/7]",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "timeout",
-          "playback_attempts": 3
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 3
     },
     {
       "name": "Global TV (Mongolia) (1080p)",
@@ -58409,10 +57711,19 @@
     },
     {
       "name": "GO TV (720p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_404",
+          "playback_attempts": 1
+        },
+        {
+          "source": "cache",
+          "reason": "http_404",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "GO-TV Canale 163 (720p)",
@@ -58495,7 +57806,7 @@
         {
           "source": "original",
           "reason": "tls_error",
-          "playback_attempts": 1
+          "playback_attempts": 2
         }
       ]
     },
@@ -58810,10 +58121,14 @@
     },
     {
       "name": "Grande TV",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_404",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Gravitas Movies (1080p)",
@@ -59110,10 +58425,19 @@
     },
     {
       "name": "Guatevision (1080p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        },
+        {
+          "source": "cache",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        }
+      ]
     },
     {
       "name": "Guatuso TV (720p)",
@@ -59362,19 +58686,10 @@
     },
     {
       "name": "Hala London (1080p)",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "cache",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Hala TV (1080p) [Not 24/7]",
@@ -59613,10 +58928,19 @@
     },
     {
       "name": "Harvest USA (576p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_404",
+          "playback_attempts": 1
+        },
+        {
+          "source": "cache",
+          "reason": "http_404",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Hasbro Legends (1080p) [Geo-blocked]",
@@ -60442,19 +59766,10 @@
     },
     {
       "name": "HLAJ-DTV (352p) [Not 24/7]",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "cache",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "HLAM-DTV (720p) [Not 24/7]",
@@ -60598,19 +59913,10 @@
     },
     {
       "name": "HLDQ-DTV (406p) [Not 24/7]",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "cache",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "HLDR-DTV (540p) [Not 24/7]",
@@ -60621,19 +59927,10 @@
     },
     {
       "name": "HLKJ-DTV (720p) [Not 24/7]",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "cache",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "HLKU-DTV (360p) [Not 24/7]",
@@ -60811,7 +60108,7 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "http_404",
+          "reason": "connection_refused",
           "playback_attempts": 1
         }
       ]
@@ -61368,8 +60665,8 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
+          "reason": "connection_reset",
+          "playback_attempts": 3
         }
       ]
     },
@@ -61397,8 +60694,8 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
+          "reason": "connection_reset",
+          "playback_attempts": 3
         }
       ]
     },
@@ -61408,8 +60705,8 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
+          "reason": "connection_reset",
+          "playback_attempts": 3
         }
       ]
     },
@@ -61426,8 +60723,8 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
+          "reason": "connection_reset",
+          "playback_attempts": 3
         }
       ]
     },
@@ -62150,14 +61447,10 @@
     },
     {
       "name": "INC TV (1080p)",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Ind 24 (720p)",
@@ -62189,10 +61482,14 @@
     },
     {
       "name": "India News Gujarati (576p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "timeout",
+          "playback_attempts": 3
+        }
+      ]
     },
     {
       "name": "India News Haryana (576p)",
@@ -62787,19 +62084,10 @@
     },
     {
       "name": "IRIB 3",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "timeout",
-          "playback_attempts": 3
-        },
-        {
-          "source": "cache",
-          "reason": "timeout",
-          "playback_attempts": 3
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "IRIB 4",
@@ -63002,10 +62290,19 @@
     },
     {
       "name": "Itage TV (480p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_404",
+          "playback_attempts": 1
+        },
+        {
+          "source": "cache",
+          "reason": "http_403",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Italia 1 [Geo-blocked]",
@@ -63308,10 +62605,14 @@
     },
     {
       "name": "Jambi TV",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_404",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Jan TV (576p)",
@@ -63494,19 +62795,10 @@
     },
     {
       "name": "Jek TV (720p) [Not 24/7]",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "cache",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "JEMR TV (1080p) [Geo-blocked]",
@@ -63864,11 +63156,6 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "cache",
           "reason": "http_404",
           "playback_attempts": 1
         }
@@ -64724,14 +64011,10 @@
     },
     {
       "name": "KandelaTV (480p)",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Kangba TV",
@@ -64815,11 +64098,6 @@
           "source": "original",
           "reason": "video_decode_failed",
           "playback_attempts": 1
-        },
-        {
-          "source": "cache",
-          "reason": "http_403",
-          "playback_attempts": 1
         }
       ]
     },
@@ -64864,10 +64142,19 @@
     },
     {
       "name": "KassouaTV (720p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_404",
+          "playback_attempts": 1
+        },
+        {
+          "source": "cache",
+          "reason": "http_404",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "KaufBei TV (720p)",
@@ -65909,19 +65196,10 @@
     },
     {
       "name": "Kurdistan TV (720p) [Not 24/7]",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "cache",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Kurdsat (1080p)",
@@ -66080,24 +65358,46 @@
     },
     {
       "name": "La 2 (1080p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "timeout",
+          "playback_attempts": 3
+        },
+        {
+          "source": "free-tv:100",
+          "reason": "timeout",
+          "playback_attempts": 3
+        }
+      ]
     },
     {
       "name": "La 2 Canarias (720p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "timeout",
+          "playback_attempts": 3
+        }
+      ]
     },
     {
       "name": "La 2 Catalunya (720p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "timeout",
+          "playback_attempts": 3
+        },
+        {
+          "source": "free-tv:100",
+          "reason": "timeout",
+          "playback_attempts": 3
+        }
+      ]
     },
     {
       "name": "La5 [Geo-blocked]",
@@ -66248,7 +65548,7 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "http_403",
+          "reason": "http_404",
           "playback_attempts": 1
         }
       ]
@@ -66283,7 +65583,7 @@
       "status": "verified",
       "source": "original",
       "reason": "video_frames_decoded",
-      "playback_attempts": 2
+      "playback_attempts": 1
     },
     {
       "name": "La Morada Radio TV (720p)",
@@ -66417,10 +65717,19 @@
     },
     {
       "name": "La Tele Tuya (576p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_404",
+          "playback_attempts": 1
+        },
+        {
+          "source": "cache",
+          "reason": "http_404",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "La Top 102.9 (720p)",
@@ -66513,10 +65822,19 @@
     },
     {
       "name": "labor14 (720p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        },
+        {
+          "source": "cache",
+          "reason": "http_403",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Laboral TV (360p)",
@@ -66644,11 +65962,6 @@
           "source": "original",
           "reason": "http_404",
           "playback_attempts": 1
-        },
-        {
-          "source": "cache",
-          "reason": "http_404",
-          "playback_attempts": 1
         }
       ]
     },
@@ -66749,14 +66062,10 @@
     },
     {
       "name": "Larivision TV (720p) [Not 24/7]",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "video_decode_failed",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Las Estrellas (1080p)",
@@ -66899,16 +66208,16 @@
     {
       "name": "Lazio Style Channel HD (720p)",
       "status": "verified",
-      "source": "original",
+      "source": "cache",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Lazio TV (576p)",
       "status": "verified",
-      "source": "cache",
+      "source": "free-tv:100",
       "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "playback_attempts": 3
     },
     {
       "name": "LBC (576p)",
@@ -67360,11 +66669,6 @@
           "source": "original",
           "reason": "http_404",
           "playback_attempts": 1
-        },
-        {
-          "source": "cache",
-          "reason": "http_404",
-          "playback_attempts": 1
         }
       ]
     },
@@ -67381,11 +66685,6 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "cache",
           "reason": "http_404",
           "playback_attempts": 1
         }
@@ -67526,7 +66825,7 @@
       "status": "verified",
       "source": "original",
       "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "playback_attempts": 2
     },
     {
       "name": "Live99FM (1080p)",
@@ -68465,10 +67764,14 @@
     },
     {
       "name": "Madu TV (1080p) [Not 24/7]",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        }
+      ]
     },
     {
       "name": "Maestrat TV (1080p)",
@@ -68685,19 +67988,10 @@
     },
     {
       "name": "Makan 33 (1080p)",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        },
-        {
-          "source": "cache",
-          "reason": "http_403",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Makao TV (1080i)",
@@ -69264,7 +68558,7 @@
         {
           "source": "original",
           "reason": "http_404",
-          "playback_attempts": 2
+          "playback_attempts": 1
         }
       ]
     },
@@ -69706,11 +69000,6 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "connection_reset",
-          "playback_attempts": 3
-        },
-        {
-          "source": "cache",
           "reason": "connection_reset",
           "playback_attempts": 3
         }
@@ -70226,10 +69515,19 @@
     },
     {
       "name": "Meridiano TV (576p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_404",
+          "playback_attempts": 1
+        },
+        {
+          "source": "cache",
+          "reason": "http_404",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Merit Street (1080p)",
@@ -70286,10 +69584,14 @@
     },
     {
       "name": "Metaleitor TV",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_404",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Meteonews (1080p)",
@@ -70488,10 +69790,19 @@
     },
     {
       "name": "Mi Musica Hits (720p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_404",
+          "playback_attempts": 1
+        },
+        {
+          "source": "cache",
+          "reason": "http_404",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Mi Musica Popular (1080p)",
@@ -70915,12 +70226,7 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "timeout",
-          "playback_attempts": 3
-        },
-        {
-          "source": "cache",
-          "reason": "timeout",
+          "reason": "connection_reset",
           "playback_attempts": 3
         }
       ]
@@ -70941,10 +70247,19 @@
     },
     {
       "name": "Mixkurdy (1080p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_404",
+          "playback_attempts": 1
+        },
+        {
+          "source": "cache",
+          "reason": "http_404",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Mizpa TV (1080p)",
@@ -71718,16 +71033,16 @@
     {
       "name": "MRTV",
       "status": "verified",
-      "source": "original",
+      "source": "cache",
       "reason": "video_frames_decoded",
-      "playback_attempts": 2
+      "playback_attempts": 1
     },
     {
       "name": "MRTV Entertainment",
       "status": "verified",
       "source": "original",
       "reason": "video_frames_decoded",
-      "playback_attempts": 2
+      "playback_attempts": 1
     },
     {
       "name": "MRTV Farmer",
@@ -72388,11 +71703,6 @@
           "source": "original",
           "reason": "connection_reset",
           "playback_attempts": 3
-        },
-        {
-          "source": "cache",
-          "reason": "connection_reset",
-          "playback_attempts": 3
         }
       ]
     },
@@ -72893,11 +72203,6 @@
           "source": "original",
           "reason": "connection_reset",
           "playback_attempts": 3
-        },
-        {
-          "source": "cache",
-          "reason": "connection_reset",
-          "playback_attempts": 3
         }
       ]
     },
@@ -73025,14 +72330,10 @@
     },
     {
       "name": "Naranja TV (720p)",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Narodna TV (720p)",
@@ -73813,7 +73114,7 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "http_403",
+          "reason": "http_404",
           "playback_attempts": 1
         }
       ]
@@ -74001,25 +73302,17 @@
     },
     {
       "name": "News12+ Connecticut (1080p) [Geo-blocked]",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "video_decode_failed",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "News12+ Hudson Valley (1080p) [Geo-blocked]",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "video_decode_failed",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "News12+ Long Island (1080p) [Geo-blocked]",
@@ -74041,14 +73334,10 @@
     },
     {
       "name": "News12+ New York (1080p) [Geo-blocked]",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "video_decode_failed",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "News12 Bronx (1080p) [Geo-blocked]",
@@ -74074,10 +73363,14 @@
     },
     {
       "name": "News12 Conneticut [Geo-blocked]",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "video_decode_failed",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "News12 Hudson Valley (1080p) [Geo-blocked]",
@@ -74088,14 +73381,10 @@
     },
     {
       "name": "News12 Long Island (1080p) [Geo-blocked]",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "video_decode_failed",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "News12 New Jersey (1080p) [Geo-blocked]",
@@ -74121,14 +73410,10 @@
     },
     {
       "name": "News12 Westchester (1080p) [Geo-blocked]",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "video_decode_failed",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "News18 Assam North-East (1080p)",
@@ -74515,10 +73800,14 @@
     },
     {
       "name": "NewsX World (576p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "timeout",
+          "playback_attempts": 3
+        }
+      ]
     },
     {
       "name": "Newsy (1080p)",
@@ -74857,7 +74146,7 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "video_decode_failed",
+          "reason": "connection_refused",
           "playback_attempts": 1
         }
       ]
@@ -75089,10 +74378,19 @@
     },
     {
       "name": "NicoyaTV (720p) [Not 24/7]",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        },
+        {
+          "source": "cache",
+          "reason": "http_403",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Nidae AlIslam Radio (1080p)",
@@ -75484,10 +74782,19 @@
     },
     {
       "name": "Noticias 16 (720p) [Not 24/7]",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_404",
+          "playback_attempts": 1
+        },
+        {
+          "source": "cache",
+          "reason": "video_decode_failed",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Noticias RCN (720p)",
@@ -75594,7 +74901,7 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "video_decode_failed",
+          "reason": "http_403",
           "playback_attempts": 1
         }
       ]
@@ -75722,7 +75029,7 @@
       "status": "verified",
       "source": "original",
       "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "playback_attempts": 2
     },
     {
       "name": "NOW Rock (1080p)",
@@ -76022,8 +75329,8 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
+          "reason": "connection_reset",
+          "playback_attempts": 3
         }
       ]
     },
@@ -76205,10 +75512,14 @@
     },
     {
       "name": "Nusantara TV (1080p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        }
+      ]
     },
     {
       "name": "Nuta Gold",
@@ -76777,14 +76088,10 @@
     },
     {
       "name": "Oli TV (Chile) (1080p)",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Oli TV (India) (1080p)",
@@ -77616,14 +76923,10 @@
     },
     {
       "name": "OTV (Ghana) (720p)",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "OTV (Lebanon) (1080p)",
@@ -77822,11 +77125,6 @@
           "source": "original",
           "reason": "http_404",
           "playback_attempts": 1
-        },
-        {
-          "source": "cache",
-          "reason": "http_404",
-          "playback_attempts": 1
         }
       ]
     },
@@ -78021,7 +77319,7 @@
     {
       "name": "Pannon TV (648p)",
       "status": "verified",
-      "source": "free-tv:95",
+      "source": "original",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -78335,7 +77633,7 @@
       "status": "verified",
       "source": "original",
       "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "playback_attempts": 2
     },
     {
       "name": "Payam Javan TV (720p) [Not 24/7]",
@@ -78381,14 +77679,10 @@
     },
     {
       "name": "PBC Tapesh TV (720p)",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "PBC TV Channel 20 (720p)",
@@ -81448,30 +80742,17 @@
     },
     {
       "name": "PMI TV (720p) [Not 24/7]",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "cache",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Pocket Films",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "timeout",
-          "playback_attempts": 3
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "pocket.watch (1080p)",
@@ -81967,7 +81248,7 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "http_404",
+          "reason": "connection_refused",
           "playback_attempts": 1
         }
       ]
@@ -83581,8 +82862,8 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "timeout",
-          "playback_attempts": 3
+          "reason": "video_decode_failed",
+          "playback_attempts": 1
         }
       ]
     },
@@ -83658,17 +82939,25 @@
     },
     {
       "name": "Radar Lampung TV (480p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        }
+      ]
     },
     {
       "name": "Radar Tasikmalaya TV (720p) [Not 24/7]",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        }
+      ]
     },
     {
       "name": "RadiantTV (1080p)",
@@ -84046,19 +83335,10 @@
     },
     {
       "name": "Radio Iglesias Sardegna (576p) [Geo-blocked]",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        },
-        {
-          "source": "cache",
-          "reason": "http_403",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Radio Impacto 2 (288p) [Not 24/7]",
@@ -84148,24 +83428,36 @@
     },
     {
       "name": "Radio Moldova",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        }
+      ]
     },
     {
       "name": "Radio Moldova Muzical",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        }
+      ]
     },
     {
       "name": "Radio Moldova Tineret (1080p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        }
+      ]
     },
     {
       "name": "Radio Monte Carlo TV",
@@ -84392,7 +83684,7 @@
       "status": "verified",
       "source": "original",
       "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "playback_attempts": 2
     },
     {
       "name": "Radio SWH TV (1080p)",
@@ -84410,10 +83702,19 @@
     },
     {
       "name": "Radio Tele 4VEH (720p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_404",
+          "playback_attempts": 1
+        },
+        {
+          "source": "cache",
+          "reason": "http_404",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Radio Tele Amen FM (360p) [Not 24/7]",
@@ -84763,10 +84064,14 @@
     },
     {
       "name": "Radiotele (352p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        }
+      ]
     },
     {
       "name": "RadioToppers (720p)",
@@ -84841,7 +84146,7 @@
     {
       "name": "Rai Gulp (1080p)",
       "status": "verified",
-      "source": "free-tv:100",
+      "source": "cache",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -85203,14 +84508,10 @@
     },
     {
       "name": "RasoulallahTv (1080p)",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Rave TV (576p)",
@@ -86126,10 +85427,19 @@
     },
     {
       "name": "Resurrection TV (720p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_404",
+          "playback_attempts": 1
+        },
+        {
+          "source": "cache",
+          "reason": "http_404",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Rete 4 HD",
@@ -86410,14 +85720,10 @@
     },
     {
       "name": "Ribera TV (576p)",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "RiC (1080p)",
@@ -86549,10 +85855,14 @@
     },
     {
       "name": "Rinjani TV",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_404",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Rioni TV (720p) [Not 24/7]",
@@ -86621,20 +85931,6 @@
     },
     {
       "name": "RMC Decouverte (1080p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
-    },
-    {
-      "name": "RMC Life (1080p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
-    },
-    {
-      "name": "RMC Story (1080p)",
       "status": "unverified",
       "attempts": [
         {
@@ -86648,6 +85944,34 @@
           "playback_attempts": 1
         }
       ]
+    },
+    {
+      "name": "RMC Life (1080p)",
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "video_decode_failed",
+          "playback_attempts": 1
+        },
+        {
+          "source": "cache",
+          "reason": "video_decode_failed",
+          "playback_attempts": 1
+        },
+        {
+          "source": "free-tv:100",
+          "reason": "http_403",
+          "playback_attempts": 1
+        }
+      ]
+    },
+    {
+      "name": "RMC Story (1080p)",
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "RMTV (288p)",
@@ -87214,14 +86538,10 @@
     },
     {
       "name": "RTHK TV 31",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "RTHK TV 32 (1080p) [Geo-blocked]",
@@ -87506,17 +86826,45 @@
     },
     {
       "name": "RTP 1 (720p) [Not 24/7]",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "video_decode_failed",
+          "playback_attempts": 1
+        },
+        {
+          "source": "cache",
+          "reason": "video_decode_failed",
+          "playback_attempts": 1
+        },
+        {
+          "source": "free-tv:100",
+          "reason": "video_decode_failed",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "RTP 2 (720p) [Not 24/7]",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "video_decode_failed",
+          "playback_attempts": 1
+        },
+        {
+          "source": "cache",
+          "reason": "video_decode_failed",
+          "playback_attempts": 1
+        },
+        {
+          "source": "free-tv:100",
+          "reason": "video_decode_failed",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "RTP (Bolivia) (1080p)",
@@ -87541,10 +86889,29 @@
     },
     {
       "name": "RTP Acores (720p) [Not 24/7]",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "video_decode_failed",
+          "playback_attempts": 1
+        },
+        {
+          "source": "cache",
+          "reason": "video_decode_failed",
+          "playback_attempts": 1
+        },
+        {
+          "source": "category-general:100",
+          "reason": "video_decode_failed",
+          "playback_attempts": 1
+        },
+        {
+          "source": "free-tv:100",
+          "reason": "video_decode_failed",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "RTP Africa (504p) [Not 24/7]",
@@ -87570,11 +86937,6 @@
           "playback_attempts": 1
         },
         {
-          "source": "cache",
-          "reason": "video_decode_failed",
-          "playback_attempts": 1
-        },
-        {
           "source": "free-tv:100",
           "reason": "video_decode_failed",
           "playback_attempts": 1
@@ -87583,10 +86945,19 @@
     },
     {
       "name": "RTP Mundo (504p) [Not 24/7]",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "video_decode_failed",
+          "playback_attempts": 1
+        },
+        {
+          "source": "cache",
+          "reason": "video_decode_failed",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "RTP Noticias (720p) [Not 24/7]",
@@ -87605,14 +86976,14 @@
     {
       "name": "RTRS plus (576p) [Not 24/7]",
       "status": "verified",
-      "source": "original",
+      "source": "cache",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "RTRS TV (576p) [Not 24/7]",
       "status": "verified",
-      "source": "original",
+      "source": "free-tv:100",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -88047,14 +87418,10 @@
     },
     {
       "name": "RTV Novi Pazar",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "connection_reset",
-          "playback_attempts": 3
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "RTV Nuble (1080p)",
@@ -88267,7 +87634,7 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "video_decode_failed",
+          "reason": "http_404",
           "playback_attempts": 1
         }
       ]
@@ -88884,14 +88251,10 @@
     },
     {
       "name": "Sampit TV (720p) [Not 24/7]",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Samsung Wildlife (720p) [Geo-blocked]",
@@ -89753,11 +89116,6 @@
           "source": "original",
           "reason": "connection_reset",
           "playback_attempts": 3
-        },
-        {
-          "source": "cache",
-          "reason": "connection_reset",
-          "playback_attempts": 3
         }
       ]
     },
@@ -90444,7 +89802,7 @@
       "status": "verified",
       "source": "original",
       "reason": "video_frames_decoded",
-      "playback_attempts": 2
+      "playback_attempts": 1
     },
     {
       "name": "Shin-chan (720p)",
@@ -90610,7 +89968,7 @@
     {
       "name": "SIC (1080p) [Geo-blocked]",
       "status": "verified",
-      "source": "free-tv:100",
+      "source": "cache",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -90713,10 +90071,19 @@
     },
     {
       "name": "Siembra TV (Venezuela) [Not 24/7]",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_404",
+          "playback_attempts": 1
+        },
+        {
+          "source": "cache",
+          "reason": "http_404",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Sigma TV (576p) [Not 24/7]",
@@ -91298,10 +90665,19 @@
     },
     {
       "name": "Sky Sports 2 (1080p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        },
+        {
+          "source": "cache",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        }
+      ]
     },
     {
       "name": "Sky Sports F1 (720p)",
@@ -91824,19 +91200,10 @@
     },
     {
       "name": "Sony One Blacklist (1080p)",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "video_decode_failed",
-          "playback_attempts": 1
-        },
-        {
-          "source": "cache",
-          "reason": "video_decode_failed",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Sony One Favoris (1080p)",
@@ -92563,12 +91930,12 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "http_403",
+          "reason": "http_404",
           "playback_attempts": 1
         },
         {
           "source": "free-tv:100",
-          "reason": "http_403",
+          "reason": "http_404",
           "playback_attempts": 1
         }
       ]
@@ -92586,7 +91953,7 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "http_403",
+          "reason": "http_404",
           "playback_attempts": 1
         }
       ]
@@ -92614,10 +91981,19 @@
     },
     {
       "name": "SportsMax News (1080p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        },
+        {
+          "source": "cache",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        }
+      ]
     },
     {
       "name": "SporTV 2 (1080p)",
@@ -92911,10 +92287,19 @@
     },
     {
       "name": "Star Jalsha (1080p) [Geo-blocked]",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "video_decode_failed",
+          "playback_attempts": 1
+        },
+        {
+          "source": "category-entertainment:100",
+          "reason": "connection_refused",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Star Kentrikis Elladas (1080p)",
@@ -93157,11 +92542,6 @@
           "source": "original",
           "reason": "http_404",
           "playback_attempts": 1
-        },
-        {
-          "source": "cache",
-          "reason": "http_404",
-          "playback_attempts": 1
         }
       ]
     },
@@ -93246,10 +92626,14 @@
     },
     {
       "name": "Steelbird Music (720p) [Not 24/7]",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_404",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Steiermark TV (1080p)",
@@ -93662,11 +93046,6 @@
           "source": "original",
           "reason": "connection_reset",
           "playback_attempts": 3
-        },
-        {
-          "source": "cache",
-          "reason": "connection_reset",
-          "playback_attempts": 3
         }
       ]
     },
@@ -93876,19 +93255,10 @@
     },
     {
       "name": "Super TV 55 (720p) [Geo-blocked]",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "cache",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Super TV (Bosnia and Herzegovina) (720p)",
@@ -94490,8 +93860,8 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "tls_error",
-          "playback_attempts": 1
+          "reason": "connection_reset",
+          "playback_attempts": 3
         }
       ]
     },
@@ -94899,10 +94269,14 @@
     },
     {
       "name": "TATV (720p) [Not 24/7]",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        }
+      ]
     },
     {
       "name": "Taurianova TV (720p)",
@@ -94978,11 +94352,6 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "cache",
           "reason": "http_404",
           "playback_attempts": 1
         }
@@ -95337,10 +94706,14 @@
     },
     {
       "name": "Tele 1 (1080p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_404",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "TELE 4 Ojocaliente (720p)",
@@ -95663,11 +95036,6 @@
           "source": "original",
           "reason": "video_decode_failed",
           "playback_attempts": 1
-        },
-        {
-          "source": "cache",
-          "reason": "video_decode_failed",
-          "playback_attempts": 1
         }
       ]
     },
@@ -95702,14 +95070,10 @@
     },
     {
       "name": "Tele Yucatan (1080p) [Geo-blocked]",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Tele Zoukla",
@@ -95721,7 +95085,7 @@
     {
       "name": "Teleacras (576p)",
       "status": "verified",
-      "source": "free-tv:100",
+      "source": "cache",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -95824,10 +95188,19 @@
     },
     {
       "name": "TeleBrunca (720p) [Not 24/7]",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_404",
+          "playback_attempts": 1
+        },
+        {
+          "source": "cache",
+          "reason": "http_404",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Telecadena 7 y 4 (576p)",
@@ -96089,10 +95462,19 @@
     },
     {
       "name": "Telefe Internacional (1080p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        },
+        {
+          "source": "cache",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        }
+      ]
     },
     {
       "name": "Telefe Rosario (720p) [Geo-blocked]",
@@ -96931,11 +96313,6 @@
           "playback_attempts": 1
         },
         {
-          "source": "cache",
-          "reason": "video_decode_failed",
-          "playback_attempts": 1
-        },
-        {
           "source": "free-tv:100",
           "reason": "dns_error",
           "playback_attempts": 3
@@ -96983,24 +96360,10 @@
     },
     {
       "name": "Televen (1080p)",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "cache",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "free-tv:100",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "TeleVenezia (576p)",
@@ -97020,14 +96383,10 @@
     },
     {
       "name": "Telever (1080p) [Not 24/7]",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Televiaducto Canal 3 (720p) [Not 24/7]",
@@ -97067,10 +96426,19 @@
     },
     {
       "name": "TeleVigo (1080p) [Not 24/7]",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "video_decode_failed",
+          "playback_attempts": 1
+        },
+        {
+          "source": "cache",
+          "reason": "video_decode_failed",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Television Aranda (720p)",
@@ -98601,7 +97969,7 @@
     {
       "name": "TLC Latin America (1080p)",
       "status": "verified",
-      "source": "region-amer:100",
+      "source": "original",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -98696,10 +98064,19 @@
     },
     {
       "name": "TMC HD (1080p) [Geo-blocked]",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        },
+        {
+          "source": "free-tv:100",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        }
+      ]
     },
     {
       "name": "TMF (1080p)",
@@ -98746,10 +98123,24 @@
     },
     {
       "name": "TN (1080p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_404",
+          "playback_attempts": 1
+        },
+        {
+          "source": "cache",
+          "reason": "http_404",
+          "playback_attempts": 1
+        },
+        {
+          "source": "free-tv:100",
+          "reason": "video_decode_failed",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "TNA Wrestling Channel (720p)",
@@ -99113,10 +98504,19 @@
     },
     {
       "name": "Top Latino TV",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_404",
+          "playback_attempts": 1
+        },
+        {
+          "source": "cache",
+          "reason": "http_404",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Top Movies Polska (1080p)",
@@ -99166,10 +98566,19 @@
     },
     {
       "name": "TopEstrada TV (720p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_404",
+          "playback_attempts": 1
+        },
+        {
+          "source": "cache",
+          "reason": "http_404",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Topical Moon RD (720p) [Not 24/7]",
@@ -99361,10 +98770,14 @@
     },
     {
       "name": "Town TV",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        }
+      ]
     },
     {
       "name": "TR24 Television (720p)",
@@ -99721,14 +99134,10 @@
     },
     {
       "name": "TRC TV (720p)",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Trece (Colombia) (1080p)",
@@ -99849,21 +99258,21 @@
     },
     {
       "name": "Triunfo 96.9 FM (360p)",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        }
-      ]
-    },
-    {
-      "name": "Trivision 36 (720p)",
       "status": "verified",
       "source": "original",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
+    },
+    {
+      "name": "Trivision 36 (720p)",
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_404",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Trivu (1080p)",
@@ -99932,10 +99341,19 @@
     },
     {
       "name": "TRT 1 (1440p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_403",
+          "playback_attempts": 1
+        },
+        {
+          "source": "cache",
+          "reason": "http_403",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "TRT 2 (1440p) [Geo-blocked]",
@@ -100221,10 +99639,19 @@
     },
     {
       "name": "TSN TeleSondrio News (480p) [Not 24/7]",
-      "status": "verified",
-      "source": "cache",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "connection_reset",
+          "playback_attempts": 3
+        },
+        {
+          "source": "cache",
+          "reason": "http_404",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "TSN The Ocho (1080p)",
@@ -100239,11 +99666,6 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "cache",
           "reason": "http_404",
           "playback_attempts": 1
         }
@@ -100975,11 +100397,6 @@
           "source": "original",
           "reason": "http_404",
           "playback_attempts": 1
-        },
-        {
-          "source": "cache",
-          "reason": "http_404",
-          "playback_attempts": 1
         }
       ]
     },
@@ -101216,11 +100633,6 @@
           "source": "original",
           "reason": "connection_refused",
           "playback_attempts": 1
-        },
-        {
-          "source": "cache",
-          "reason": "connection_refused",
-          "playback_attempts": 1
         }
       ]
     },
@@ -101374,14 +100786,10 @@
     },
     {
       "name": "TV Brasil Oeste (720p)",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "TV Brezova (540p)",
@@ -101442,11 +100850,6 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "cache",
           "reason": "http_404",
           "playback_attempts": 1
         }
@@ -101662,11 +101065,6 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "connection_refused",
-          "playback_attempts": 1
-        },
-        {
-          "source": "cache",
           "reason": "connection_refused",
           "playback_attempts": 1
         }
@@ -103013,10 +102411,14 @@
     },
     {
       "name": "TV Quisqueya (720p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_404",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "TV Ra Tim Bum (720p)",
@@ -103405,11 +102807,6 @@
           "source": "original",
           "reason": "http_404",
           "playback_attempts": 1
-        },
-        {
-          "source": "cache",
-          "reason": "http_404",
-          "playback_attempts": 1
         }
       ]
     },
@@ -103720,7 +103117,7 @@
       "status": "verified",
       "source": "original",
       "reason": "video_frames_decoded",
-      "playback_attempts": 2
+      "playback_attempts": 1
     },
     {
       "name": "TV+ Chincha (720p)",
@@ -103742,7 +103139,7 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "no_video_track",
+          "reason": "video_decode_failed",
           "playback_attempts": 1
         }
       ]
@@ -103861,7 +103258,7 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "connection_refused",
+          "reason": "http_404",
           "playback_attempts": 1
         }
       ]
@@ -104079,21 +103476,21 @@
     },
     {
       "name": "TVenLinea (1080p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
-    },
-    {
-      "name": "TVes (1080p)",
       "status": "unverified",
       "attempts": [
         {
           "source": "original",
-          "reason": "http_403",
+          "reason": "http_404",
           "playback_attempts": 1
         }
       ]
+    },
+    {
+      "name": "TVes (1080p)",
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "TVG2 (720p) [Geo-blocked]",
@@ -104821,26 +104218,17 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "http_404",
+          "reason": "connection_refused",
           "playback_attempts": 1
         }
       ]
     },
     {
       "name": "TVS (Venezuela) (720p)",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "cache",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "TVS Bowling Network (720p)",
@@ -105656,11 +105044,6 @@
           "source": "original",
           "reason": "http_404",
           "playback_attempts": 1
-        },
-        {
-          "source": "cache",
-          "reason": "http_404",
-          "playback_attempts": 1
         }
       ]
     },
@@ -105777,10 +105160,14 @@
     },
     {
       "name": "UniRadio TV (1080p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_404",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Uniregion TV (1080p)",
@@ -105848,10 +105235,19 @@
     },
     {
       "name": "Univalle Television (1080p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "video_decode_failed",
+          "playback_attempts": 1
+        },
+        {
+          "source": "cache",
+          "reason": "video_decode_failed",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Univers TV (720p)",
@@ -105902,11 +105298,6 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "cache",
           "reason": "http_404",
           "playback_attempts": 1
         }
@@ -106178,10 +105569,14 @@
     },
     {
       "name": "UVA TV (720p) [Not 24/7]",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "no_video_track",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Uvagut TV (1080p)",
@@ -106360,19 +105755,10 @@
     },
     {
       "name": "Varzesh TV",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "timeout",
-          "playback_attempts": 3
-        },
-        {
-          "source": "cache",
-          "reason": "timeout",
-          "playback_attempts": 3
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Vasanth TV (576p)",
@@ -106444,11 +105830,6 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "cache",
           "reason": "http_404",
           "playback_attempts": 1
         }
@@ -107314,11 +106695,6 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "cache",
           "reason": "http_404",
           "playback_attempts": 1
         }
@@ -108994,14 +108370,10 @@
     },
     {
       "name": "Wu Tang Collection (720p)",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "video_decode_failed",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Wuan+",
@@ -109240,10 +108612,19 @@
     },
     {
       "name": "XITE Nuevo Latino (1080p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "video_decode_failed",
+          "playback_attempts": 1
+        },
+        {
+          "source": "cache",
+          "reason": "video_decode_failed",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "XITE Reggae Vibes (1080p)",
@@ -109261,19 +108642,10 @@
     },
     {
       "name": "XITE Siempre Latino (1080p)",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "video_decode_failed",
-          "playback_attempts": 1
-        },
-        {
-          "source": "cache",
-          "reason": "video_decode_failed",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Xizang TV Chinese",
@@ -109360,7 +108732,7 @@
     {
       "name": "Xtra Tv (720p) [Not 24/7]",
       "status": "verified",
-      "source": "original",
+      "source": "free-tv:93",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
@@ -109490,10 +108862,14 @@
     },
     {
       "name": "Yerkir Media (1080p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "AttributeError",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "YES",
@@ -109854,10 +109230,19 @@
     },
     {
       "name": "ZB Cartoon (1080p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_404",
+          "playback_attempts": 1
+        },
+        {
+          "source": "cache",
+          "reason": "http_404",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "ZB Cinema (1080p)",
@@ -109868,10 +109253,19 @@
     },
     {
       "name": "ZB Music (720p)",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_404",
+          "playback_attempts": 1
+        },
+        {
+          "source": "cache",
+          "reason": "http_404",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "ZDF",
@@ -110617,11 +110011,6 @@
           "source": "original",
           "reason": "timeout",
           "playback_attempts": 3
-        },
-        {
-          "source": "cache",
-          "reason": "video_decode_failed",
-          "playback_attempts": 1
         }
       ]
     },
@@ -110649,14 +110038,10 @@
     },
     {
       "name": "10 Peach",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "timeout",
-          "playback_attempts": 3
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "10 Shake",
@@ -111444,7 +110829,7 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "http_404",
+          "reason": "video_decode_failed",
           "playback_attempts": 1
         }
       ]
@@ -111455,7 +110840,7 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "video_decode_failed",
+          "reason": "no_video_track",
           "playback_attempts": 1
         }
       ]
@@ -111466,7 +110851,7 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "http_404",
+          "reason": "no_video_track",
           "playback_attempts": 1
         }
       ]
@@ -111477,7 +110862,7 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "http_404",
+          "reason": "no_video_track",
           "playback_attempts": 1
         }
       ]
@@ -112072,14 +111457,10 @@
     },
     {
       "name": "ERT Sports 1",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "ERT Sports 2",
@@ -112090,10 +111471,14 @@
     },
     {
       "name": "ERT Sports 3",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_404",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "ERT Sports 4",
@@ -112387,10 +111772,14 @@
     },
     {
       "name": "EWTN TV",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "timeout",
+          "playback_attempts": 3
+        }
+      ]
     },
     {
       "name": "DikhTv Ⓨ",
@@ -113362,11 +112751,6 @@
           "source": "original",
           "reason": "http_404",
           "playback_attempts": 1
-        },
-        {
-          "source": "cache",
-          "reason": "http_404",
-          "playback_attempts": 1
         }
       ]
     },
@@ -113556,10 +112940,19 @@
     },
     {
       "name": "Castrovillari Tv",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_404",
+          "playback_attempts": 1
+        },
+        {
+          "source": "cache",
+          "reason": "http_404",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Cittaceleste Tv",
@@ -113938,10 +113331,14 @@
     },
     {
       "name": "Nuova Tv 1",
-      "status": "verified",
-      "source": "original",
-      "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "status": "unverified",
+      "attempts": [
+        {
+          "source": "original",
+          "reason": "http_404",
+          "playback_attempts": 1
+        }
+      ]
     },
     {
       "name": "Nuova Tv 2",
@@ -114092,19 +113489,10 @@
     },
     {
       "name": "Radio Iglesias Visual Radio",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_403",
-          "playback_attempts": 1
-        },
-        {
-          "source": "cache",
-          "reason": "http_403",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Radio Immagine Tv",
@@ -114331,8 +113719,8 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "connection_reset",
-          "playback_attempts": 3
+          "reason": "tls_error",
+          "playback_attempts": 1
         }
       ]
     },
@@ -115032,7 +114420,7 @@
       "status": "verified",
       "source": "cache",
       "reason": "video_frames_decoded",
-      "playback_attempts": 1
+      "playback_attempts": 3
     },
     {
       "name": "Teleiblea",
@@ -115052,7 +114440,7 @@
         {
           "source": "original",
           "reason": "tls_error",
-          "playback_attempts": 2
+          "playback_attempts": 1
         }
       ]
     },
@@ -115069,13 +114457,13 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "connection_reset",
-          "playback_attempts": 3
+          "reason": "tls_error",
+          "playback_attempts": 1
         },
         {
           "source": "free-tv:100",
           "reason": "http_404",
-          "playback_attempts": 3
+          "playback_attempts": 1
         }
       ]
     },
@@ -115118,16 +114506,16 @@
     {
       "name": "Telesveva",
       "status": "verified",
-      "source": "lang-spa:89",
+      "source": "cache",
       "reason": "video_frames_decoded",
       "playback_attempts": 1
     },
     {
       "name": "Televallo Trapani",
       "status": "verified",
-      "source": "original",
+      "source": "cache",
       "reason": "video_frames_decoded",
-      "playback_attempts": 3
+      "playback_attempts": 2
     },
     {
       "name": "Top Calcio 24",
@@ -115406,7 +114794,7 @@
       "status": "verified",
       "source": "original",
       "reason": "video_frames_decoded",
-      "playback_attempts": 2
+      "playback_attempts": 1
     },
     {
       "name": "Radio Colonna Tv Ⓨ",
@@ -115597,7 +114985,7 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "no_video_track",
+          "reason": "video_decode_failed",
           "playback_attempts": 1
         }
       ]
@@ -115742,19 +115130,10 @@
     },
     {
       "name": "JIBS TV",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "cache",
-          "reason": "http_404",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "OBS TV",
@@ -116689,8 +116068,8 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "video_decode_failed",
-          "playback_attempts": 1
+          "reason": "timeout",
+          "playback_attempts": 3
         }
       ]
     },
@@ -117289,7 +116668,7 @@
       "attempts": [
         {
           "source": "original",
-          "reason": "video_decode_failed",
+          "reason": "no_video_track",
           "playback_attempts": 1
         }
       ]
@@ -117419,19 +116798,10 @@
     },
     {
       "name": "Піксель TV",
-      "status": "unverified",
-      "attempts": [
-        {
-          "source": "original",
-          "reason": "http_404",
-          "playback_attempts": 1
-        },
-        {
-          "source": "cache",
-          "reason": "http_403",
-          "playback_attempts": 1
-        }
-      ]
+      "status": "verified",
+      "source": "original",
+      "reason": "video_frames_decoded",
+      "playback_attempts": 1
     },
     {
       "name": "Суспільне Дніпро",
@@ -119087,19 +118457,19 @@
     }
   ],
   "checks": {
-    "http_403": 2230,
-    "video_frames_decoded": 7905,
-    "video_decode_failed": 657,
-    "timeout": 117,
-    "connection_refused": 460,
-    "http_404": 1104,
-    "connection_reset": 722,
-    "http_401": 25,
-    "blocked_variants": 20,
-    "tls_error": 210,
-    "dns_error": 328,
-    "no_video_track": 52,
+    "http_403": 2191,
+    "video_frames_decoded": 7955,
+    "video_decode_failed": 660,
+    "timeout": 110,
+    "connection_refused": 441,
+    "http_404": 1008,
+    "connection_reset": 740,
+    "http_401": 24,
+    "blocked_variants": 18,
+    "tls_error": 208,
+    "dns_error": 327,
+    "no_video_track": 56,
     "KeyError": 1,
-    "AttributeError": 2
+    "AttributeError": 3
   }
 }
